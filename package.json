@@ -1,0 +1,81 @@
+{
+	"name": "chinese-color",
+	"displayName": "Chinese Colors",
+	"description": "预设颜色提示——中国传统色",
+	"publisher": "taiyuuki",
+	"version": "1.0.0",
+	"icon": "icon.jpg",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/taiyuuki/chinese-colors.git"
+	},
+	"galleryBanner": {
+		"color": "#813c85",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "1.67.x"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"keywords": ["Preset colors", "预设颜色", "中国色"],
+	"activationEvents": [
+		"onLanguage:css",
+		"onLanguage:scss",
+		"onLanguage:sass",
+		"onLanguage:less",
+		"onLanguage:stylus",
+		"onLanguage:html",
+		"onLanguage:xml",
+		"onLanguage:json",
+		"onLanguage:javascript",
+		"onLanguage:typescript",
+		"onLanguage:javascriptreact",
+		"onLanguage:typescriptreact",
+		"onLanguage:vue",
+		"onLanguage:vue-html"
+
+	],
+	"main": "./dist/extension.js",
+	"contributes": {
+		"configuration": [{
+			"title": "color mode",
+			"properties": {
+				"RGB": {
+					"type": "boolean",
+					"default": false,
+					"description": "控制预设的中国色采用RGB格式"
+				}
+			}
+		}]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run package",
+		"compile": "webpack",
+		"watch": "webpack --watch",
+		"package": "webpack --mode production --devtool hidden-source-map",
+		"compile-tests": "tsc -p . --outDir out",
+		"watch-tests": "tsc -p . -w --outDir out",
+		"pretest": "npm run compile-tests && npm run compile && npm run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.67.0",
+		"@types/glob": "^7.2.0",
+		"@types/mocha": "^9.1.1",
+		"@types/node": "16.x",
+		"@typescript-eslint/eslint-plugin": "^5.27.0",
+		"@typescript-eslint/parser": "^5.27.0",
+		"eslint": "^8.16.0",
+		"glob": "^8.0.3",
+		"mocha": "^10.0.0",
+		"typescript": "^4.7.2",
+		"ts-loader": "^9.3.0",
+		"webpack": "^5.72.1",
+		"webpack-cli": "^4.9.2",
+		"@vscode/test-electron": "^2.1.3"
+	}
+}
