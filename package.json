@@ -1,9 +1,9 @@
 {
 	"name": "chinese-color",
 	"displayName": "Chinese Colors",
-	"description": "预设颜色提示——中国传统色",
+	"description": "预设颜色补全——中国传统色",
 	"publisher": "taiyuuki",
-	"version": "1.0.1",
+	"version": "1.0.3",
 	"icon": "icon.jpg",
 	"license": "SEE LICENSE IN LICENSE.md",
 	"repository": {

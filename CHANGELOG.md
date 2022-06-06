@@ -1,9 +1,9 @@
-# Change Log
+# 更新日志
 
-All notable changes to the "chinese-color" extension will be documented in this file.
+v1.0.0 发布第一个版本
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+v1.0.1 精简内容
 
-## [Unreleased]
+v1.0.2 修正部分颜色rgb值
 
-- Initial release
+v1.0.3 修正简介???的问题

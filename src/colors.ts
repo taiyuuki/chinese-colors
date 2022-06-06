@@ -1,6 +1,6 @@
 export const colors: Color[] = [
   {
-    rgb: [96, 192, 256],
+    rgb: [96, 192, 255],
     hex: "#66ccff",
     name: "天依蓝",
     pinyin: "tianyilan",
