@@ -3,7 +3,7 @@
 	"displayName": "Chinese Colors",
 	"description": "预设颜色补全——中国传统色",
 	"publisher": "taiyuuki",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"icon": "icon.jpg",
 	"license": "SEE LICENSE IN LICENSE.md",
 	"repository": {
@@ -15,7 +15,7 @@
 		"theme": "dark"
 	},
 	"engines": {
-		"vscode": "1.67.x"
+		"vscode": "^1.67.0"
 	},
 	"categories": [
 		"Programming Languages"
