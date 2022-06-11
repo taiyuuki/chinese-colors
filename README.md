@@ -1,6 +1,6 @@
 # Chinese Colors
 
-VS Code颜色提示扩展，适用于前端开发，可用于`html`、`css`、`less`、`sass`、`JavaScript`、`typescript`、`vue`、`react`等。
+VS Code颜色提示扩展，可用于`html`、`css`、`less`、`scss`、`stylus`、`JavaScript`、`typescript`、`vue`、`react`等。
 
 ## 使用方法
 

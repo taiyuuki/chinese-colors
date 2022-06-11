@@ -1,8 +1,13 @@
 import * as vscode from "vscode";
-import { workspace, CompletionItemKind, Hover } from "vscode";
+import {
+  workspace,
+  CompletionItemKind,
+  Hover,
+  CancellationToken,
+} from "vscode";
 import { colors, Color } from "./colors";
 
-// language list
+// 支持的语言列表
 const languageList = [
   "css",
   "scss",
@@ -22,6 +27,7 @@ const languageList = [
 
 type ColorItem = {
   detail: string;
+  documentation: string;
   kind: CompletionItemKind.Color;
   filterText: string;
   label: string;
@@ -37,16 +43,17 @@ const hexs = {} as ColorsMatch;
 const rgbs = {} as ColorsMatch;
 const configuration = workspace.getConfiguration();
 
-// get colors
+// 获取颜色
 colors.forEach((color: Color) => {
   const rgb = `rgb(${color.rgb[0]}, ${color.rgb[1]}, ${color.rgb[2]})`;
   hexs[color.hex] = color.name;
   rgbs[`${color.rgb[0]},${color.rgb[1]},${color.rgb[2]}`] = color.name;
   list.push({
-    detail: color.name,
+    detail: configuration.RGB ? rgb : color.hex,
+    documentation: color.name,
     kind: CompletionItemKind.Color,
     filterText: "#" + color.name + color.pinyin,
-    label: color.hex,
+    label: color.name,
     insertText: configuration.RGB ? rgb : color.hex,
   });
 });
@@ -82,6 +89,19 @@ function filterSubHex(text: string, position: number): string {
   }
 }
 
+// 忽略
+function findPound(text: string, position: number): boolean {
+  let count = 7;
+  while (count >= 0 && position >= 0) {
+    if (text[position] === "#") {
+      return true;
+    }
+    count--;
+    position -= 1;
+  }
+  return false;
+}
+
 // 悬停提示
 const provideHover = function (
   document: vscode.TextDocument,
@@ -111,11 +131,20 @@ export function activate(context: vscode.ExtensionContext) {
   const chineseColors = vscode.languages.registerCompletionItemProvider(
     languageList,
     {
-      provideCompletionItems() {
+      provideCompletionItems(
+        document: vscode.TextDocument,
+        position: vscode.Position,
+        token: CancellationToken
+      ) {
+        const linePrefix = document.lineAt(position).text.toLowerCase();
+        if (!findPound(linePrefix, position.character)) {
+          token.isCancellationRequested = true;
+        }
         return list;
       },
     },
-    "#"
+    "#",
+    ":"
   );
   const hover = vscode.languages.registerHoverProvider(languageList, {
     provideHover,
