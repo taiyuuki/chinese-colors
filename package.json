@@ -1,10 +1,10 @@
 {
 	"name": "chinese-color",
 	"displayName": "Chinese Colors",
-	"description": "预设颜色补全——中国传统色",
+	"description": "预设颜色代码提示——中国传统色",
 	"publisher": "taiyuuki",
-	"version": "1.0.6",
-	"icon": "icon.jpg",
+	"version": "1.1.0",
+	"icon": "icon.png",
 	"license": "SEE LICENSE IN LICENSE.md",
 	"repository": {
 		"type": "git",
@@ -18,10 +18,11 @@
 		"vscode": "^1.67.0"
 	},
 	"categories": [
-		"Programming Languages"
+		"Snippets"
 	],
 	"keywords": ["Preset colors", "预设颜色", "中国色"],
 	"activationEvents": [
+		"workspaceContains:**/package.json",
 		"onLanguage:css",
 		"onLanguage:scss",
 		"onLanguage:sass",
@@ -41,17 +42,23 @@
 	"main": "./dist/extension.js",
 	"contributes": {
 		"configuration": [{
-			"title": "color mode",
+			"title": "Chinese Colors",
 			"properties": {
 				"RGB": {
 					"type": "boolean",
 					"default": false,
 					"description": "控制预设的中国色采用RGB格式"
+				},
+				"preview":{
+					"type": "boolean",
+					"default":true,
+					"description": "颜色预览"
 				}
 			}
 		}]
 	},
 	"scripts": {
+		"build":"vsce package",
 		"vscode:prepublish": "npm run package",
 		"compile": "webpack",
 		"watch": "webpack --watch",
