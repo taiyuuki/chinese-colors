@@ -1,27 +1,19 @@
-import type { DecorationOptions, ExtensionContext } from "vscode";
+import { DecorationOptions, ExtensionContext } from "vscode";
 import { window, workspace, Range } from "vscode";
-import colors from "./colors.json";
 import { getContrastColor, throttle } from "./utils";
 import { config } from "./config";
+import { hexs, decorationOrigin } from "./parse";
 
 export function createDocorator(ctx: ExtensionContext) {
   const colorDecorations: DecorationOptions[] = [];
   const colorDecorationType = window.createTextEditorDecorationType({
+    textDecoration: "none;margin-left:0.2rem",
     before: {
       width: "fit-content",
+      height: "1rem",
       contentText: " ",
-      border: "1px solid",
-      margin: "auto;border-radius:2px;vertical-align:middle;font-size:12px",
-    },
-    dark: {
-      before: {
-        borderColor: "#fff",
-      },
-    },
-    light: {
-      before: {
-        borderColor: "#000",
-      },
+      fontStyle:
+        "normal;font-size:0.8em;vertical-align:middle;line-height:1rem",
     },
   });
   let editor = window.activeTextEditor;
@@ -42,7 +34,7 @@ export function createDocorator(ctx: ExtensionContext) {
     while (match) {
       if (editor) {
         const start = editor.document.positionAt(match.index);
-        const end = editor.document.positionAt(match.index + colorValue.length);
+        const end = editor.document.positionAt(match.index + match[0].length);
         colorDecorations.push({
           range: new Range(start, end),
           hoverMessage: message,
@@ -51,7 +43,7 @@ export function createDocorator(ctx: ExtensionContext) {
               color: contrastColor,
               contentText: message,
               backgroundColor: match[0],
-              fontStyle: "normal",
+              border: `1px dashed ${contrastColor};border-radius:2px;`,
             },
           },
         });
@@ -72,13 +64,16 @@ export function createDocorator(ctx: ExtensionContext) {
       return;
     }
     reset();
-    colors.forEach((color) => {
-      const rgb = `rgb\\(\\s*${color.rgb[0]}\\s*,\\s*${color.rgb[1]}\\s*,\\s*${color.rgb[2]}\\s*\\)`;
-      const hex = color.hex;
+    for (let hex in decorationOrigin) {
+      const alpha = decorationOrigin[hex][3] ?? false;
+      let rgb = "rgb";
+      rgb += alpha ? "a" : "";
+      rgb += `\\(\\s*${decorationOrigin[hex][0]}\\s*,\\s*${decorationOrigin[hex][1]}\\s*,\\s*${decorationOrigin[hex][2]}\\s*`;
+      rgb += alpha ? `,\\s*${alpha}\\s*\\)` : "\\)";
       const contrastColor = getContrastColor(hex);
-      pushDecoration(rgb, code, color.name, contrastColor);
-      pushDecoration(hex, code, color.name, contrastColor);
-    });
+      pushDecoration(rgb, code, hexs[hex], contrastColor);
+      pushDecoration(hex, code, hexs[hex], contrastColor);
+    }
     editor.setDecorations(colorDecorationType, colorDecorations);
   }
 

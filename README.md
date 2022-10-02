@@ -1,6 +1,7 @@
 <p align="center">
-<img src="https://taiyuuki.github.io/Sophie-M/images/logo.png" style="width:100px;" />
+<img src="https://taiyuuki.github.io/Sophie-M/images/chinese_colors_logo.png" style="width:100px;" />
 </p>
+
 
 <h1 align="center">Chinese Colors</h1>
 
@@ -14,15 +15,43 @@ VSCode扩展，以代码提示的方式列出预设的颜色——中国传统�
 <p align="center">
 <img src="https://taiyuuki.github.io/Sophie-M/images/chinese_colors_preview.gif" style="width:100%;" />
 </p>
+
+
 ## 使用方法
 
 * 输入<span style="color:HotPink">`# + 颜色名`</span>即可列出预设的颜色，如果输入后没有反应请尝试 <span style="color:HotPink">`Ctrl + i`</span> 。
 
   * 支持汉字、拼音。例如：输入<span style="color:HotPink">`#红`</span>或<span style="color:HotPink">`#hong`</span>，就会列出所有与红色相关的颜色，由于是模糊匹配，使用拼音时不保证100%精确。
-
-  * 不支持英文，原因是这些颜色没有对应的英文名称。
+* 不支持英文，原因是这些颜色没有对应的英文名称。
+  * 内置了日本传统色选项，支持使用罗马音、颜色名进行匹配。该选项默认是关闭的。
 * 颜色代码默认采用`16进制`格式，如果想使用RGB格式，可以在设置面板中搜索“RGB”，勾选“控制预设的中国色采用RGB格式”。
 * 支持颜色预览并显示颜色名称，如果不需要预览，可以在设置面板中将“颜色预览”去除勾选。
+
+## 自定义颜色
+
+在设置面板中，可以添加自定义颜色：
+
+在setting.json中编辑custom字段，它是一个数组，每一项对应一个颜色：
+
+```json
+{
+    "custom": [
+        {
+            "name": "我的颜色",
+            "phonics": "wodeyanse",
+            "hex": "#55cc99",
+            "rgb": [87, 204, 153]
+        }
+    ]
+}
+```
+
+* `name`：颜色名称，输入时被匹配。
+* `phonics`：注音或拼音，输入时被匹配。
+* `hex`：16进制颜色值，可以有alpha通道，例如：“#55cc9980”;
+* `rgb`：rgb值，由数字构成的数组，可以有alpha通道，例如：[87, 204, 153,  0.5];
+
+保存setting.json后，重启编辑器生效。
 
 ## 颜色一览
 

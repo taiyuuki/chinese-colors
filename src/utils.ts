@@ -23,3 +23,7 @@ export function getContrastColor(hexcolor: string) {
   const yiq = (r * 299 + g * 587 + b * 114) / 1000;
   return yiq >= 8 ? "black" : "white";
 }
+
+export function isEmptyObj(obj: object) {
+  return Object.keys(obj).length === 0;
+}

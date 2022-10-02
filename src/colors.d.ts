@@ -2,7 +2,7 @@ declare interface Color {
   rgb: number[];
   hex: string;
   name: string;
-  pinyin: string;
+  phonics: string;
 }
 
 declare interface ColorItem {
@@ -16,4 +16,8 @@ declare interface ColorItem {
 
 declare interface ColorsMatch {
   [key: string]: string;
+}
+
+declare interface DecorationOrigin {
+  [key: string]: number[];
 }
