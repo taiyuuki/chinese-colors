@@ -1,10 +1,10 @@
-import * as vscode from "vscode";
-import { createDocorator } from "./decorations";
-import { chineseColors } from "./autocomplate";
+import type { ExtensionContext } from "vscode";
+import { createDecorator } from "./decorations";
+import { autocomplate } from "./autocomplate";
 
-export function activate(context: vscode.ExtensionContext) {
-  createDocorator(context);
-  context.subscriptions.push(chineseColors);
+export function activate(context: ExtensionContext) {
+  createDecorator(context);
+  context.subscriptions.push(autocomplate);
 }
 
 export function deactivate() {}

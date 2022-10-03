@@ -1,39 +1,56 @@
 import colors from "./colors/chinese.json";
 import { config } from "./config";
-import { CompletionItemKind } from "vscode";
+import { CompletionItem, CompletionItemKind } from "vscode";
 import jpColors from "./colors/jp.json";
+import { channel } from "./channel";
 
-if (config.jp) {
-  colors.push(...jpColors);
+function isMissing(prop: string) {
+  if (!(prop in config.custom)) {
+    channel.appendLine(`⚠️自定义颜色缺少${prop}属性`);
+    return true;
+  }
+  return false;
 }
-if (config.custom.length > 0) {
-  colors.push(...config.custom);
-}
-
-const colorsList = [] as ColorItem[];
-const hexs = {} as ColorsMatch;
+const colorsList = [] as CompletionItem[];
+const hexs = {} as Hexs;
 const decorationOrigin = {} as DecorationOrigin;
 
 function parseColors() {
-  colors.forEach((color: Color) => {
-    const hex = color.hex.toLocaleLowerCase();
-    const isRgb = config.RGB;
-    const alpha = color.rgb[3] ?? false;
-    let rgb = "rgb";
-    rgb += alpha ? "a" : "";
-    rgb += `(${color.rgb[0]}, ${color.rgb[1]}, ${color.rgb[2]}`;
-    rgb += alpha ? `, ${color.rgb[3]})` : ")";
-    hexs[hex] = color.name;
-    colorsList.push({
-      detail: isRgb ? rgb : hex,
-      documentation: color.name,
-      kind: CompletionItemKind.Color,
-      filterText: "#" + color.name + color.phonics,
-      label: color.name,
-      insertText: isRgb ? rgb : hex,
+  if (config.jp) {
+    colors.push(...jpColors);
+  }
+  if (config.custom.length > 0) {
+    const required = ["name", "hex", "phonics", "rgb"];
+    const check = required.some((prop) => {
+      return isMissing(prop);
     });
-    decorationOrigin[hex] = color.rgb;
-  });
+    if (!check) {
+      colors.push(...jpColors);
+    }
+  }
+  const isRgb = config.RGB;
+  try {
+    colors.forEach((color: Color) => {
+      const hex = color.hex.toLocaleLowerCase();
+      const alpha = color.rgb[3] ?? false;
+      let rgb = "rgb";
+      rgb += alpha ? "a" : "";
+      rgb += `(${color.rgb[0]}, ${color.rgb[1]}, ${color.rgb[2]}`;
+      rgb += alpha ? `, ${color.rgb[3]})` : ")";
+      hexs[hex] = color.name;
+      colorsList.push({
+        detail: isRgb ? rgb : hex,
+        documentation: color.name,
+        kind: CompletionItemKind.Color,
+        filterText: "#" + color.name + color.phonics,
+        label: color.name,
+        insertText: isRgb ? rgb : hex,
+      });
+      decorationOrigin[hex] = color.rgb;
+    });
+  } catch (e) {
+    channel.appendLine(String(e));
+  }
 }
 parseColors();
 export { hexs, colorsList, decorationOrigin };

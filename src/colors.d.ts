@@ -5,16 +5,7 @@ declare interface Color {
   phonics: string;
 }
 
-declare interface ColorItem {
-  detail: string;
-  documentation: string;
-  kind: number;
-  filterText: string;
-  label: string;
-  insertText: string;
-}
-
-declare interface ColorsMatch {
+declare interface Hexs {
   [key: string]: string;
 }
 

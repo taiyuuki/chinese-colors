@@ -1,24 +1,28 @@
-import * as vscode from "vscode";
 import { languages } from "vscode";
-import type { CancellationToken } from "vscode";
+import type { TextDocument, Position, CancellationToken } from "vscode";
 import { colorsList } from "./parse";
 
 // 支持的语言列表
 const languageList: string[] = [
+  "erb",
+  "haml",
+  "hbs",
+  "html",
   "css",
-  "scss",
+  "javascript",
+  "javascriptreact",
+  "markdown",
+  "ejs",
+  "php",
+  "svelte",
+  "typescript",
+  "typescriptreact",
+  "vue-html",
+  "vue",
   "sass",
+  "scss",
   "less",
   "stylus",
-  "html",
-  "xml",
-  "json",
-  "javascript",
-  "typescript",
-  "javascriptreact",
-  "typescriptreact",
-  "vue",
-  "vue-html",
 ];
 
 // 忽略
@@ -34,12 +38,12 @@ function findPound(text: string, position: number): boolean {
   return false;
 }
 
-export const chineseColors = languages.registerCompletionItemProvider(
+export const autocomplate = languages.registerCompletionItemProvider(
   languageList,
   {
     provideCompletionItems(
-      document: vscode.TextDocument,
-      position: vscode.Position,
+      document: TextDocument,
+      position: Position,
       token: CancellationToken
     ) {
       const linePrefix = document.lineAt(position).text.toLowerCase();

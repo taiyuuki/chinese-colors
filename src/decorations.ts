@@ -4,10 +4,9 @@ import { getContrastColor, throttle } from "./utils";
 import { config } from "./config";
 import { hexs, decorationOrigin } from "./parse";
 
-export function createDocorator(ctx: ExtensionContext) {
+export function createDecorator(ctx: ExtensionContext) {
   const colorDecorations: DecorationOptions[] = [];
   const colorDecorationType = window.createTextEditorDecorationType({
-    textDecoration: "none;margin-left:0.2rem",
     before: {
       width: "fit-content",
       height: "1rem",
@@ -43,7 +42,7 @@ export function createDocorator(ctx: ExtensionContext) {
               color: contrastColor,
               contentText: message,
               backgroundColor: match[0],
-              border: `1px dashed ${contrastColor};border-radius:2px;`,
+              border: `1px dashed ${contrastColor};border-radius:2px;margin:0 0.2em`,
             },
           },
         });

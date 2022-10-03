@@ -1,5 +1,9 @@
 # 更新日志
 
+v1.1.2
+
+* 增加对markdown、php、haml、ejs、erb、svelte的支持。
+
 v1.1.1
 
 * 新增自定义颜色功能。
