@@ -3,7 +3,7 @@
   "displayName": "Chinese Colors",
   "description": "预设颜色代码提示——中国传统色",
   "publisher": "taiyuuki",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "icon": "icon.png",
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
@@ -46,7 +46,8 @@
     "onLanguage:sass",
     "onLanguage:scss",
     "onLanguage:less",
-    "onLanguage:stylus"
+    "onLanguage:stylus",
+    "onLanguage:json"
   ],
   "main": "./dist/extension.js",
   "contributes": {
@@ -72,14 +73,11 @@
           "custom": {
             "type": "array",
             "description": "自定义颜色",
+            "default":[],
             "items": {
               "name": {
                 "type": "string",
                 "description": "颜色名称，输入时可匹配。"
-              },
-              "hex": {
-                "type": "string",
-                "description": "16进制颜色代码，可以有alpha通道，例如：#00aaff50。"
               },
               "rgb": {
                 "type": "array",

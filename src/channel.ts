@@ -1,3 +1,3 @@
-import { window } from "vscode";
+import { window } from 'vscode'
 
-export const channel = window.createOutputChannel("Chinese Colors");
+export const channel = window.createOutputChannel('Chinese Colors')

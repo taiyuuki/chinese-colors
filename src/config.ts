@@ -1,6 +1,6 @@
-import { workspace } from "vscode";
+import { workspace } from 'vscode'
 
-export let config = workspace.getConfiguration();
+export let config = workspace.getConfiguration()
 workspace.onDidChangeConfiguration(() => {
-  config = workspace.getConfiguration();
-});
+  config = workspace.getConfiguration()
+})

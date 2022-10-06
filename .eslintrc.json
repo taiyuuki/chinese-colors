@@ -5,16 +5,74 @@
         "ecmaVersion": 6,
         "sourceType": "module"
     },
+    "extends": [
+        "plugin:@typescript-eslint/recommended"
+    ],
     "plugins": [
         "@typescript-eslint"
     ],
     "rules": {
         "@typescript-eslint/naming-convention": "warn",
-        "@typescript-eslint/semi": "warn",
         "curly": "warn",
         "eqeqeq": "warn",
         "no-throw-literal": "warn",
-        "semi": "off"
+        "semi": [
+            1,
+            "never"
+        ],
+        "quotes": [
+            1,
+            "single"
+        ],
+        "indent": [
+            "warn",
+            2
+        ],
+        "no-trailing-spaces": 1,
+        "spaced-comment": 1,
+        "no-spaced-func": 1,
+        "no-multi-spaces": 1,
+        "space-before-function-paren": [
+            1,
+            "never"
+        ],
+        "space-in-parens": [
+            1,
+            "never"
+        ],
+        "key-spacing": [
+            1,
+            {
+                "beforeColon": false,
+                "afterColon": true
+            }
+        ],
+        "arrow-spacing": 1,
+        "space-unary-ops": [
+            1,
+            {
+                "words": true,
+                "nonwords": false
+            }
+        ],
+        "space-infix-ops": 1,
+        "array-bracket-spacing": [
+            1,
+            "always"
+        ],
+        "object-curly-spacing": [
+            1,
+            "always"
+        ],
+        "comma-spacing": 1,
+        "comma-dangle": [
+            1,
+            "never"
+        ],
+        "comma-style": [
+            1,
+            "last"
+        ]
     },
     "ignorePatterns": [
         "out",

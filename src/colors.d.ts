@@ -9,6 +9,10 @@ declare interface Hexs {
   [key: string]: string;
 }
 
+declare interface Rgbs {
+  [key: string]: string;
+}
+
 declare interface DecorationOrigin {
   [key: string]: number[];
 }

@@ -247,7 +247,7 @@
   },
   {
     "rgb": [206, 87, 109],
-    "hex": "#ce5777",
+    "hex": "#ce576d",
     "name": "月季红",
     "phonics": "yuejihong"
   },
@@ -1711,7 +1711,7 @@
   },
   {
     "rgb": [173, 158, 85],
-    "hex": "#ad9e5f",
+    "hex": "#ad9e55",
     "name": "淡灰绿",
     "phonics": "danhuilv"
   },
@@ -1807,7 +1807,7 @@
   },
   {
     "rgb": [254, 209, 16],
-    "hex": "#ffd111",
+    "hex": "#fed110",
     "name": "藤黄",
     "phonics": "tenghuang"
   },
@@ -1903,7 +1903,7 @@
   },
   {
     "rgb": [249, 236, 195],
-    "hex": "#f7e8aa",
+    "hex": "#f9ecc3",
     "name": "杏仁黄",
     "phonics": "xingrenhuang"
   },
@@ -2389,7 +2389,7 @@
   },
   {
     "rgb": [250, 142, 22],
-    "hex": "#f28e16",
+    "hex": "#fa8e16",
     "name": "杏黄",
     "phonics": "xinghuang"
   },
@@ -2545,7 +2545,7 @@
   },
   {
     "rgb": [242, 123, 31],
-    "hex": "#f26b1f",
+    "hex": "#f27b1f",
     "name": "金黄",
     "phonics": "jinhuang"
   },
@@ -2563,7 +2563,7 @@
   },
   {
     "rgb": [249, 223, 205],
-    "hex": "#f9e9cd",
+    "hex": "#f9dfcd",
     "name": "米色",
     "phonics": "mise"
   },
@@ -3139,7 +3139,7 @@
   },
   {
     "rgb": [175, 46, 43],
-    "hex": "#4b2e2b",
+    "hex": "#af2e2b",
     "name": "玫瑰灰",
     "phonics": "meiguihui"
   },

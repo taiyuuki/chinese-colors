@@ -1,101 +1,111 @@
-import { DecorationOptions, ExtensionContext } from "vscode";
-import { window, workspace, Range } from "vscode";
-import { getContrastColor, throttle } from "./utils";
-import { config } from "./config";
-import { hexs, decorationOrigin } from "./parse";
+import { DecorationOptions, ExtensionContext } from 'vscode'
+import { window, workspace, Range } from 'vscode'
+import { getContrastColor, rgbToHex, throttle } from './utils'
+import { config } from './config'
+import { hexs, decorationOrigin } from './parse'
 
 export function createDecorator(ctx: ExtensionContext) {
-  const colorDecorations: DecorationOptions[] = [];
+  const hexReg = /#[0-9a-fA-F]{6,8}/g
+  const rgbReg = /rgba?\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,?(\s*[\d\.]*\s*)?\)/g
+  const colorDecorations: DecorationOptions[] = []
   const colorDecorationType = window.createTextEditorDecorationType({
     before: {
-      width: "fit-content",
-      height: "1rem",
-      contentText: " ",
+      width: 'fit-content',
+      height: '1rem',
+      contentText: ' ',
       fontStyle:
-        "normal;font-size:0.8em;vertical-align:middle;line-height:1rem",
-    },
-  });
-  let editor = window.activeTextEditor;
+        'normal;font-size:0.8em;vertical-align:middle;line-height:1rem'
+    }
+  })
+  let editor = window.activeTextEditor
 
   function reset() {
-    colorDecorations.length = 0;
-    editor?.setDecorations(colorDecorationType, []);
+    colorDecorations.length = 0
+    editor?.setDecorations(colorDecorationType, [])
   }
 
   function pushDecoration(
-    colorValue: string,
-    code: string,
-    message: string,
-    contrastColor: string
+    hex: string,
+    range:Range
   ) {
-    const reg = new RegExp(colorValue, "g");
-    let match = reg.exec(code);
-    while (match) {
-      if (editor) {
-        const start = editor.document.positionAt(match.index);
-        const end = editor.document.positionAt(match.index + match[0].length);
-        colorDecorations.push({
-          range: new Range(start, end),
-          hoverMessage: message,
-          renderOptions: {
-            before: {
-              color: contrastColor,
-              contentText: message,
-              backgroundColor: match[0],
-              border: `1px dashed ${contrastColor};border-radius:2px;margin:0 0.2em`,
-            },
-          },
-        });
+    const contrastColor = getContrastColor(hex)
+    colorDecorations.push({
+      range,
+      hoverMessage: hexs[hex],
+      renderOptions: {
+        before: {
+          color: contrastColor,
+          contentText: hexs[hex],
+          backgroundColor: hex,
+          border: `1px dashed ${contrastColor};border-radius:2px;margin:0 0.2em`
+        }
       }
-      match = reg.exec(code);
-    }
+    })
   }
 
   function updateDecorations() {
     if (!config.preview) {
-      return;
+      return
     }
     if (!editor || !editor.document) {
-      return;
+      return
     }
-    const code = editor.document.getText().toLocaleLowerCase();
+    const code = editor.document.getText().toLocaleLowerCase()
     if (!code) {
-      return;
+      return
     }
-    reset();
-    for (let hex in decorationOrigin) {
-      const alpha = decorationOrigin[hex][3] ?? false;
-      let rgb = "rgb";
-      rgb += alpha ? "a" : "";
-      rgb += `\\(\\s*${decorationOrigin[hex][0]}\\s*,\\s*${decorationOrigin[hex][1]}\\s*,\\s*${decorationOrigin[hex][2]}\\s*`;
-      rgb += alpha ? `,\\s*${alpha}\\s*\\)` : "\\)";
-      const contrastColor = getContrastColor(hex);
-      pushDecoration(rgb, code, hexs[hex], contrastColor);
-      pushDecoration(hex, code, hexs[hex], contrastColor);
+    reset()
+    let match = hexReg.exec(code)
+    while(match){
+      if(match[0] in decorationOrigin){
+        const hex = match[0]
+        const start = editor.document.positionAt(match.index)
+        const end = editor.document.positionAt(match.index + match[0].length)
+        const range = new Range(start, end)
+        pushDecoration(hex, range)
+
+      }
+      match = hexReg.exec(code)
     }
-    editor.setDecorations(colorDecorationType, colorDecorations);
+    match = rgbReg.exec(code)
+    while(match){
+      const rgbArr = [ Number(match[1]), Number(match[2]), Number(match[3]) ]
+      const alpha = match[4] ?? false
+      if(alpha){
+        rgbArr.push(Number(alpha))
+      }
+      const hex = rgbToHex(rgbArr)
+      if(hex in decorationOrigin){
+        const start = editor.document.positionAt(match.index)
+        const end = editor.document.positionAt(match.index + match[0].length)
+        const range = new Range(start, end)
+        pushDecoration(hex, range)
+      }
+      match = rgbReg.exec(code)
+    }
+    editor.setDecorations(colorDecorationType, colorDecorations)
   }
 
   if (editor) {
-    updateDecorations();
+    updateDecorations()
   }
 
-  const triggerUpdateDecorations = throttle(updateDecorations, 500);
+  const triggerUpdateDecorations = throttle(updateDecorations, 500)
 
   window.onDidChangeActiveTextEditor(
     (currentEditor) => {
-      editor = currentEditor;
+      editor = currentEditor
       if (editor) {
-        triggerUpdateDecorations();
+        triggerUpdateDecorations()
       }
     },
     null,
     ctx.subscriptions
-  );
+  )
 
   workspace.onDidChangeTextDocument(
     triggerUpdateDecorations,
     null,
     ctx.subscriptions
-  );
+  )
 }
