@@ -2,7 +2,7 @@ import { DecorationOptions, ExtensionContext } from 'vscode'
 import { window, workspace, Range } from 'vscode'
 import { getContrastColor, rgbToHex, throttle } from './utils'
 import { config } from './config'
-import { hexs, decorationOrigin } from './parse'
+import { hexs } from './parse'
 
 export function createDecorator(ctx: ExtensionContext) {
   const hexReg = /#[0-9a-fA-F]{6,8}/g
@@ -57,7 +57,7 @@ export function createDecorator(ctx: ExtensionContext) {
     reset()
     let match = hexReg.exec(code)
     while(match){
-      if(match[0] in decorationOrigin){
+      if(match[0] in hexs){
         const hex = match[0]
         const start = editor.document.positionAt(match.index)
         const end = editor.document.positionAt(match.index + match[0].length)
@@ -75,7 +75,7 @@ export function createDecorator(ctx: ExtensionContext) {
         rgbArr.push(Number(alpha))
       }
       const hex = rgbToHex(rgbArr)
-      if(hex in decorationOrigin){
+      if(hex in hexs){
         const start = editor.document.positionAt(match.index)
         const end = editor.document.positionAt(match.index + match[0].length)
         const range = new Range(start, end)

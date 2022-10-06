@@ -14,7 +14,6 @@ function isMissing(prop: string, obj:Color) {
 }
 const colorsCompletion = [] as CompletionItem[]
 const hexs = {} as Hexs
-const decorationOrigin = {} as DecorationOrigin
 
 function parseColors() {
   if (config.jp) {
@@ -50,11 +49,10 @@ function parseColors() {
         label: color.name,
         insertText: isRgb ? rgb : hex
       })
-      decorationOrigin[hex] = color.rgb
     })
   } catch (e) {
     channel.appendLine(String(e))
   }
 }
 parseColors()
-export { hexs, colorsCompletion, decorationOrigin }
+export { hexs, colorsCompletion }
