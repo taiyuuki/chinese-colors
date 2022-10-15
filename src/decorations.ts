@@ -1,21 +1,23 @@
-import { DecorationOptions, ExtensionContext } from 'vscode'
 import { window, workspace, Range } from 'vscode'
+import type { DecorationOptions, ExtensionContext  } from 'vscode'
+
 import { getContrastColor, rgbToHex, throttle } from './utils'
 import { config } from './config'
 import { hexs } from './parse'
 
 export function createDecorator(ctx: ExtensionContext) {
   const hexReg = /#[0-9a-fA-F]{6,8}/g
-  const rgbReg = /rgba?\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,?(\s*[\d\.]*\s*)?\)/g
+  const rgbReg = /rgba?\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,?(\s*[\d.]*\s*)?\)/g
   const colorDecorations: DecorationOptions[] = []
   const colorDecorationType = window.createTextEditorDecorationType({
     before: {
       width: 'fit-content',
       height: '1rem',
       contentText: ' ',
+      border: '1px dashed;border-radius:2px;margin:0 0.2em',
       fontStyle:
-        'normal;font-size:0.8em;vertical-align:middle;line-height:1rem'
-    }
+        'normal;font-size:0.8rem;vertical-align:middle;line-height:0.9rem;pading:0.05rem',
+    },
   })
   let editor = window.activeTextEditor
 
@@ -26,7 +28,7 @@ export function createDecorator(ctx: ExtensionContext) {
 
   function pushDecoration(
     hex: string,
-    range:Range
+    range: Range
   ) {
     const contrastColor = getContrastColor(hex)
     colorDecorations.push({
@@ -37,14 +39,14 @@ export function createDecorator(ctx: ExtensionContext) {
           color: contrastColor,
           contentText: hexs[hex],
           backgroundColor: hex,
-          border: `1px dashed ${contrastColor};border-radius:2px;margin:0 0.2em`
-        }
-      }
+          borderColor: contrastColor,
+        },
+      },
     })
   }
 
   function updateDecorations() {
-    if (!config.preview) {
+    if (!config.chineseColors.preview) {
       return
     }
     if (!editor || !editor.document) {
@@ -56,26 +58,25 @@ export function createDecorator(ctx: ExtensionContext) {
     }
     reset()
     let match = hexReg.exec(code)
-    while(match){
-      if(match[0] in hexs){
+    while (match) {
+      if (match[0] in hexs) {
         const hex = match[0]
         const start = editor.document.positionAt(match.index)
         const end = editor.document.positionAt(match.index + match[0].length)
         const range = new Range(start, end)
         pushDecoration(hex, range)
-
       }
       match = hexReg.exec(code)
     }
     match = rgbReg.exec(code)
-    while(match){
+    while (match) {
       const rgbArr = [ Number(match[1]), Number(match[2]), Number(match[3]) ]
       const alpha = match[4] ?? false
-      if(alpha){
+      if (alpha) {
         rgbArr.push(Number(alpha))
       }
       const hex = rgbToHex(rgbArr)
-      if(hex in hexs){
+      if (hex in hexs) {
         const start = editor.document.positionAt(match.index)
         const end = editor.document.positionAt(match.index + match[0].length)
         const range = new Range(start, end)

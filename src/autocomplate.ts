@@ -22,7 +22,7 @@ const languageList: string[] = [
   'sass',
   'scss',
   'less',
-  'stylus'
+  'stylus',
 ]
 
 // 忽略
@@ -51,7 +51,7 @@ export const autocomplate = languages.registerCompletionItemProvider(
         token.isCancellationRequested = true
       }
       return colorsCompletion
-    }
+    },
   },
   '#',
 )

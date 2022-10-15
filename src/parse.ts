@@ -1,11 +1,12 @@
 import colors from './colors/chinese.json'
 import { config } from './config'
-import { CompletionItem, CompletionItemKind } from 'vscode'
+import type { CompletionItem } from 'vscode'
+import { CompletionItemKind } from 'vscode'
 import jpColors from './colors/jp.json'
 import { channel } from './channel'
 import { arrayToRgbStr, rgbToHex } from './utils'
 
-function isMissing(prop: string, obj:Color) {
+function isMissing(prop: string, obj: Color) {
   if (!(prop in obj)) {
     channel.appendLine(`⚠️${obj?.name ?? '自定义颜色'}缺少${prop}属性`)
     return true
@@ -16,26 +17,26 @@ const colorsCompletion = [] as CompletionItem[]
 const hexs = {} as Hexs
 
 function parseColors() {
-  if (config.jp) {
+  if (config.chineseColors.jp) {
     colors.push(...jpColors)
   }
-  if (config.custom.length > 0) {
+  if (config.chineseColors.custom.length > 0) {
     const required = [ 'name', 'phonics', 'rgb' ]
-    config.custom.forEach((item:Color) => {
+    config.chineseColors.custom.forEach((item: Color) => {
       const check = required.some(prop => {
         return isMissing(prop, item)
       })
-      if(!check){
+      if (!check) {
         colors.push({
           name: item.name,
           phonics: item.phonics,
           hex: rgbToHex(item.rgb),
-          rgb: item.rgb
+          rgb: item.rgb,
         })
       }
     })
   }
-  const isRgb = config.RGB
+  const isRgb = config.chineseColors.RGB
   try {
     colors.forEach((color: Color) => {
       const hex = color.hex.toLocaleLowerCase()
@@ -47,10 +48,11 @@ function parseColors() {
         kind: CompletionItemKind.Color,
         filterText: '#' + color.name + color.phonics,
         label: color.name,
-        insertText: isRgb ? rgb : hex
+        insertText: isRgb ? rgb : hex,
       })
     })
-  } catch (e) {
+  }
+  catch (e) {
     channel.appendLine(String(e))
   }
 }

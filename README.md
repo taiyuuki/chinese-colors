@@ -30,11 +30,11 @@ VS Code扩展，以代码提示的方式列出预设的颜色——中国传统�
 
 ### 2.1 自定义颜色
 
-在settings.json中编辑custom字段，可以添加自定的颜色，它是一个数组：
+在settings.json中编辑chineseColors.custom字段，可以添加自定的颜色，它是一个数组：
 
 ```json
 {
-    "custom": [
+    "chineseColors.custom": [
         { 
             "name": "我的颜色",
             "phonics": "wodeyanse",
