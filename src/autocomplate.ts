@@ -33,7 +33,7 @@ function findPound(text: string, position: number): boolean {
       return true
     }
     count--
-    position -= 1
+    position--
   }
   return false
 }

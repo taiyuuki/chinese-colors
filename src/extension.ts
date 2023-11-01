@@ -7,6 +7,7 @@ export function activate(context: ExtensionContext) {
   context.subscriptions.push(autocomplate)
 }
 
-export function deactivate() {
+export function deactivate(context: ExtensionContext) {
+  context.subscriptions.forEach(i => i.dispose())
   return undefined
 }
