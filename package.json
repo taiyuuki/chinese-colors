@@ -1,9 +1,10 @@
 {
   "name": "chinese-color",
-  "displayName": "Chinese Colors",
+  "displayName": "国色",
   "description": "预设颜色代码提示——中国传统色",
   "publisher": "taiyuuki",
-  "version": "1.1.5",
+  "version": "2.0.0",
+  "type": "module",
   "icon": "icon.png",
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
@@ -49,7 +50,7 @@
     "onLanguage:stylus",
     "onLanguage:json"
   ],
-  "main": "./dist/extension.js",
+  "main": "./dist/index.cjs",
   "contributes": {
     "configuration": [
       {
@@ -64,11 +65,6 @@
             "type": "boolean",
             "default": true,
             "description": "颜色预览"
-          },
-          "chineseColors.jp": {
-            "type": "boolean",
-            "default": false,
-            "description": "添加日本传统色（重启编辑器生效）"
           },
           "chineseColors.custom": {
             "type": "array",
@@ -95,34 +91,31 @@
     ]
   },
   "scripts": {
-    "build": "vsce package",
-    "vscode:prepublish": "npm run package",
+    "lint": "eslint src/** --fix",
+    "dev": "tsup --watch",
+    "build": "tsup",
     "bump:patch": "bump patch",
-    "compile": "webpack",
-    "watch": "webpack --watch",
-    "package": "webpack --mode production --devtool hidden-source-map",
-    "compile-tests": "tsc -p . --outDir out",
-    "watch-tests": "tsc -p . -w --outDir out",
-    "pretest": "npm run compile-tests && npm run compile && npm run lint",
-    "lint": "eslint src --ext ts",
-    "test": "node ./out/test/runTest.js"
+    "package": "vsce package --no-dependencies",
+    "publish": "vsce publish",
+    "test": "vitest",
+    "gen": "esno scripts/gen.ts && eslint src/colors/** --fix"
   },
+  "author": "taiyuuki <taiyuuki@qq.com>",
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
-    "@taiyuuki/eslint-config-ts": "^0.0.4",
-    "@types/glob": "^7.2.0",
-    "@types/mocha": "^9.1.1",
-    "@types/node": "^16.18.60",
+    "@antfu/eslint-config": "^2.12.2",
+    "@taiyuuki/eslint-config": "^1.0.2",
+    "@types/node": "^14.18.63",
     "@types/vscode": "^1.67.0",
-    "@typescript-eslint/eslint-plugin": "^5.62.0",
-    "@typescript-eslint/parser": "^5.62.0",
-    "@vscode/test-electron": "^2.3.6",
-    "eslint": "^8.52.0",
-    "glob": "^8.1.0",
-    "mocha": "^10.2.0",
-    "ts-loader": "^9.5.0",
-    "typescript": "^4.9.5",
-    "vsce": "^2.15.0",
-    "webpack": "^5.89.0",
-    "webpack-cli": "^4.10.0"
+    "@vscode/test-electron": "^2.3.9",
+    "eslint": "^8.57.0",
+    "esno": "^4.7.0",
+    "pinyin-pro": "^3.19.7",
+    "tsup": "^8.0.2"
+  },
+  "dependencies": {
+    "-": "^0.0.1"
   }
 }

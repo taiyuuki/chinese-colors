@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>国色</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="utils.js"></script>
+  <script src="blue.js"></script>
+  <script src="green.js"></script>
+  <script src="bwg.js"></script>
+  <script src="purple.js"></script>
+  <script src="red.js"></script>
+  <script src="yellow.js"></script>
+  <script src="brown.js"></script>
+</head>
+
+<body>
+  <div class="logo">
+    <img src="../chinese-colors.svg" alt="logo">
+  </div>
+  <!-- Tab links -->
+  <div class="tab">
+    <button class="tablinks" onclick="pushColor(event, 'red')">红色系</button>
+    <button class="tablinks" onclick="pushColor(event, 'yellow')">黄色系</button>
+    <button class="tablinks" onclick="pushColor(event, 'green')">绿色系</button>
+    <button class="tablinks" onclick="pushColor(event, 'blue')">蓝色系</button>
+    <button class="tablinks" onclick="pushColor(event, 'purple')">紫色系</button>
+    <button class="tablinks" onclick="pushColor(event, 'brown')">棕色系</button>
+    <button class="tablinks" onclick="pushColor(event, 'bwg')">黑白灰系</button>
+  </div>
+
+  <div id="colors"></div>
+  <script src="main.js"></script>
+</body>
+
+</html>
