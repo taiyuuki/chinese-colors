@@ -2,11 +2,10 @@ import { Range, window, workspace } from 'vscode'
 import type { DecorationOptions, ExtensionContext } from 'vscode'
 
 import { getContrastColor, rgbToHex, throttle } from './utils'
-// import { config } from './config'
 import { hexs } from './resolve'
 
 export function createDecorator(ctx: ExtensionContext) {
-    const config = workspace.getConfiguration()
+    let config = workspace.getConfiguration()
     const hexReg = /#[0-9a-fA-F]{6,8}/g
     const rgbReg = /rgba?\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,?(\s*[\d.]*\s*)?\)/g
     const colorDecorations: DecorationOptions[] = []
@@ -21,6 +20,10 @@ export function createDecorator(ctx: ExtensionContext) {
         },
     })
     let editor = window.activeTextEditor
+
+    workspace.onDidChangeConfiguration(() => {
+        config = workspace.getConfiguration()
+    })
 
     function reset() {
         colorDecorations.length = 0

@@ -4,7 +4,6 @@ declare interface Color {
     name: string
     phonic: string
     type: string
-
 }
 
 declare interface Hexs {

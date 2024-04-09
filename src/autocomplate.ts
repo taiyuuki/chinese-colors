@@ -1,6 +1,6 @@
 import { languages } from 'vscode'
 import type { CancellationToken, Position, TextDocument } from 'vscode'
-import { colorsCompletion } from './resolve'
+import { getColorsCompletion } from './resolve'
 
 // 支持的语言列表
 const languageList: string[] = [
@@ -38,20 +38,22 @@ function findPound(text: string, position: number): boolean {
     return false
 }
 
-export const autocomplate = languages.registerCompletionItemProvider(
-    languageList,
-    {
-        provideCompletionItems(
-            document: TextDocument,
-            position: Position,
-            token: CancellationToken,
-        ) {
-            const linePrefix = document.lineAt(position).text.toLowerCase()
-            if (!findPound(linePrefix, position.character)) {
-                token.isCancellationRequested = true
-            }
-            return colorsCompletion
+export function getAutocomplate() {
+    return languages.registerCompletionItemProvider(
+        languageList,
+        {
+            provideCompletionItems(
+                document: TextDocument,
+                position: Position,
+                token: CancellationToken,
+            ) {
+                const linePrefix = document.lineAt(position).text.toLowerCase()
+                if (!findPound(linePrefix, position.character)) {
+                    token.isCancellationRequested = true
+                }
+                return getColorsCompletion()
+            },
         },
-    },
-    '#',
-)
+        '#',
+    )
+}

@@ -11,28 +11,15 @@ function isMissing(prop: string, obj: Color) {
     }
     return false
 }
-const colorsCompletion = [] as CompletionItem[]
+let colorsCompletion = [] as CompletionItem[]
 const hexs = {} as Hexs
+let config = workspace.getConfiguration()
+
+workspace.onDidChangeConfiguration(() => {
+    config = workspace.getConfiguration()
+})
 
 function resolveColors(colors: Color[]) {
-    const config = workspace.getConfiguration()
-    if (config.chineseColors.custom.length > 0) {
-        const required = ['name', 'phonic', 'rgb']
-        config.chineseColors.custom.forEach((item: Color) => {
-            const check = required.some((prop) => {
-                return isMissing(prop, item)
-            })
-            if (!check) {
-                colors.push({
-                    name: item.name,
-                    phonic: item.phonic,
-                    hex: rgbToHex(item.rgb),
-                    rgb: item.rgb,
-                    type: 'custom',
-                })
-            }
-        })
-    }
     const isRgb = config.chineseColors.RGB
     try {
         colors.forEach((color) => {
@@ -53,12 +40,45 @@ function resolveColors(colors: Color[]) {
         channel.appendLine(String(e))
     }
 }
-resolveColors(blue)
-resolveColors(green)
-resolveColors(bwg)
-resolveColors(purple)
-resolveColors(red)
-resolveColors(yellow)
-resolveColors(brown)
 
-export { hexs, colorsCompletion }
+function getCustomColors() {
+    const customColors: Color[] = []
+    if (config.chineseColors.custom.length > 0) {
+        const required = ['name', 'phonic', 'rgb']
+        config.chineseColors.custom.forEach((item: Color) => {
+            const check = required.some((prop) => {
+                return isMissing(prop, item)
+            })
+            if (!check) {
+                customColors.push({
+                    name: item.name,
+                    phonic: item.phonic,
+                    hex: rgbToHex(item.rgb),
+                    rgb: item.rgb,
+                    type: 'custom',
+                })
+            }
+        })
+    }
+    return customColors
+}
+
+function getColorsCompletion() {
+    colorsCompletion = []
+    resolveColors(blue)
+    resolveColors(green)
+    resolveColors(bwg)
+    resolveColors(purple)
+    resolveColors(red)
+    resolveColors(yellow)
+    resolveColors(brown)
+    const customColors = getCustomColors()
+    if (customColors.length > 0) {
+        resolveColors(customColors)
+    }
+    return colorsCompletion
+}
+
+getColorsCompletion()
+
+export { hexs, getColorsCompletion }

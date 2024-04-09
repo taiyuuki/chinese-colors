@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 
 <head>
   <meta charset="UTF-8">
@@ -18,11 +18,10 @@
 </head>
 
 <body>
-  <div class="logo">
-    <img src="../chinese-colors.svg" alt="logo">
-  </div>
+
   <!-- Tab links -->
   <div class="tab">
+    <button class="tablinks active" onclick="pushColor(event, undefined)">全部</button>
     <button class="tablinks" onclick="pushColor(event, 'red')">红色系</button>
     <button class="tablinks" onclick="pushColor(event, 'yellow')">黄色系</button>
     <button class="tablinks" onclick="pushColor(event, 'green')">绿色系</button>
@@ -30,8 +29,12 @@
     <button class="tablinks" onclick="pushColor(event, 'purple')">紫色系</button>
     <button class="tablinks" onclick="pushColor(event, 'brown')">棕色系</button>
     <button class="tablinks" onclick="pushColor(event, 'bwg')">黑白灰系</button>
+    <input type="text" id="search" placeholder="搜索颜色" oninput="searchColor(event)">
+    <div id="count"></div>
   </div>
-
+  <div class="logo">
+    <img src="./chinese-colors.svg" alt="logo">
+  </div>
   <div id="colors"></div>
   <script src="main.js"></script>
 </body>

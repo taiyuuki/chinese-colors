@@ -23,7 +23,7 @@ function jsonToTs(json: { name: string, hex: string }[], type: keyof typeof COLO
         const r = Number.parseInt(color.hex.slice(1, 3), 16)
         const g = Number.parseInt(color.hex.slice(3, 5), 16)
         const b = Number.parseInt(color.hex.slice(5, 7), 16)
-        let phonic = pinyin(color.name, { toneType: 'none' }).replace(/\s/g, '')
+        let phonic = pinyin(color.name, { toneType: 'none', v: true, type: 'array' }).join('')
         if (type !== 'bwg') {
             phonic = color.name.includes(COLOR_NAME[type][0]) ? phonic : phonic += COLOR_NAME[type][1]
         }

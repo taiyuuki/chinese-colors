@@ -36,7 +36,7 @@ function createColorPreview(context: ExtensionContext) {
             isDisposed = true
         })
         panel.webview.html = getHtml(context.extensionPath, panel)
-        panel.iconPath = Uri.file(join(context.extensionPath, 'res/chinese-colors.svg'))
+        panel.iconPath = Uri.file(join(context.extensionPath, 'res/webview/chinese-colors.svg'))
         // context.subscriptions.push(panel)
         isDisposed = false
     }

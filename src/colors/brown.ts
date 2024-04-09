@@ -951,7 +951,7 @@ export const brown = [
             74,
             30,
         ],
-        phonic: 'chalühezong',
+        phonic: 'chalvhezong',
         type: 'brown',
         name: '茶绿褐',
         hex: '#614a1e',
