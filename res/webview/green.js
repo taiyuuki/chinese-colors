@@ -23,14 +23,14 @@ const green = [
     },
     {
         "rgb": [
-            134,
-            142,
-            101
+            59,
+            78,
+            57
         ],
         "phonic": "bajiaolv",
         "type": "green",
         "name": "芭蕉绿",
-        "hex": "#868e65"
+        "hex": "#3b4e39"
     },
     {
         "rgb": [
@@ -276,14 +276,14 @@ const green = [
     },
     {
         "rgb": [
-            94,
-            82,
-            22
+            96,
+            89,
+            24
         ],
         "phonic": "ganlanlv",
         "type": "green",
         "name": "橄榄绿",
-        "hex": "#5e5216"
+        "hex": "#605918"
     },
     {
         "rgb": [
@@ -518,14 +518,14 @@ const green = [
     },
     {
         "rgb": [
-            93,
-            190,
-            137
+            150,
+            199,
+            120
         ],
         "phonic": "koushaolv",
         "type": "green",
         "name": "蔻梢绿",
-        "hex": "#5dbe89"
+        "hex": "#96c778"
     },
     {
         "rgb": [
@@ -584,6 +584,17 @@ const green = [
     },
     {
         "rgb": [
+            55,
+            87,
+            50
+        ],
+        "phonic": "lvshen",
+        "type": "green",
+        "name": "绿沈",
+        "hex": "#375732"
+    },
+    {
+        "rgb": [
             49,
             74,
             68
@@ -617,14 +628,14 @@ const green = [
     },
     {
         "rgb": [
-            186,
-            207,
-            102
+            190,
+            208,
+            135
         ],
         "phonic": "pingguolv",
         "type": "green",
         "name": "苹果绿",
-        "hex": "#bacf66"
+        "hex": "#bed087"
     },
     {
         "rgb": [
@@ -925,6 +936,17 @@ const green = [
     },
     {
         "rgb": [
+            186,
+            206,
+            102
+        ],
+        "phonic": "qiukuilv",
+        "type": "green",
+        "name": "秋葵绿",
+        "hex": "#bace66"
+    },
+    {
+        "rgb": [
             104,
             126,
             87
@@ -948,13 +970,13 @@ const green = [
     {
         "rgb": [
             131,
-            167,
-            141
+            160,
+            140
         ],
         "phonic": "songshuanglv",
         "type": "green",
         "name": "松霜绿",
-        "hex": "#83a78d"
+        "hex": "#83a08c"
     },
     {
         "rgb": [
@@ -1112,14 +1134,14 @@ const green = [
     },
     {
         "rgb": [
-            185,
-            223,
-            202
+            186,
+            213,
+            180
         ],
         "phonic": "zhuhuanglv",
         "type": "green",
         "name": "竹篁绿",
-        "hex": "#b9dfca"
+        "hex": "#bad5b4"
     },
     {
         "rgb": [
@@ -1321,14 +1343,14 @@ const green = [
     },
     {
         "rgb": [
-            86,
-            105,
-            0
+            156,
+            192,
+            26
         ],
         "phonic": "zuocanlv",
         "type": "green",
         "name": "柞蚕绿",
-        "hex": "#566900"
+        "hex": "#9cc01a"
     },
     {
         "rgb": [

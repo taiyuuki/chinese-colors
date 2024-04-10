@@ -17,6 +17,9 @@ VS Code扩展，以代码提示的方式列出预设的颜色——中国传统�
 <p align="center">
 <img src="https://s2.loli.net/2024/04/09/LXDO7t5RWIzuF2c.gif" style="width:100%;" /></p>
 
+<p align="center">
+<img src="https://s2.loli.net/2024/04/09/8MDo3t2FuaOcAQE.gif" style="width:100%;" /></p>
+
 ## 1. 使用
 
 * 输入<span style="color:HotPink">`# + 颜色名`</span>即可列出预设的颜色。

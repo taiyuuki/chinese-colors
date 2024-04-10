@@ -397,14 +397,14 @@ const red = [
     },
     {
         "rgb": [
-            175,
-            110,
-            130
+            189,
+            173,
+            176
         ],
         "phonic": "honghui",
         "type": "red",
         "name": "红灰",
-        "hex": "#af6e82"
+        "hex": "#bdadb0"
     },
     {
         "rgb": [
@@ -1483,5 +1483,27 @@ const red = [
         "type": "red",
         "name": "棕红",
         "hex": "#3d0504"
+    },
+    {
+        "rgb": [
+            215,
+            145,
+            159
+        ],
+        "phonic": "qianmeihong",
+        "type": "red",
+        "name": "浅梅红",
+        "hex": "#d7919f"
+    },
+    {
+        "rgb": [
+            167,
+            65,
+            93
+        ],
+        "phonic": "shenmeihong",
+        "type": "red",
+        "name": "深梅红",
+        "hex": "#a7415d"
     }
 ]

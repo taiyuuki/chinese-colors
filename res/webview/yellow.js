@@ -859,6 +859,17 @@ const yellow = [
     },
     {
         "rgb": [
+            201,
+            179,
+            15
+        ],
+        "phonic": "lameihuang",
+        "type": "yellow",
+        "name": "腊梅黄",
+        "hex": "#c9b30f"
+    },
+    {
+        "rgb": [
             250,
             126,
             36

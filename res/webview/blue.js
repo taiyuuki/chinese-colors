@@ -342,14 +342,58 @@ const blue = [
     },
     {
         "rgb": [
-            34,
-            54,
-            61
+            62,
+            94,
+            134
         ],
         "phonic": "huilan",
         "type": "blue",
         "name": "灰蓝",
-        "hex": "#22363d"
+        "hex": "#3e5e86"
+    },
+    {
+        "rgb": [
+            41,
+            125,
+            212
+        ],
+        "phonic": "danfanlan",
+        "type": "blue",
+        "name": "胆矾蓝",
+        "hex": "#297dd4"
+    },
+    {
+        "rgb": [
+            70,
+            103,
+            231
+        ],
+        "phonic": "yazhicaolan",
+        "type": "blue",
+        "name": "鸭跖草蓝",
+        "hex": "#4667e7"
+    },
+    {
+        "rgb": [
+            42,
+            104,
+            188
+        ],
+        "phonic": "weilan",
+        "type": "blue",
+        "name": "蔚蓝",
+        "hex": "#2a68bc"
+    },
+    {
+        "rgb": [
+            43,
+            113,
+            173
+        ],
+        "phonic": "pinlan",
+        "type": "blue",
+        "name": "品蓝",
+        "hex": "#2b71ad"
     },
     {
         "rgb": [

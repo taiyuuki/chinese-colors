@@ -177,14 +177,14 @@ const bwg = [
     },
     {
         "rgb": [
-            54,
-            53,
-            49
+            38,
+            45,
+            50
         ],
         "phonic": "dengcaohui",
         "type": "bwg",
         "name": "灯草灰",
-        "hex": "#363531"
+        "hex": "#262d32"
     },
     {
         "rgb": [
@@ -320,14 +320,14 @@ const bwg = [
     },
     {
         "rgb": [
-            56,
-            55,
-            51
+            58,
+            53,
+            57
         ],
         "phonic": "hetunhui",
         "type": "bwg",
         "name": "河豚灰",
-        "hex": "#383733"
+        "hex": "#3a3539"
     },
     {
         "rgb": [
@@ -342,14 +342,14 @@ const bwg = [
     },
     {
         "rgb": [
-            74,
-            64,
-            54
+            147,
+            157,
+            167
         ],
         "phonic": "hehui",
         "type": "bwg",
         "name": "鹤灰",
-        "hex": "#4a4036"
+        "hex": "#939da7"
     },
     {
         "rgb": [
@@ -408,14 +408,14 @@ const bwg = [
     },
     {
         "rgb": [
-            244,
-            240,
-            228
+            248,
+            242,
+            230
         ],
         "phonic": "hufen",
         "type": "bwg",
         "name": "胡粉",
-        "hex": "#f4f0e4"
+        "hex": "#f8f2e6"
     },
     {
         "rgb": [
@@ -727,14 +727,14 @@ const bwg = [
     },
     {
         "rgb": [
-            134,
+            155,
             138,
-            147
+            138
         ],
         "phonic": "muyunhui",
         "type": "bwg",
         "name": "暮云灰",
-        "hex": "#868a93"
+        "hex": "#9b8a8a"
     },
     {
         "rgb": [
@@ -826,14 +826,14 @@ const bwg = [
     },
     {
         "rgb": [
-            226,
-            226,
-            228
+            228,
+            228,
+            226
         ],
         "phonic": "qianshibai",
         "type": "bwg",
         "name": "芡实白",
-        "hex": "#e2e2e4"
+        "hex": "#e4e4e2"
     },
     {
         "rgb": [
@@ -1277,14 +1277,14 @@ const bwg = [
     },
     {
         "rgb": [
-            205,
+            203,
             209,
-            212
+            214
         ],
         "phonic": "yinyubai",
         "type": "bwg",
         "name": "银鱼白",
-        "hex": "#cdd1d4"
+        "hex": "#cbd1d6"
     },
     {
         "rgb": [
@@ -1343,14 +1343,14 @@ const bwg = [
     },
     {
         "rgb": [
-            208,
-            212,
-            211
+            192,
+            189,
+            195
         ],
         "phonic": "yueyingbai",
         "type": "bwg",
         "name": "月影白",
-        "hex": "#d0d4d3"
+        "hex": "#c0bdc3"
     },
     {
         "rgb": [
@@ -1453,14 +1453,14 @@ const bwg = [
     },
     {
         "rgb": [
-            209,
-            206,
-            201
+            178,
+            180,
+            179
         ],
         "phonic": "zhongruhui",
         "type": "bwg",
         "name": "钟乳灰",
-        "hex": "#d1cec9"
+        "hex": "#b2b4b3"
     },
     {
         "rgb": [
@@ -1475,14 +1475,14 @@ const bwg = [
     },
     {
         "rgb": [
-            100,
-            72,
-            61
+            223,
+            206,
+            196
         ],
         "phonic": "zhumuhui",
         "type": "bwg",
         "name": "珠母灰",
-        "hex": "#64483d"
+        "hex": "#dfcec4"
     },
     {
         "rgb": [
