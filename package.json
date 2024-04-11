@@ -3,7 +3,7 @@
   "displayName": "国色",
   "description": "提供具有名称的颜色代码——中国传统色",
   "publisher": "taiyuuki",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "type": "module",
   "icon": "res/icon.png",
   "license": "SEE LICENSE IN LICENSE.md",

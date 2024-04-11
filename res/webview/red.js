@@ -243,36 +243,36 @@ const red = [
     },
     {
         "rgb": [
-            194,
-            31,
-            48
+            252,
+            21,
+            27
         ],
         "phonic": "fengyehong",
         "type": "red",
         "name": "枫叶红",
-        "hex": "#c21f30"
+        "hex": "#fc151b"
     },
     {
         "rgb": [
-            234,
-            115,
-            147
+            229,
+            144,
+            167
         ],
         "phonic": "fengxianhuahong",
         "type": "red",
         "name": "凤仙花红",
-        "hex": "#ea7393"
+        "hex": "#e590a7"
     },
     {
         "rgb": [
-            199,
-            86,
-            142
+            223,
+            177,
+            206
         ],
         "phonic": "furonghong",
         "type": "red",
         "name": "芙蓉红",
-        "hex": "#c7568e"
+        "hex": "#dfb1ce"
     },
     {
         "rgb": [
@@ -672,25 +672,25 @@ const red = [
     },
     {
         "rgb": [
-            251,
-            96,
-            68
+            252,
+            110,
+            2
         ],
         "phonic": "juhong",
         "type": "red",
         "name": "橘红",
-        "hex": "#fb6044"
+        "hex": "#fc6e02"
     },
     {
         "rgb": [
             236,
-            137,
-            165
+            38,
+            27
         ],
         "phonic": "lichunhong",
         "type": "red",
         "name": "丽春红",
-        "hex": "#ec89a5"
+        "hex": "#ec261b"
     },
     {
         "rgb": [
@@ -716,14 +716,14 @@ const red = [
     },
     {
         "rgb": [
-            237,
-            61,
-            160
+            187,
+            25,
+            101
         ],
         "phonic": "liaosuihong",
         "type": "red",
         "name": "蓼穗红",
-        "hex": "#ed3da0"
+        "hex": "#bb1965"
     },
     {
         "rgb": [
@@ -771,14 +771,14 @@ const red = [
     },
     {
         "rgb": [
-            180,
-            50,
-            52
+            207,
+            71,
+            19
         ],
         "phonic": "luoxiahong",
         "type": "red",
         "name": "落霞红",
-        "hex": "#b43234"
+        "hex": "#cf4713"
     },
     {
         "rgb": [
@@ -925,14 +925,14 @@ const red = [
     },
     {
         "rgb": [
-            209,
-            134,
-            138
+            229,
+            101,
+            116
         ],
         "phonic": "quhong",
         "type": "red",
         "name": "曲红",
-        "hex": "#d1868a"
+        "hex": "#e56574"
     },
     {
         "rgb": [
@@ -1189,25 +1189,25 @@ const red = [
     },
     {
         "rgb": [
-            235,
-            133,
-            206
+            244,
+            195,
+            250
         ],
         "phonic": "qihong",
         "type": "red",
         "name": "欹红",
-        "hex": "#eb85ce"
+        "hex": "#f4c3fa"
     },
     {
         "rgb": [
-            129,
-            17,
-            31
+            93,
+            4,
+            10
         ],
         "phonic": "yanhong",
         "type": "red",
         "name": "殷红",
-        "hex": "#81111f"
+        "hex": "#5d040a"
     },
     {
         "rgb": [
@@ -1255,14 +1255,14 @@ const red = [
     },
     {
         "rgb": [
-            187,
-            19,
-            10
+            196,
+            20,
+            31
         ],
         "phonic": "yingtaohong",
         "type": "red",
         "name": "樱桃红",
-        "hex": "#bb130a"
+        "hex": "#c4141f"
     },
     {
         "rgb": [
@@ -1376,14 +1376,14 @@ const red = [
     },
     {
         "rgb": [
-            255,
-            84,
-            67
+            229,
+            83,
+            207
         ],
         "phonic": "zhizhuhong",
         "type": "red",
         "name": "踯躅红",
-        "hex": "#ff5443"
+        "hex": "#e553cf"
     },
     {
         "rgb": [
@@ -1398,14 +1398,14 @@ const red = [
     },
     {
         "rgb": [
-            228,
-            68,
-            42
+            165,
+            34,
+            40
         ],
         "phonic": "zhushahong",
         "type": "red",
         "name": "朱砂",
-        "hex": "#e4442a"
+        "hex": "#a52228"
     },
     {
         "rgb": [

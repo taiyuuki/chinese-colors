@@ -177,36 +177,36 @@ const yellow = [
     },
     {
         "rgb": [
-            238,
-            131,
-            49
+            234,
+            137,
+            37
         ],
         "phonic": "zhehuang",
         "type": "yellow",
         "name": "柘黄",
-        "hex": "#ee8331"
+        "hex": "#ea8925"
     },
     {
         "rgb": [
-            214,
-            160,
-            28
+            215,
+            162,
+            109
         ],
         "phonic": "tuhuang",
         "type": "yellow",
         "name": "土黄",
-        "hex": "#d6a01c"
+        "hex": "#d7a26d"
     },
     {
         "rgb": [
-            243,
-            192,
-            77
+            233,
+            200,
+            90
         ],
         "phonic": "gancaohuang",
         "type": "yellow",
         "name": "甘草黄",
-        "hex": "#f3c04d"
+        "hex": "#e9c85a"
     },
     {
         "rgb": [
@@ -221,14 +221,14 @@ const yellow = [
     },
     {
         "rgb": [
-            218,
-            164,
-            14
+            204,
+            179,
+            75
         ],
         "phonic": "jiehuang",
         "type": "yellow",
         "name": "芥黄",
-        "hex": "#daa40e"
+        "hex": "#ccb34b"
     },
     {
         "rgb": [
@@ -243,91 +243,91 @@ const yellow = [
     },
     {
         "rgb": [
-            227,
-            192,
-            40
+            226,
+            175,
+            23
         ],
         "phonic": "jianghuang",
         "type": "yellow",
         "name": "姜黄",
-        "hex": "#e3c028"
+        "hex": "#e2af17"
     },
     {
         "rgb": [
-            232,
-            176,
-            5
+            250,
+            187,
+            71
         ],
         "phonic": "guhuang",
         "type": "yellow",
         "name": "谷黄",
-        "hex": "#e8b005"
-    },
-    {
-        "rgb": [
-            208,
-            185,
-            9
-        ],
-        "phonic": "yaohuang",
-        "type": "yellow",
-        "name": "姚黄",
-        "hex": "#d0b909"
-    },
-    {
-        "rgb": [
-            241,
-            202,
-            23
-        ],
-        "phonic": "youhuang",
-        "type": "yellow",
-        "name": "柚黄",
-        "hex": "#f1ca17"
+        "hex": "#fabb47"
     },
     {
         "rgb": [
             253,
-            183,
-            10
+            248,
+            1
+        ],
+        "phonic": "yaohuang",
+        "type": "yellow",
+        "name": "姚黄",
+        "hex": "#fdf801"
+    },
+    {
+        "rgb": [
+            233,
+            203,
+            3
+        ],
+        "phonic": "youhuang",
+        "type": "yellow",
+        "name": "柚黄",
+        "hex": "#e9cb03"
+    },
+    {
+        "rgb": [
+            218,
+            154,
+            89
         ],
         "phonic": "youhuang",
         "type": "yellow",
         "name": "鼬黄",
-        "hex": "#fdb70a"
+        "hex": "#da9a59"
     },
     {
         "rgb": [
-            223,
-            194,
-            68
+            231,
+            210,
+            42
         ],
         "phonic": "haohuang",
         "type": "yellow",
         "name": "蒿黄",
-        "hex": "#dfc244"
+        "hex": "#e7d22a"
     },
     {
         "rgb": [
-            129,
-            98,
-            51
+            164,
+            97,
+            45
         ],
         "phonic": "canghuang",
         "type": "yellow",
         "name": "苍黄",
-        "hex": "#816233"
+        "hex": "#a4612d"
     },
     {
         "rgb": [
-            255,
-            153,
-            0
+            248,
+            137,
+            24
         ],
         "phonic": "xionghuang",
         "type": "yellow",
         "name": "雄黄",
-        "hex": "#ff9900"
+        "hex": "#f88918"
     },
     {
         "rgb": [
@@ -441,6 +441,39 @@ const yellow = [
     },
     {
         "rgb": [
+            240,
+            210,
+            71
+        ],
+        "phonic": "jianhuang",
+        "type": "yellow",
+        "name": "茧黄",
+        "hex": "#f0d247"
+    },
+    {
+        "rgb": [
+            254,
+            143,
+            1
+        ],
+        "phonic": "juhuang",
+        "type": "yellow",
+        "name": "橘黄",
+        "hex": "#fe8f01"
+    },
+    {
+        "rgb": [
+            239,
+            236,
+            71
+        ],
+        "phonic": "yingchunhuahuang",
+        "type": "yellow",
+        "name": "迎春花黄",
+        "hex": "#efec47"
+    },
+    {
+        "rgb": [
             247,
             195,
             135
@@ -475,13 +508,13 @@ const yellow = [
     {
         "rgb": [
             255,
-            186,
-            7
+            232,
+            120
         ],
         "phonic": "hupohuang",
         "type": "yellow",
         "name": "琥珀黄",
-        "hex": "#ffba07"
+        "hex": "#ffe878"
     },
     {
         "rgb": [
@@ -507,14 +540,14 @@ const yellow = [
     },
     {
         "rgb": [
-            248,
+            234,
             216,
-            107
+            155
         ],
         "phonic": "kuishanhuang",
         "type": "yellow",
         "name": "葵扇黄",
-        "hex": "#f8d86b"
+        "hex": "#ead89b"
     },
     {
         "rgb": [
@@ -595,14 +628,14 @@ const yellow = [
     },
     {
         "rgb": [
-            249,
-            193,
-            22
+            229,
+            201,
+            91
         ],
         "phonic": "muguahuang",
         "type": "yellow",
         "name": "木瓜黄",
-        "hex": "#f9c116"
+        "hex": "#e5c95b"
     },
     {
         "rgb": [
@@ -639,14 +672,14 @@ const yellow = [
     },
     {
         "rgb": [
-            211,
-            199,
-            113
+            253,
+            194,
+            3
         ],
         "phonic": "mangguohuang",
         "type": "yellow",
         "name": "芒果黄",
-        "hex": "#d3c771"
+        "hex": "#fdc203"
     },
     {
         "rgb": [
@@ -683,14 +716,14 @@ const yellow = [
     },
     {
         "rgb": [
-            244,
-            206,
-            105
+            255,
+            208,
+            107
         ],
         "phonic": "chaomihuang",
         "type": "yellow",
         "name": "炒米黄",
-        "hex": "#f4ce69"
+        "hex": "#ffd06b"
     },
     {
         "rgb": [
@@ -904,13 +937,13 @@ const yellow = [
     {
         "rgb": [
             251,
-            139,
-            5
+            147,
+            8
         ],
         "phonic": "wanshoujuhuang",
         "type": "yellow",
         "name": "万寿菊黄",
-        "hex": "#fb8b05"
+        "hex": "#fb9308"
     },
     {
         "rgb": [
@@ -991,14 +1024,14 @@ const yellow = [
     },
     {
         "rgb": [
-            255,
-            181,
-            0
+            238,
+            142,
+            4
         ],
         "phonic": "shihuang",
         "type": "yellow",
         "name": "柿黄",
-        "hex": "#ffb500"
+        "hex": "#ee8e04"
     },
     {
         "rgb": [
