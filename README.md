@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-VS Code扩展，以代码提示的方式列出预设的颜色——中国传统色。
+VS Code扩展，以代码提示的方式列出颜色代码——中国传统色。
 </p>
 <p align="center">
 <img src="https://s2.loli.net/2024/04/09/LXDO7t5RWIzuF2c.gif" style="width:100%;" /></p>
