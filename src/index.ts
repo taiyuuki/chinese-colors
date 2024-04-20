@@ -22,5 +22,6 @@ export function activate(context: ExtensionContext) {
 
 export function deactivate(context: ExtensionContext) {
     context.subscriptions.forEach(i => i.dispose())
+
     return undefined
 }

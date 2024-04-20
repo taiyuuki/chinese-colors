@@ -98,7 +98,7 @@ export function createDecorator(ctx: ExtensionContext) {
     const triggerUpdateDecorations = throttle(updateDecorations, 500)
 
     window.onDidChangeActiveTextEditor(
-        (currentEditor) => {
+        currentEditor => {
             editor = currentEditor
             if (editor) {
                 triggerUpdateDecorations()

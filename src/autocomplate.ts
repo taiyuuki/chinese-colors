@@ -35,6 +35,7 @@ function findPound(text: string, position: number): boolean {
         count--
         position--
     }
+
     return false
 }
 
@@ -51,6 +52,7 @@ export function getAutocomplate() {
                 if (!findPound(linePrefix, position.character)) {
                     token.isCancellationRequested = true
                 }
+
                 return getColorsCompletion()
             },
         },

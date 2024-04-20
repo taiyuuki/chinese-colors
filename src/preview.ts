@@ -11,6 +11,7 @@ function getHtml(extentionPath: string, panel: WebviewPanel) {
         html = html.replace(match[2], panel.webview.asWebviewUri(Uri.file(join(extentionPath, `res/webview/${match[2]}`))).toString())
         match = reg.exec(html)
     }
+
     return html
 }
 
@@ -37,6 +38,7 @@ function createColorPreview(context: ExtensionContext) {
         })
         panel.webview.html = getHtml(context.extensionPath, panel)
         panel.iconPath = Uri.file(join(context.extensionPath, 'res/webview/chinese-colors.svg'))
+
         // context.subscriptions.push(panel)
         isDisposed = false
     }

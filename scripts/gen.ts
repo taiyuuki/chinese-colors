@@ -19,7 +19,7 @@ const COLOR_NAME = {
 }
 
 function jsonToTs(json: { name: string, hex: string }[], type: keyof typeof COLOR_NAME) {
-    const colors = json.map((color) => {
+    const colors = json.map(color => {
         const r = Number.parseInt(color.hex.slice(1, 3), 16)
         const g = Number.parseInt(color.hex.slice(3, 5), 16)
         const b = Number.parseInt(color.hex.slice(5, 7), 16)

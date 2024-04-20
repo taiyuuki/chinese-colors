@@ -1,14 +1,16 @@
 import type { CompletionItem } from 'vscode'
 import { CompletionItemKind, workspace } from 'vscode'
-import { blue, brown, bwg, green, purple, red, yellow } from './webcolors'
 import { channel } from './channel'
+import { blue, brown, bwg, green, purple, red, yellow } from './webcolors'
 import { arrayToRgbStr, rgbToHex } from './utils'
 
 function isMissing(prop: string, obj: Color) {
     if (!(prop in obj)) {
         channel.appendLine(`⚠️${obj?.name ?? '自定义颜色'}缺少${prop}属性`)
+
         return true
     }
+
     return false
 }
 let colorsCompletion = [] as CompletionItem[]
@@ -22,12 +24,12 @@ workspace.onDidChangeConfiguration(() => {
 function resolveColors(colors: Color[]) {
     const isRgb = config.chineseColors.RGB
     try {
-        colors.forEach((color) => {
+        colors.forEach(color => {
             const hex = color.hex.toLocaleLowerCase()
             const rgb = arrayToRgbStr(color.rgb)
             hexs[hex] = color.name
             colorsCompletion.push({
-                detail: (isRgb || color.rgb.length > 3) ? rgb : hex,
+                detail: isRgb || color.rgb.length > 3 ? rgb : hex,
                 documentation: color.name,
                 kind: CompletionItemKind.Color,
                 filterText: `#${color.name}${color.phonic}`,
@@ -35,8 +37,7 @@ function resolveColors(colors: Color[]) {
                 insertText: isRgb ? rgb : hex,
             })
         })
-    }
-    catch (e) {
+    } catch (e) {
         channel.appendLine(String(e))
     }
 }
@@ -46,7 +47,7 @@ function getCustomColors() {
     if (config.chineseColors.custom.length > 0) {
         const required = ['name', 'phonic', 'rgb']
         config.chineseColors.custom.forEach((item: Color) => {
-            const check = required.some((prop) => {
+            const check = required.some(prop => {
                 return isMissing(prop, item)
             })
             if (!check) {
@@ -60,6 +61,7 @@ function getCustomColors() {
             }
         })
     }
+
     return customColors
 }
 
@@ -76,6 +78,7 @@ function getColorsCompletion() {
     if (customColors.length > 0) {
         resolveColors(customColors)
     }
+
     return colorsCompletion
 }
 
