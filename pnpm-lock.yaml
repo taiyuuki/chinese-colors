@@ -18,7 +18,7 @@ devDependencies:
     specifier: ^2.3.9
     version: 2.3.9
   '@vscode/vsce':
-    specifier: ^2.24.0
+    specifier: ^2.26.0
     version: 2.26.0
   eslint:
     specifier: ^9.1.0
