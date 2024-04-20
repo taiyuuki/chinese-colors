@@ -1,7 +1,7 @@
 {
   "name": "chinese-color",
   "displayName": "Chinese Colors",
-  "description": "代码提示列出颜色——中国传统色",
+  "description": "颜色代码提示——中国传统色",
   "publisher": "taiyuuki",
   "version": "2.0.5",
   "type": "module",

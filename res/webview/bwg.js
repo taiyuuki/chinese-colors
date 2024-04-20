@@ -1508,13 +1508,13 @@ const bwg = [
     },
     {
         "rgb": [
-            null,
-            227,
-            245
+            94,
+            63,
+            81
         ],
         "phonic": "zihui",
         "type": "bwg",
         "name": "紫灰",
-        "hex": "##5e3f51"
+        "hex": "#5e3f51"
     }
 ]
