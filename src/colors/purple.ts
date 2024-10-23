@@ -672,14 +672,14 @@ export const purple = [
     },
     {
         rgb: [
-            127,
-            118,
-            163,
+            126,
+            122,
+            188,
         ],
         phonic: 'tengluozi',
         type: 'purple',
         name: '藤萝紫',
-        hex: '#7f76a3',
+        hex: '#7E7ABC',
     },
     {
         rgb: [

@@ -42,6 +42,9 @@ function createColorPreview(context: ExtensionContext) {
         // context.subscriptions.push(panel)
         isDisposed = false
     }
+    else {
+        panel.reveal()
+    }
 }
 
 export { createColorPreview }
