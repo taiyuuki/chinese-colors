@@ -5,7 +5,7 @@ const red = [
             1,
             1
         ],
-        "phonic": "anhong",
+        "phonic": "àn hóng",
         "type": "red",
         "name": "暗红",
         "hex": "#7d0101"
@@ -16,7 +16,7 @@ const red = [
             35,
             9
         ],
-        "phonic": "biyuhong",
+        "phonic": "bì yù hóng",
         "type": "red",
         "name": "碧玉红",
         "hex": "#a52309"
@@ -27,7 +27,7 @@ const red = [
             73,
             139
         ],
-        "phonic": "biandouhuahong",
+        "phonic": "biǎn dòu huā hóng",
         "type": "red",
         "name": "扁豆花红",
         "hex": "#ef498b"
@@ -38,7 +38,7 @@ const red = [
             21,
             22
         ],
-        "phonic": "binghong",
+        "phonic": "bìng hóng",
         "type": "red",
         "name": "并红",
         "hex": "#731516"
@@ -49,7 +49,7 @@ const red = [
             60,
             116
         ],
-        "phonic": "bogenhong",
+        "phonic": "bō gēn hóng",
         "type": "red",
         "name": "菠根红",
         "hex": "#d13c74"
@@ -60,7 +60,7 @@ const red = [
             45,
             122
         ],
-        "phonic": "canghuahong",
+        "phonic": "cáng huā hóng",
         "type": "red",
         "name": "藏花红",
         "hex": "#ec2d7a"
@@ -71,7 +71,7 @@ const red = [
             20,
             25
         ],
-        "phonic": "caomeihong",
+        "phonic": "cǎo méi hóng",
         "type": "red",
         "name": "草莓红",
         "hex": "#d51419"
@@ -82,7 +82,7 @@ const red = [
             63,
             78
         ],
-        "phonic": "chahuahong",
+        "phonic": "chá huā hóng",
         "type": "red",
         "name": "茶花红",
         "hex": "#ee3f4e"
@@ -93,7 +93,7 @@ const red = [
             22,
             11
         ],
-        "phonic": "chenshahong",
+        "phonic": "chén shā",
         "type": "red",
         "name": "辰沙",
         "hex": "#86160b"
@@ -104,7 +104,7 @@ const red = [
             130,
             161
         ],
-        "phonic": "chenxihong",
+        "phonic": "chén xī hóng",
         "type": "red",
         "name": "晨曦红",
         "hex": "#ef82a1"
@@ -115,7 +115,7 @@ const red = [
             153,
             177
         ],
-        "phonic": "chuhehong",
+        "phonic": "chū hé hóng",
         "type": "red",
         "name": "初荷红",
         "hex": "#e799b1"
@@ -126,7 +126,7 @@ const red = [
             95,
             145
         ],
-        "phonic": "chuisihaitanghong",
+        "phonic": "chuí sī hǎi táng hóng",
         "type": "red",
         "name": "垂丝海棠红",
         "hex": "#ff5f91"
@@ -137,7 +137,7 @@ const red = [
             147,
             157
         ],
-        "phonic": "chunmeihong",
+        "phonic": "chūn méi hóng",
         "type": "red",
         "name": "春梅红",
         "hex": "#f0939d"
@@ -148,7 +148,7 @@ const red = [
             85,
             75
         ],
-        "phonic": "daimaohong",
+        "phonic": "dài mào hóng",
         "type": "red",
         "name": "玳瑁红",
         "hex": "#de554b"
@@ -159,7 +159,7 @@ const red = [
             4,
             52
         ],
-        "phonic": "dahong",
+        "phonic": "dà hóng",
         "type": "red",
         "name": "大红",
         "hex": "#ec0434"
@@ -170,7 +170,7 @@ const red = [
             42,
             10
         ],
-        "phonic": "danfanhong",
+        "phonic": "dān fán hóng",
         "type": "red",
         "name": "丹矾红",
         "hex": "#b92a0a"
@@ -181,7 +181,7 @@ const red = [
             124,
             142
         ],
-        "phonic": "danqianhong",
+        "phonic": "dàn qiàn hóng",
         "type": "red",
         "name": "淡茜红",
         "hex": "#e77c8e"
@@ -192,7 +192,7 @@ const red = [
             47,
             53
         ],
-        "phonic": "danshuhong",
+        "phonic": "dàn shū hóng",
         "type": "red",
         "name": "淡菽红",
         "hex": "#a42f35"
@@ -203,7 +203,7 @@ const red = [
             95,
             138
         ],
-        "phonic": "diaozhonghuahong",
+        "phonic": "diào zhōng huā hóng",
         "type": "red",
         "name": "吊钟花红",
         "hex": "#ce5f8a"
@@ -214,7 +214,7 @@ const red = [
             40,
             33
         ],
-        "phonic": "fanqiehong",
+        "phonic": "fān qié",
         "type": "red",
         "name": "番茄",
         "hex": "#c52821"
@@ -225,7 +225,7 @@ const red = [
             168,
             168
         ],
-        "phonic": "fenhong",
+        "phonic": "fěn hóng",
         "type": "red",
         "name": "粉红",
         "hex": "#f6a8a8"
@@ -236,7 +236,7 @@ const red = [
             155,
             172
         ],
-        "phonic": "fentuanhuahong",
+        "phonic": "fěn tuán huā hóng",
         "type": "red",
         "name": "粉团花红",
         "hex": "#ec9bac"
@@ -247,7 +247,7 @@ const red = [
             21,
             27
         ],
-        "phonic": "fengyehong",
+        "phonic": "fēng yè hóng",
         "type": "red",
         "name": "枫叶红",
         "hex": "#fc151b"
@@ -258,7 +258,7 @@ const red = [
             144,
             167
         ],
-        "phonic": "fengxianhuahong",
+        "phonic": "fèng xiān huā hóng",
         "type": "red",
         "name": "凤仙花红",
         "hex": "#e590a7"
@@ -269,7 +269,7 @@ const red = [
             177,
             206
         ],
-        "phonic": "furonghong",
+        "phonic": "fú róng hóng",
         "type": "red",
         "name": "芙蓉红",
         "hex": "#dfb1ce"
@@ -280,7 +280,7 @@ const red = [
             44,
             62
         ],
-        "phonic": "fupenzihong",
+        "phonic": "fù pén zǐ hóng",
         "type": "red",
         "name": "覆盆子红",
         "hex": "#d32c3e"
@@ -291,7 +291,7 @@ const red = [
             38,
             70
         ],
-        "phonic": "ganhong",
+        "phonic": "gàn hóng",
         "type": "red",
         "name": "绀红",
         "hex": "#772646"
@@ -302,7 +302,7 @@ const red = [
             44,
             56
         ],
-        "phonic": "gaolianghong",
+        "phonic": "gāo liáng hóng",
         "type": "red",
         "name": "高梁红",
         "hex": "#c02c38"
@@ -313,7 +313,7 @@ const red = [
             27,
             43
         ],
-        "phonic": "gongjinhong",
+        "phonic": "gōng jǐn hóng",
         "type": "red",
         "name": "宫锦红",
         "hex": "#a81b2b"
@@ -324,7 +324,7 @@ const red = [
             54,
             58
         ],
-        "phonic": "gouqihong",
+        "phonic": "gǒu qǐ hóng",
         "type": "red",
         "name": "枸杞红",
         "hex": "#be363a"
@@ -335,7 +335,7 @@ const red = [
             9,
             66
         ],
-        "phonic": "guaranghong",
+        "phonic": "guā ráng hóng",
         "type": "red",
         "name": "瓜瓤红",
         "hex": "#e70942"
@@ -346,7 +346,7 @@ const red = [
             138,
             124
         ],
-        "phonic": "guihong",
+        "phonic": "guì hóng",
         "type": "red",
         "name": "桂红",
         "hex": "#e28a7c"
@@ -357,7 +357,7 @@ const red = [
             81,
             114
         ],
-        "phonic": "haitanghong",
+        "phonic": "hǎi táng hóng",
         "type": "red",
         "name": "海棠红",
         "hex": "#ff5172"
@@ -368,7 +368,7 @@ const red = [
             153,
             216
         ],
-        "phonic": "handansehong",
+        "phonic": "hàn dàn sè",
         "type": "red",
         "name": "菡萏色",
         "hex": "#f599d8"
@@ -379,7 +379,7 @@ const red = [
             161,
             167
         ],
-        "phonic": "hehuanhong",
+        "phonic": "hé huān hóng",
         "type": "red",
         "name": "合欢红",
         "hex": "#f0a1a7"
@@ -390,7 +390,7 @@ const red = [
             18,
             36
         ],
-        "phonic": "hedinghong",
+        "phonic": "hè dǐng hóng",
         "type": "red",
         "name": "鹤顶红",
         "hex": "#cf1224"
@@ -401,7 +401,7 @@ const red = [
             173,
             176
         ],
-        "phonic": "honghui",
+        "phonic": "hóng huī",
         "type": "red",
         "name": "红灰",
         "hex": "#bdadb0"
@@ -412,7 +412,7 @@ const red = [
             78,
             108
         ],
-        "phonic": "hongshanbei",
+        "phonic": "hóng shàn bèi",
         "type": "red",
         "name": "红扇贝",
         "hex": "#bf4e6c"
@@ -423,7 +423,7 @@ const red = [
             26,
             46
         ],
-        "phonic": "jiguanhong",
+        "phonic": "jī guān hóng",
         "type": "red",
         "name": "鸡冠红",
         "hex": "#d11a2e"
@@ -434,7 +434,7 @@ const red = [
             157,
             178
         ],
-        "phonic": "jiangdouhong",
+        "phonic": "jiāng dòu hóng",
         "type": "red",
         "name": "豇豆红",
         "hex": "#ec9db2"
@@ -445,7 +445,7 @@ const red = [
             3,
             18
         ],
-        "phonic": "jianghong",
+        "phonic": "jiàng hóng",
         "type": "red",
         "name": "绛红",
         "hex": "#5e0312"
@@ -456,7 +456,7 @@ const red = [
             88,
             136
         ],
-        "phonic": "jiaohong",
+        "phonic": "jiāo hóng",
         "type": "red",
         "name": "蕉红",
         "hex": "#f65888"
@@ -467,7 +467,7 @@ const red = [
             28,
             15
         ],
-        "phonic": "jinhong",
+        "phonic": "jīn hóng",
         "type": "red",
         "name": "矜红",
         "hex": "#b41c0f"
@@ -478,7 +478,7 @@ const red = [
             53,
             84
         ],
-        "phonic": "jinkuihong",
+        "phonic": "jǐn kuí hóng",
         "type": "red",
         "name": "锦葵红",
         "hex": "#c03554"
@@ -489,7 +489,7 @@ const red = [
             24,
             62
         ],
-        "phonic": "jixueshihong",
+        "phonic": "jī xuè shí hóng",
         "type": "red",
         "name": "鸡血石红",
         "hex": "#ce183e"
@@ -500,7 +500,7 @@ const red = [
             102,
             104
         ],
-        "phonic": "shanhong",
+        "phonic": "shǎn hóng",
         "type": "red",
         "name": "闪红",
         "hex": "#ff6668"
@@ -511,7 +511,7 @@ const red = [
             143,
             180
         ],
-        "phonic": "shaohong",
+        "phonic": "sháo hóng",
         "type": "red",
         "name": "韶红",
         "hex": "#eb8fb4"
@@ -522,7 +522,7 @@ const red = [
             154,
             155
         ],
-        "phonic": "shehong",
+        "phonic": "shé hóng",
         "type": "red",
         "name": "舌红",
         "hex": "#da9a9b"
@@ -533,7 +533,7 @@ const red = [
             201,
             206
         ],
-        "phonic": "shiruihong",
+        "phonic": "shí ruǐ hóng",
         "type": "red",
         "name": "石蕊红",
         "hex": "#f0c9ce"
@@ -544,7 +544,7 @@ const red = [
             172,
             220
         ],
-        "phonic": "shimeizhuanghong",
+        "phonic": "shì méi zhuāng",
         "type": "red",
         "name": "试梅妆",
         "hex": "#feacdc"
@@ -555,7 +555,7 @@ const red = [
             74,
             17
         ],
-        "phonic": "shihong",
+        "phonic": "shì hóng",
         "type": "red",
         "name": "柿红",
         "hex": "#ff4a11"
@@ -566,7 +566,7 @@ const red = [
             26,
             46
         ],
-        "phonic": "shuhong",
+        "phonic": "shǔ hóng",
         "type": "red",
         "name": "曙红",
         "hex": "#a91a2e"
@@ -577,7 +577,7 @@ const red = [
             40,
             71
         ],
-        "phonic": "shuanghong",
+        "phonic": "shuāng hóng",
         "type": "red",
         "name": "双红",
         "hex": "#cb2847"
@@ -588,7 +588,7 @@ const red = [
             135,
             199
         ],
-        "phonic": "shuihong",
+        "phonic": "shuǐ hóng",
         "type": "red",
         "name": "水红",
         "hex": "#ff87c7"
@@ -599,7 +599,7 @@ const red = [
             93,
             126
         ],
-        "phonic": "taohong",
+        "phonic": "táo hóng",
         "type": "red",
         "name": "桃红",
         "hex": "#cf5d7e"
@@ -610,7 +610,7 @@ const red = [
             88,
             149
         ],
-        "phonic": "tihong",
+        "phonic": "tí hóng",
         "type": "red",
         "name": "啼红",
         "hex": "#ee5895"
@@ -621,7 +621,7 @@ const red = [
             43,
             83
         ],
-        "phonic": "tiancaihong",
+        "phonic": "tián cài hóng",
         "type": "red",
         "name": "甜菜红",
         "hex": "#c02b53"
@@ -632,7 +632,7 @@ const red = [
             36,
             3
         ],
-        "phonic": "tieshuihong",
+        "phonic": "tiě shuǐ hóng",
         "type": "red",
         "name": "铁水红",
         "hex": "#af2403"
@@ -643,7 +643,7 @@ const red = [
             33,
             30
         ],
-        "phonic": "tinghong",
+        "phonic": "tīng hóng",
         "type": "red",
         "name": "鞓红",
         "hex": "#8d211e"
@@ -654,7 +654,7 @@ const red = [
             222,
             244
         ],
-        "phonic": "tuihong",
+        "phonic": "tuì hóng",
         "type": "red",
         "name": "退红",
         "hex": "#f7def4"
@@ -665,7 +665,7 @@ const red = [
             73,
             74
         ],
-        "phonic": "jinghong",
+        "phonic": "jīng hóng",
         "type": "red",
         "name": "京红",
         "hex": "#99494a"
@@ -676,7 +676,7 @@ const red = [
             110,
             2
         ],
-        "phonic": "juhong",
+        "phonic": "jú hóng",
         "type": "red",
         "name": "橘红",
         "hex": "#fc6e02"
@@ -687,7 +687,7 @@ const red = [
             38,
             27
         ],
-        "phonic": "lichunhong",
+        "phonic": "lì chūn hóng",
         "type": "red",
         "name": "丽春红",
         "hex": "#ec261b"
@@ -698,7 +698,7 @@ const red = [
             41,
             48
         ],
-        "phonic": "lisehong",
+        "phonic": "lì sè",
         "type": "red",
         "name": "荔色",
         "hex": "#922930"
@@ -709,7 +709,7 @@ const red = [
             139,
             121
         ],
-        "phonic": "lianghong",
+        "phonic": "liàng hóng",
         "type": "red",
         "name": "亮红",
         "hex": "#d88b79"
@@ -720,7 +720,7 @@ const red = [
             25,
             101
         ],
-        "phonic": "liaosuihong",
+        "phonic": "liǎo suì hóng",
         "type": "red",
         "name": "蓼穗红",
         "hex": "#bb1965"
@@ -731,7 +731,7 @@ const red = [
             28,
             53
         ],
-        "phonic": "linghong",
+        "phonic": "líng hóng",
         "type": "red",
         "name": "菱红",
         "hex": "#b41c35"
@@ -742,7 +742,7 @@ const red = [
             8,
             8
         ],
-        "phonic": "liuhuahong",
+        "phonic": "liú huā hóng",
         "type": "red",
         "name": "榴花红",
         "hex": "#f40808"
@@ -753,7 +753,7 @@ const red = [
             64,
             86
         ],
-        "phonic": "liuzihong",
+        "phonic": "liú zǐ hóng",
         "type": "red",
         "name": "榴子红",
         "hex": "#a64056"
@@ -764,7 +764,7 @@ const red = [
             77,
             147
         ],
-        "phonic": "longzuihuahong",
+        "phonic": "lóng zuǐ huā hóng",
         "type": "red",
         "name": "龙嘴花红",
         "hex": "#c24d93"
@@ -775,7 +775,7 @@ const red = [
             71,
             19
         ],
-        "phonic": "luoxiahong",
+        "phonic": "luò xiá hóng",
         "type": "red",
         "name": "落霞红",
         "hex": "#cf4713"
@@ -786,7 +786,7 @@ const red = [
             70,
             98
         ],
-        "phonic": "luoyehong",
+        "phonic": "luò yè hóng",
         "type": "red",
         "name": "落叶红",
         "hex": "#cf4662"
@@ -797,7 +797,7 @@ const red = [
             203,
             231
         ],
-        "phonic": "luoyingdanfenhong",
+        "phonic": "luò yīng dàn fěn",
         "type": "red",
         "name": "落英淡粉",
         "hex": "#f6cbe7"
@@ -808,7 +808,7 @@ const red = [
             84,
             90
         ],
-        "phonic": "manjianghong",
+        "phonic": "mǎn jiāng hóng",
         "type": "red",
         "name": "满江红",
         "hex": "#a6545a"
@@ -819,7 +819,7 @@ const red = [
             130,
             168
         ],
-        "phonic": "meiguifenhong",
+        "phonic": "méi guī fěn",
         "type": "red",
         "name": "玫瑰粉",
         "hex": "#e282a8"
@@ -830,7 +830,7 @@ const red = [
             97,
             140
         ],
-        "phonic": "meiguihong",
+        "phonic": "méi guī hóng",
         "type": "red",
         "name": "玫瑰红",
         "hex": "#d4618c"
@@ -841,7 +841,7 @@ const red = [
             90,
             102
         ],
-        "phonic": "meijianghong",
+        "phonic": "méi jiàng hóng",
         "type": "red",
         "name": "莓酱红",
         "hex": "#c45a66"
@@ -852,7 +852,7 @@ const red = [
             107,
             100
         ],
-        "phonic": "mihong",
+        "phonic": "mǐ hóng",
         "type": "red",
         "name": "米红",
         "hex": "#cc6b64"
@@ -863,7 +863,7 @@ const red = [
             141,
             137
         ],
-        "phonic": "moxueyahong",
+        "phonic": "mò xuè yá",
         "type": "red",
         "name": "墨血牙",
         "hex": "#bd8d89"
@@ -874,7 +874,7 @@ const red = [
             113,
             99
         ],
-        "phonic": "muhong",
+        "phonic": "mù hóng",
         "type": "red",
         "name": "木红",
         "hex": "#b37163"
@@ -885,7 +885,7 @@ const red = [
             63,
             125
         ],
-        "phonic": "nenlinghong",
+        "phonic": "nèn líng hóng",
         "type": "red",
         "name": "嫩菱红",
         "hex": "#df3f7d"
@@ -896,7 +896,7 @@ const red = [
             16,
             46
         ],
-        "phonic": "putaojiuhong",
+        "phonic": "pú táo jiǔ hóng",
         "type": "red",
         "name": "葡萄酒红",
         "hex": "#63102e"
@@ -907,7 +907,7 @@ const red = [
             6,
             9
         ],
-        "phonic": "qiansehong",
+        "phonic": "qiàn sè",
         "type": "red",
         "name": "茜色",
         "hex": "#790609"
@@ -918,7 +918,7 @@ const red = [
             26,
             33
         ],
-        "phonic": "qingtinghong",
+        "phonic": "qīng tíng hóng",
         "type": "red",
         "name": "蜻蜓红",
         "hex": "#d91a21"
@@ -929,7 +929,7 @@ const red = [
             101,
             116
         ],
-        "phonic": "quhong",
+        "phonic": "qǔ hóng",
         "type": "red",
         "name": "曲红",
         "hex": "#e56574"
@@ -940,7 +940,7 @@ const red = [
             90,
             85
         ],
-        "phonic": "rouhong",
+        "phonic": "ròu hóng",
         "type": "red",
         "name": "肉红",
         "hex": "#eb5a55"
@@ -951,7 +951,7 @@ const red = [
             85,
             106
         ],
-        "phonic": "shanchahong",
+        "phonic": "shān chá hóng",
         "type": "red",
         "name": "山茶红",
         "hex": "#ed556a"
@@ -962,7 +962,7 @@ const red = [
             124,
             135
         ],
-        "phonic": "shanlidouhong",
+        "phonic": "shān lí dòu hóng",
         "type": "red",
         "name": "山黎豆红",
         "hex": "#c27c87"
@@ -973,7 +973,7 @@ const red = [
             103,
             186
         ],
-        "phonic": "shanyinghong",
+        "phonic": "shān yīng hóng",
         "type": "red",
         "name": "山樱红",
         "hex": "#e767ba"
@@ -984,7 +984,7 @@ const red = [
             56,
             54
         ],
-        "phonic": "shanhuhong",
+        "phonic": "shān hú hóng",
         "type": "red",
         "name": "珊瑚红",
         "hex": "#963836"
@@ -995,7 +995,7 @@ const red = [
             154,
             158
         ],
-        "phonic": "tuosehong",
+        "phonic": "tuó sè",
         "type": "red",
         "name": "酡色",
         "hex": "#db9a9e"
@@ -1006,7 +1006,7 @@ const red = [
             35,
             43
         ],
-        "phonic": "wuhong",
+        "phonic": "wū hóng",
         "type": "red",
         "name": "乌红",
         "hex": "#70232b"
@@ -1017,7 +1017,7 @@ const red = [
             61,
             69
         ],
-        "phonic": "wuhuaguohong",
+        "phonic": "wú huā guǒ hóng",
         "type": "red",
         "name": "无花果红",
         "hex": "#a23d45"
@@ -1028,7 +1028,7 @@ const red = [
             75,
             42
         ],
-        "phonic": "xiyanghong",
+        "phonic": "xī yáng hóng",
         "type": "red",
         "name": "夕阳红",
         "hex": "#ff4b2a"
@@ -1039,7 +1039,7 @@ const red = [
             44,
             101
         ],
-        "phonic": "xidanhong",
+        "phonic": "xǐ dàn hóng",
         "type": "red",
         "name": "喜蛋红",
         "hex": "#ed2c65"
@@ -1050,7 +1050,7 @@ const red = [
             27,
             42
         ],
-        "phonic": "xiancaihong",
+        "phonic": "xiàn cài hóng",
         "type": "red",
         "name": "苋菜红",
         "hex": "#a51b2a"
@@ -1061,7 +1061,7 @@ const red = [
             71,
             48
         ],
-        "phonic": "xiekehong",
+        "phonic": "xiè ké hóng",
         "type": "red",
         "name": "蟹壳红",
         "hex": "#d24730"
@@ -1072,7 +1072,7 @@ const red = [
             54,
             44
         ],
-        "phonic": "xinghong",
+        "phonic": "xīng hóng",
         "type": "red",
         "name": "猩红",
         "hex": "#c3362c"
@@ -1083,7 +1083,7 @@ const red = [
             189,
             148
         ],
-        "phonic": "xingzihong",
+        "phonic": "xìng zǐ hóng",
         "type": "red",
         "name": "杏子红",
         "hex": "#fcbd94"
@@ -1094,7 +1094,7 @@ const red = [
             60,
             55
         ],
-        "phonic": "xiuhong",
+        "phonic": "xiù hóng",
         "type": "red",
         "name": "锈红",
         "hex": "#af3c37"
@@ -1105,7 +1105,7 @@ const red = [
             24,
             23
         ],
-        "phonic": "xuehong",
+        "phonic": "xuè hóng",
         "type": "red",
         "name": "血红",
         "hex": "#681817"
@@ -1116,7 +1116,7 @@ const red = [
             219,
             203
         ],
-        "phonic": "xueyahong",
+        "phonic": "xuè yá",
         "type": "red",
         "name": "血牙",
         "hex": "#ffdbcb"
@@ -1127,7 +1127,7 @@ const red = [
             135,
             156
         ],
-        "phonic": "yanzhihong",
+        "phonic": "yān zhī",
         "type": "red",
         "name": "胭脂",
         "hex": "#e3879c"
@@ -1138,7 +1138,7 @@ const red = [
             78,
             84
         ],
-        "phonic": "yanhong",
+        "phonic": "yān hóng",
         "type": "red",
         "name": "烟红",
         "hex": "#894e54"
@@ -1149,7 +1149,7 @@ const red = [
             62,
             170
         ],
-        "phonic": "yanhong",
+        "phonic": "yān hóng",
         "type": "red",
         "name": "嫣红",
         "hex": "#de3eaa"
@@ -1160,7 +1160,7 @@ const red = [
             138,
             137
         ],
-        "phonic": "yangfeisehong",
+        "phonic": "yáng fēi sè",
         "type": "red",
         "name": "杨妃色",
         "hex": "#e58a89"
@@ -1171,7 +1171,7 @@ const red = [
             68,
             186
         ],
-        "phonic": "yeqiangweihong",
+        "phonic": "yě qiáng wēi hóng",
         "type": "red",
         "name": "野蔷薇红",
         "hex": "#fb44ba"
@@ -1182,7 +1182,7 @@ const red = [
             73,
             173
         ],
-        "phonic": "yinianhong",
+        "phonic": "yì niǎn hóng",
         "type": "red",
         "name": "一捻红",
         "hex": "#ef49ad"
@@ -1193,7 +1193,7 @@ const red = [
             195,
             250
         ],
-        "phonic": "qihong",
+        "phonic": "qī hóng",
         "type": "red",
         "name": "欹红",
         "hex": "#f4c3fa"
@@ -1204,7 +1204,7 @@ const red = [
             4,
             10
         ],
-        "phonic": "yanhong",
+        "phonic": "yān hóng",
         "type": "red",
         "name": "殷红",
         "hex": "#5d040a"
@@ -1215,7 +1215,7 @@ const red = [
             114,
             151
         ],
-        "phonic": "yinhong",
+        "phonic": "yín hóng",
         "type": "red",
         "name": "银红",
         "hex": "#da7297"
@@ -1226,7 +1226,7 @@ const red = [
             41,
             32
         ],
-        "phonic": "yinzhuhong",
+        "phonic": "yín zhū",
         "type": "red",
         "name": "银朱",
         "hex": "#d12920"
@@ -1237,7 +1237,7 @@ const red = [
             152,
             162
         ],
-        "phonic": "yinhonghui",
+        "phonic": "yǐn hóng huī",
         "type": "red",
         "name": "隐红灰",
         "hex": "#b698a2"
@@ -1248,7 +1248,7 @@ const red = [
             54,
             39
         ],
-        "phonic": "yingsuhong",
+        "phonic": "yīng sù hóng",
         "type": "red",
         "name": "罂粟红",
         "hex": "#e03627"
@@ -1259,7 +1259,7 @@ const red = [
             20,
             31
         ],
-        "phonic": "yingtaohong",
+        "phonic": "yīng táo hóng",
         "type": "red",
         "name": "樱桃红",
         "hex": "#c4141f"
@@ -1270,7 +1270,7 @@ const red = [
             108,
             195
         ],
-        "phonic": "yinghong",
+        "phonic": "yìng hóng",
         "type": "red",
         "name": "硬红",
         "hex": "#fc6cc3"
@@ -1281,7 +1281,7 @@ const red = [
             15,
             7
         ],
-        "phonic": "yujinhong",
+        "phonic": "yú jìn hóng",
         "type": "red",
         "name": "余烬红",
         "hex": "#2d0f07"
@@ -1292,7 +1292,7 @@ const red = [
             54,
             81
         ],
-        "phonic": "yusaihong",
+        "phonic": "yú sāi hóng",
         "type": "red",
         "name": "鱼鳃红",
         "hex": "#c23651"
@@ -1303,7 +1303,7 @@ const red = [
             115,
             121
         ],
-        "phonic": "yufenhong",
+        "phonic": "yù fěn hóng",
         "type": "red",
         "name": "玉粉红",
         "hex": "#ba7379"
@@ -1314,7 +1314,7 @@ const red = [
             72,
             81
         ],
-        "phonic": "yuhong",
+        "phonic": "yù hóng",
         "type": "red",
         "name": "玉红",
         "hex": "#c04851"
@@ -1325,7 +1325,7 @@ const red = [
             60,
             162
         ],
-        "phonic": "yuanchunhong",
+        "phonic": "yuàn chūn hóng",
         "type": "red",
         "name": "怨春红",
         "hex": "#db3ca2"
@@ -1336,7 +1336,7 @@ const red = [
             87,
             109
         ],
-        "phonic": "yuejihong",
+        "phonic": "yuè jì hóng",
         "type": "red",
         "name": "月季红",
         "hex": "#ce576d"
@@ -1347,7 +1347,7 @@ const red = [
             24,
             36
         ],
-        "phonic": "zaohong",
+        "phonic": "zǎo hóng",
         "type": "red",
         "name": "枣红",
         "hex": "#7c1824"
@@ -1358,7 +1358,7 @@ const red = [
             99,
             219
         ],
-        "phonic": "zhaodianhong",
+        "phonic": "zhào diàn hóng",
         "type": "red",
         "name": "照殿红",
         "hex": "#fe63db"
@@ -1369,7 +1369,7 @@ const red = [
             104,
             148
         ],
-        "phonic": "zhihong",
+        "phonic": "zhī hóng",
         "type": "red",
         "name": "脂红",
         "hex": "#eb6894"
@@ -1380,7 +1380,7 @@ const red = [
             83,
             207
         ],
-        "phonic": "zhizhuhong",
+        "phonic": "zhí zhú hóng",
         "type": "red",
         "name": "踯躅红",
         "hex": "#e553cf"
@@ -1391,7 +1391,7 @@ const red = [
             22,
             2
         ],
-        "phonic": "zhuhong",
+        "phonic": "zhū hóng",
         "type": "red",
         "name": "朱红",
         "hex": "#f71602"
@@ -1402,7 +1402,7 @@ const red = [
             34,
             40
         ],
-        "phonic": "zhushahong",
+        "phonic": "zhū shā",
         "type": "red",
         "name": "朱砂",
         "hex": "#a52228"
@@ -1413,7 +1413,7 @@ const red = [
             43,
             44
         ],
-        "phonic": "zhuyingyaohong",
+        "phonic": "zhú yǐng yáo hóng",
         "type": "red",
         "name": "烛影揺红",
         "hex": "#c72b2c"
@@ -1424,7 +1424,7 @@ const red = [
             54,
             46
         ],
-        "phonic": "zhuanhong",
+        "phonic": "zhuān hóng",
         "type": "red",
         "name": "砖红",
         "hex": "#b9362e"
@@ -1435,7 +1435,7 @@ const red = [
             164,
             226
         ],
-        "phonic": "zhuifenhong",
+        "phonic": "zhuì fěn hóng",
         "type": "red",
         "name": "坠粉红",
         "hex": "#e0a4e2"
@@ -1446,7 +1446,7 @@ const red = [
             123,
             183
         ],
-        "phonic": "zhuihong",
+        "phonic": "zhuì hóng",
         "type": "red",
         "name": "缀红",
         "hex": "#ed7bb7"
@@ -1457,7 +1457,7 @@ const red = [
             44,
             122
         ],
-        "phonic": "zijinghong",
+        "phonic": "zǐ jīng hóng",
         "type": "red",
         "name": "紫荆红",
         "hex": "#ef2c7a"
@@ -1468,7 +1468,7 @@ const red = [
             113,
             139
         ],
-        "phonic": "cujiangcaohong",
+        "phonic": "cù jiàng cǎo hóng",
         "type": "red",
         "name": "酢酱草红",
         "hex": "#c5718b"
@@ -1479,7 +1479,7 @@ const red = [
             5,
             4
         ],
-        "phonic": "zonghong",
+        "phonic": "zōng hóng",
         "type": "red",
         "name": "棕红",
         "hex": "#3d0504"
@@ -1490,7 +1490,7 @@ const red = [
             145,
             159
         ],
-        "phonic": "qianmeihong",
+        "phonic": "qiǎn méi hóng",
         "type": "red",
         "name": "浅梅红",
         "hex": "#d7919f"
@@ -1501,7 +1501,7 @@ const red = [
             65,
             93
         ],
-        "phonic": "shenmeihong",
+        "phonic": "shēn méi hóng",
         "type": "red",
         "name": "深梅红",
         "hex": "#a7415d"

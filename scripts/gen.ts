@@ -35,7 +35,13 @@ function jsonToTs(json: { name: string, hex: string }[], type: keyof typeof COLO
             ...color,
         }
     })
+
     fs.writeFileSync(`./src/colors/${type}.ts`, `export const ${type} = ${JSON.stringify(colors, null, 4)}`)
+
+    colors.forEach(color => {
+        color.phonic = pinyin(color.name)
+    })
+
     fs.writeFileSync(`./res/webview/${type}.js`, `const ${type} = ${JSON.stringify(colors, null, 4)}`)
 }
 

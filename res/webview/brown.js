@@ -5,7 +5,7 @@ const brown = [
             147,
             148
         ],
-        "phonic": "aihezong",
+        "phonic": "ài hè",
         "type": "brown",
         "name": "艾褐",
         "hex": "#9c9394"
@@ -16,7 +16,7 @@ const brown = [
             38,
             32
         ],
-        "phonic": "antuozong",
+        "phonic": "àn tuó zōng",
         "type": "brown",
         "name": "暗驼棕",
         "hex": "#592620"
@@ -27,7 +27,7 @@ const brown = [
             96,
             53
         ],
-        "phonic": "binlangzong",
+        "phonic": "bīn láng zōng",
         "type": "brown",
         "name": "槟榔棕",
         "hex": "#996035"
@@ -38,7 +38,7 @@ const brown = [
             61,
             33
         ],
-        "phonic": "chahezong",
+        "phonic": "chá hè",
         "type": "brown",
         "name": "茶褐",
         "hex": "#5d3d21"
@@ -49,7 +49,7 @@ const brown = [
             97,
             60
         ],
-        "phonic": "chenxiangzong",
+        "phonic": "chén xiāng",
         "type": "brown",
         "name": "沉香",
         "hex": "#95613c"
@@ -60,7 +60,7 @@ const brown = [
             83,
             80
         ],
-        "phonic": "chenxianghezong",
+        "phonic": "chén xiāng hè",
         "type": "brown",
         "name": "沉香褐",
         "hex": "#675350"
@@ -71,7 +71,7 @@ const brown = [
             210,
             208
         ],
-        "phonic": "congbaihezong",
+        "phonic": "cōng bái hè",
         "type": "brown",
         "name": "葱白褐",
         "hex": "#ced2d0"
@@ -82,7 +82,7 @@ const brown = [
             61,
             32
         ],
-        "phonic": "dandoushazong",
+        "phonic": "dàn dòu shā",
         "type": "brown",
         "name": "淡豆沙",
         "hex": "#873d20"
@@ -93,7 +93,7 @@ const brown = [
             88,
             48
         ],
-        "phonic": "dankafeizong",
+        "phonic": "dàn kā fēi",
         "type": "brown",
         "name": "淡咖啡",
         "hex": "#945830"
@@ -104,7 +104,7 @@ const brown = [
             126,
             80
         ],
-        "phonic": "danzhezong",
+        "phonic": "dàn zhě",
         "type": "brown",
         "name": "淡赭",
         "hex": "#bd7e50"
@@ -115,7 +115,7 @@ const brown = [
             117,
             99
         ],
-        "phonic": "diaoyezong",
+        "phonic": "diāo yè zōng",
         "type": "brown",
         "name": "凋叶棕",
         "hex": "#a47563"
@@ -126,7 +126,7 @@ const brown = [
             109,
             100
         ],
-        "phonic": "dingxianghezong",
+        "phonic": "dīng xiāng hè",
         "type": "brown",
         "name": "丁香褐",
         "hex": "#8f6d64"
@@ -137,7 +137,7 @@ const brown = [
             55,
             31
         ],
-        "phonic": "dingxiangzong",
+        "phonic": "dīng xiāng zōng",
         "type": "brown",
         "name": "丁香棕",
         "hex": "#71371f"
@@ -148,7 +148,7 @@ const brown = [
             84,
             63
         ],
-        "phonic": "douqinghezong",
+        "phonic": "dòu qīng hè",
         "type": "brown",
         "name": "豆青褐",
         "hex": "#66543f"
@@ -159,7 +159,7 @@ const brown = [
             61,
             36
         ],
-        "phonic": "doushazong",
+        "phonic": "dòu shā",
         "type": "brown",
         "name": "豆沙",
         "hex": "#873d24"
@@ -170,7 +170,7 @@ const brown = [
             109,
             107
         ],
-        "phonic": "fenzong",
+        "phonic": "fěn zōng",
         "type": "brown",
         "name": "粉棕",
         "hex": "#9d6d6b"
@@ -181,7 +181,7 @@ const brown = [
             72,
             69
         ],
-        "phonic": "gutongzong",
+        "phonic": "gǔ tóng",
         "type": "brown",
         "name": "古铜",
         "hex": "#574845"
@@ -192,7 +192,7 @@ const brown = [
             55,
             26
         ],
-        "phonic": "gutonghezong",
+        "phonic": "gǔ tóng hè",
         "type": "brown",
         "name": "古铜褐",
         "hex": "#5c371a"
@@ -203,7 +203,7 @@ const brown = [
             109,
             69
         ],
-        "phonic": "guipidanzong",
+        "phonic": "guì pí dàn zōng",
         "type": "brown",
         "name": "桂皮淡棕",
         "hex": "#a76d45"
@@ -214,7 +214,7 @@ const brown = [
             22,
             19
         ],
-        "phonic": "hongdoushazong",
+        "phonic": "hóng dòu shā",
         "type": "brown",
         "name": "红豆沙",
         "hex": "#531613"
@@ -225,7 +225,7 @@ const brown = [
             41,
             5
         ],
-        "phonic": "hushuihezong",
+        "phonic": "hú shuǐ hè",
         "type": "brown",
         "name": "湖水褐",
         "hex": "#5f2905"
@@ -236,7 +236,7 @@ const brown = [
             131,
             96
         ],
-        "phonic": "huangzong",
+        "phonic": "huáng zōng",
         "type": "brown",
         "name": "黄棕",
         "hex": "#ab8360"
@@ -247,7 +247,7 @@ const brown = [
             106,
             76
         ],
-        "phonic": "huonizong",
+        "phonic": "huǒ ní zōng",
         "type": "brown",
         "name": "火泥棕",
         "hex": "#ab6a4c"
@@ -258,7 +258,7 @@ const brown = [
             37,
             35
         ],
-        "phonic": "huoshanzong",
+        "phonic": "huǒ shān zōng",
         "type": "brown",
         "name": "火山棕",
         "hex": "#482523"
@@ -269,7 +269,7 @@ const brown = [
             48,
             32
         ],
-        "phonic": "huoyanzong",
+        "phonic": "huǒ yán zōng",
         "type": "brown",
         "name": "火岩棕",
         "hex": "#863020"
@@ -280,7 +280,7 @@ const brown = [
             105,
             70
         ],
-        "phonic": "jizong",
+        "phonic": "jǐ zōng",
         "type": "brown",
         "name": "麂棕",
         "hex": "#af6946"
@@ -291,7 +291,7 @@ const brown = [
             0,
             0
         ],
-        "phonic": "jiangchahezong",
+        "phonic": "jiàng chá hè",
         "type": "brown",
         "name": "酱茶褐",
         "hex": "#240000"
@@ -302,7 +302,7 @@ const brown = [
             80,
             95
         ],
-        "phonic": "jiaohezong",
+        "phonic": "jiāo hè",
         "type": "brown",
         "name": "椒褐",
         "hex": "#6f505f"
@@ -313,7 +313,7 @@ const brown = [
             48,
             42
         ],
-        "phonic": "jiaochazong",
+        "phonic": "jiāo chá",
         "type": "brown",
         "name": "燋茶",
         "hex": "#3f302a"
@@ -324,7 +324,7 @@ const brown = [
             147,
             107
         ],
-        "phonic": "jinchahezong",
+        "phonic": "jīn chá hè",
         "type": "brown",
         "name": "金茶褐",
         "hex": "#b0936b"
@@ -335,7 +335,7 @@ const brown = [
             96,
             83
         ],
-        "phonic": "jinghezong",
+        "phonic": "jīng hè",
         "type": "brown",
         "name": "荆褐",
         "hex": "#636053"
@@ -346,7 +346,7 @@ const brown = [
             101,
             26
         ],
-        "phonic": "kafeizong",
+        "phonic": "kā fēi",
         "type": "brown",
         "name": "咖啡",
         "hex": "#c1651a"
@@ -357,7 +357,7 @@ const brown = [
             61,
             33
         ],
-        "phonic": "kesezong",
+        "phonic": "ké sè",
         "type": "brown",
         "name": "壳色",
         "hex": "#5c3d21"
@@ -368,7 +368,7 @@ const brown = [
             43,
             28
         ],
-        "phonic": "kekezong",
+        "phonic": "kě kě zōng",
         "type": "brown",
         "name": "可可棕",
         "hex": "#652b1c"
@@ -379,7 +379,7 @@ const brown = [
             83,
             82
         ],
-        "phonic": "kuzhuhezong",
+        "phonic": "kū zhú hè",
         "type": "brown",
         "name": "枯竹褐",
         "hex": "#675352"
@@ -390,7 +390,7 @@ const brown = [
             210,
             211
         ],
-        "phonic": "likezong",
+        "phonic": "lì ké",
         "type": "brown",
         "name": "栗壳",
         "hex": "#ced2d3"
@@ -401,7 +401,7 @@ const brown = [
             30,
             25
         ],
-        "phonic": "lizong",
+        "phonic": "lì zōng",
         "type": "brown",
         "name": "栗棕",
         "hex": "#5c1e19"
@@ -412,7 +412,7 @@ const brown = [
             57,
             49
         ],
-        "phonic": "sunpizong",
+        "phonic": "sǔn pí zōng",
         "type": "brown",
         "name": "笋皮棕",
         "hex": "#523931"
@@ -423,7 +423,7 @@ const brown = [
             88,
             51
         ],
-        "phonic": "lujiaozong",
+        "phonic": "lù jiǎo zōng",
         "type": "brown",
         "name": "鹿角棕",
         "hex": "#945833"
@@ -434,7 +434,7 @@ const brown = [
             52,
             35
         ],
-        "phonic": "lupihezong",
+        "phonic": "lù pí hè",
         "type": "brown",
         "name": "鹿皮褐",
         "hex": "#673423"
@@ -445,7 +445,7 @@ const brown = [
             126,
             73
         ],
-        "phonic": "luohanguozong",
+        "phonic": "luó hàn guǒ",
         "type": "brown",
         "name": "罗汉果",
         "hex": "#bd7e49"
@@ -456,7 +456,7 @@ const brown = [
             117,
             99
         ],
-        "phonic": "luoyezong",
+        "phonic": "luò yè zōng",
         "type": "brown",
         "name": "落叶棕",
         "hex": "#a47563"
@@ -467,7 +467,7 @@ const brown = [
             68,
             22
         ],
-        "phonic": "mangguozong",
+        "phonic": "máng guǒ zōng",
         "type": "brown",
         "name": "芒果棕",
         "hex": "#954416"
@@ -478,7 +478,7 @@ const brown = [
             54,
             30
         ],
-        "phonic": "misezong",
+        "phonic": "mǐ sè",
         "type": "brown",
         "name": "米色",
         "hex": "#72361e"
@@ -489,7 +489,7 @@ const brown = [
             84,
             62
         ],
-        "phonic": "moxiangzong",
+        "phonic": "mò xiāng",
         "type": "brown",
         "name": "墨缃",
         "hex": "#66543e"
@@ -500,7 +500,7 @@ const brown = [
             30,
             28
         ],
-        "phonic": "naizong",
+        "phonic": "nǎi zōng",
         "type": "brown",
         "name": "奶棕",
         "hex": "#471e1c"
@@ -511,7 +511,7 @@ const brown = [
             109,
             107
         ],
-        "phonic": "nijinzong",
+        "phonic": "ní jīn",
         "type": "brown",
         "name": "泥金",
         "hex": "#9d6d6b"
@@ -522,7 +522,7 @@ const brown = [
             72,
             69
         ],
-        "phonic": "niurongzong",
+        "phonic": "niú róng",
         "type": "brown",
         "name": "牛绒",
         "hex": "#574845"
@@ -533,7 +533,7 @@ const brown = [
             55,
             26
         ],
-        "phonic": "ousihezong",
+        "phonic": "ǒu sī hè",
         "type": "brown",
         "name": "藕丝褐",
         "hex": "#5c371a"
@@ -544,7 +544,7 @@ const brown = [
             109,
             69
         ],
-        "phonic": "putaohezong",
+        "phonic": "pú táo hè",
         "type": "brown",
         "name": "葡萄褐",
         "hex": "#a76d45"
@@ -555,7 +555,7 @@ const brown = [
             22,
             19
         ],
-        "phonic": "qianhuangzong",
+        "phonic": "qiǎn huáng zōng",
         "type": "brown",
         "name": "浅黄棕",
         "hex": "#531613"
@@ -566,7 +566,7 @@ const brown = [
             41,
             5
         ],
-        "phonic": "qianjinghezong",
+        "phonic": "qiǎn jīng hè",
         "type": "brown",
         "name": "浅荆褐",
         "hex": "#5f2905"
@@ -577,7 +577,7 @@ const brown = [
             131,
             96
         ],
-        "phonic": "qiantuozong",
+        "phonic": "qiǎn tuó",
         "type": "brown",
         "name": "浅驼",
         "hex": "#ab8360"
@@ -588,7 +588,7 @@ const brown = [
             106,
             76
         ],
-        "phonic": "qianzonghui",
+        "phonic": "qiǎn zōng huī",
         "type": "brown",
         "name": "浅棕灰",
         "hex": "#ab6a4c"
@@ -599,7 +599,7 @@ const brown = [
             37,
             35
         ],
-        "phonic": "qiuchahezong",
+        "phonic": "qiū chá hè",
         "type": "brown",
         "name": "秋茶褐",
         "hex": "#482523"
@@ -610,7 +610,7 @@ const brown = [
             48,
             33
         ],
-        "phonic": "qiusezong",
+        "phonic": "qiū sè",
         "type": "brown",
         "name": "秋色",
         "hex": "#863021"
@@ -621,7 +621,7 @@ const brown = [
             91,
             8
         ],
-        "phonic": "shashisezong",
+        "phonic": "shā shí sè",
         "type": "brown",
         "name": "砂石色",
         "hex": "#c45b08"
@@ -632,7 +632,7 @@ const brown = [
             101,
             36
         ],
-        "phonic": "shanjihezong",
+        "phonic": "shān jī hè",
         "type": "brown",
         "name": "山鸡褐",
         "hex": "#986524"
@@ -643,7 +643,7 @@ const brown = [
             44,
             31
         ],
-        "phonic": "shenhezong",
+        "phonic": "shēn hè",
         "type": "brown",
         "name": "深褐",
         "hex": "#4c2c1f"
@@ -654,7 +654,7 @@ const brown = [
             161,
             155
         ],
-        "phonic": "shumaohezong",
+        "phonic": "shǔ máo hè",
         "type": "brown",
         "name": "鼠毛褐",
         "hex": "#a8a19b"
@@ -665,7 +665,7 @@ const brown = [
             68,
             65
         ],
-        "phonic": "tanhezong",
+        "phonic": "tán hè",
         "type": "brown",
         "name": "檀褐",
         "hex": "#524441"
@@ -676,7 +676,7 @@ const brown = [
             127,
             107
         ],
-        "phonic": "tanglihezong",
+        "phonic": "táng lí hè",
         "type": "brown",
         "name": "棠梨褐",
         "hex": "#af7f6b"
@@ -687,7 +687,7 @@ const brown = [
             35,
             34
         ],
-        "phonic": "tiezong",
+        "phonic": "tiě zōng",
         "type": "brown",
         "name": "铁棕",
         "hex": "#392322"
@@ -698,7 +698,7 @@ const brown = [
             95,
             65
         ],
-        "phonic": "tuohezong",
+        "phonic": "tuó hè",
         "type": "brown",
         "name": "驼褐",
         "hex": "#785f41"
@@ -709,7 +709,7 @@ const brown = [
             123,
             97
         ],
-        "phonic": "tuorongzong",
+        "phonic": "tuó róng",
         "type": "brown",
         "name": "驼绒",
         "hex": "#9f7b61"
@@ -720,7 +720,7 @@ const brown = [
             80,
             52
         ],
-        "phonic": "tuosezong",
+        "phonic": "tuó sè",
         "type": "brown",
         "name": "驼色",
         "hex": "#6f5034"
@@ -731,7 +731,7 @@ const brown = [
             73,
             46
         ],
-        "phonic": "tuorongzong",
+        "phonic": "tuó róng",
         "type": "brown",
         "name": "酡绒",
         "hex": "#9f492e"
@@ -742,7 +742,7 @@ const brown = [
             71,
             59
         ],
-        "phonic": "xiangzizong",
+        "phonic": "xiàng zǐ zōng",
         "type": "brown",
         "name": "橡子棕",
         "hex": "#7c473b"
@@ -753,7 +753,7 @@ const brown = [
             77,
             34
         ],
-        "phonic": "yanshizong",
+        "phonic": "yán shí zōng",
         "type": "brown",
         "name": "岩石棕",
         "hex": "#964d22"
@@ -764,7 +764,7 @@ const brown = [
             57,
             25
         ],
-        "phonic": "yekezong",
+        "phonic": "yē ké zōng",
         "type": "brown",
         "name": "椰壳棕",
         "hex": "#803919"
@@ -775,7 +775,7 @@ const brown = [
             105,
             77
         ],
-        "phonic": "guipizong",
+        "phonic": "guì pí zōng",
         "type": "brown",
         "name": "桂皮棕",
         "hex": "#a9694d"
@@ -786,7 +786,7 @@ const brown = [
             188,
             166
         ],
-        "phonic": "yinhezong",
+        "phonic": "yín hè",
         "type": "brown",
         "name": "银褐",
         "hex": "#c1bca6"
@@ -797,7 +797,7 @@ const brown = [
             128,
             134
         ],
-        "phonic": "yingbeihezong",
+        "phonic": "yīng bèi hè",
         "type": "brown",
         "name": "鹰背褐",
         "hex": "#938086"
@@ -808,7 +808,7 @@ const brown = [
             17,
             10
         ],
-        "phonic": "yingshuanghezong",
+        "phonic": "yíng shuāng hè",
         "type": "brown",
         "name": "迎霜褐",
         "hex": "#1a110a"
@@ -819,7 +819,7 @@ const brown = [
             38,
             29
         ],
-        "phonic": "yousuhezong",
+        "phonic": "yóu sù hè",
         "type": "brown",
         "name": "油粟褐",
         "hex": "#52261d"
@@ -830,7 +830,7 @@ const brown = [
             187,
             138
         ],
-        "phonic": "yuanyanzong",
+        "phonic": "yuán yǎn",
         "type": "brown",
         "name": "圆眼",
         "hex": "#e7bb8a"
@@ -841,7 +841,7 @@ const brown = [
             73,
             76
         ],
-        "phonic": "zaohezong",
+        "phonic": "zǎo hè",
         "type": "brown",
         "name": "枣褐",
         "hex": "#59494c"
@@ -852,7 +852,7 @@ const brown = [
             64,
             21
         ],
-        "phonic": "zheshizong",
+        "phonic": "zhě shí",
         "type": "brown",
         "name": "赭石",
         "hex": "#8f4015"
@@ -863,7 +863,7 @@ const brown = [
             95,
             64
         ],
-        "phonic": "zhizong",
+        "phonic": "zhǐ zōng",
         "type": "brown",
         "name": "纸棕",
         "hex": "#965f40"
@@ -874,7 +874,7 @@ const brown = [
             76,
             64
         ],
-        "phonic": "zhonghuituozong",
+        "phonic": "zhōng huī tuó",
         "type": "brown",
         "name": "中灰驼",
         "hex": "#704c40"
@@ -885,7 +885,7 @@ const brown = [
             71,
             67
         ],
-        "phonic": "zhuzihezong",
+        "phonic": "zhū zǐ hè",
         "type": "brown",
         "name": "珠子褐",
         "hex": "#a64743"
@@ -896,7 +896,7 @@ const brown = [
             86,
             67
         ],
-        "phonic": "zhuanhezong",
+        "phonic": "zhuān hè",
         "type": "brown",
         "name": "砖褐",
         "hex": "#7b5643"
@@ -907,7 +907,7 @@ const brown = [
             24,
             26
         ],
-        "phonic": "zitanzong",
+        "phonic": "zǐ tán",
         "type": "brown",
         "name": "紫檀",
         "hex": "#53181a"
@@ -918,7 +918,7 @@ const brown = [
             67,
             54
         ],
-        "phonic": "zongcha",
+        "phonic": "zōng chá",
         "type": "brown",
         "name": "棕茶",
         "hex": "#514336"
@@ -929,7 +929,7 @@ const brown = [
             46,
             61
         ],
-        "phonic": "zonghong",
+        "phonic": "zōng hóng",
         "type": "brown",
         "name": "棕红",
         "hex": "#672e3d"
@@ -940,7 +940,7 @@ const brown = [
             109,
             107
         ],
-        "phonic": "zonghui",
+        "phonic": "zōng huī",
         "type": "brown",
         "name": "棕灰",
         "hex": "#776d6b"
@@ -951,7 +951,7 @@ const brown = [
             64,
             47
         ],
-        "phonic": "zongse",
+        "phonic": "zōng sè",
         "type": "brown",
         "name": "棕色",
         "hex": "#61402f"
@@ -962,7 +962,7 @@ const brown = [
             42,
             27
         ],
-        "phonic": "zhayezong",
+        "phonic": "zhà yè zōng",
         "type": "brown",
         "name": "柞叶棕",
         "hex": "#692a1b"
@@ -973,7 +973,7 @@ const brown = [
             74,
             30
         ],
-        "phonic": "chalvhezong",
+        "phonic": "chá lǜ hè",
         "type": "brown",
         "name": "茶绿褐",
         "hex": "#614a1e"
@@ -984,7 +984,7 @@ const brown = [
             51,
             53
         ],
-        "phonic": "jiangsezong",
+        "phonic": "jiàng sè",
         "type": "brown",
         "name": "酱色",
         "hex": "#493335"
@@ -995,7 +995,7 @@ const brown = [
             31,
             27
         ],
-        "phonic": "jiangzong",
+        "phonic": "jiàng zōng",
         "type": "brown",
         "name": "酱棕",
         "hex": "#5a1f1b"

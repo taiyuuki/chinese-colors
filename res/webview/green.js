@@ -5,7 +5,7 @@ const green = [
             237,
             214
         ],
-        "phonic": "aibeilv",
+        "phonic": "ài bèi lǜ",
         "type": "green",
         "name": "艾背绿",
         "hex": "#dfedd6"
@@ -16,7 +16,7 @@ const green = [
             190,
             125
         ],
-        "phonic": "ailv",
+        "phonic": "ài lǜ",
         "type": "green",
         "name": "艾绿",
         "hex": "#a5be7d"
@@ -27,7 +27,7 @@ const green = [
             78,
             57
         ],
-        "phonic": "bajiaolv",
+        "phonic": "bā jiāo lǜ",
         "type": "green",
         "name": "芭蕉绿",
         "hex": "#3b4e39"
@@ -38,7 +38,7 @@ const green = [
             187,
             122
         ],
-        "phonic": "baizhilvlv",
+        "phonic": "bǎi zhī lǜ",
         "type": "green",
         "name": "柏枝緑",
         "hex": "#a2bb7a"
@@ -49,7 +49,7 @@ const green = [
             177,
             162
         ],
-        "phonic": "biselv",
+        "phonic": "bì sè",
         "type": "green",
         "name": "碧色",
         "hex": "#95b1a2"
@@ -60,7 +60,7 @@ const green = [
             139,
             93
         ],
-        "phonic": "bolilv",
+        "phonic": "bō lí lǜ",
         "type": "green",
         "name": "玻璃绿",
         "hex": "#618b5d"
@@ -71,7 +71,7 @@ const green = [
             80,
             54
         ],
-        "phonic": "canglv",
+        "phonic": "cāng lǜ",
         "type": "green",
         "name": "苍绿",
         "hex": "#225036"
@@ -82,7 +82,7 @@ const green = [
             113,
             24
         ],
-        "phonic": "biluochunlv",
+        "phonic": "bì luó chūn lǜ",
         "type": "green",
         "name": "碧罗春绿",
         "hex": "#867118"
@@ -93,7 +93,7 @@ const green = [
             183,
             0
         ],
-        "phonic": "bichanlv",
+        "phonic": "bì chán lǜ",
         "type": "green",
         "name": "碧蝉绿",
         "hex": "#66b700"
@@ -104,7 +104,7 @@ const green = [
             174,
             59
         ],
-        "phonic": "baoshilv",
+        "phonic": "bǎo shí lǜ",
         "type": "green",
         "name": "宝石绿",
         "hex": "#41ae3b"
@@ -115,7 +115,7 @@ const green = [
             127,
             77
         ],
-        "phonic": "bohelv",
+        "phonic": "bò he lǜ",
         "type": "green",
         "name": "薄荷绿",
         "hex": "#217f4d"
@@ -126,7 +126,7 @@ const green = [
             91,
             77
         ],
-        "phonic": "baiqucailv",
+        "phonic": "bái qū cài lǜ",
         "type": "green",
         "name": "白屈菜绿",
         "hex": "#495b4d"
@@ -137,7 +137,7 @@ const green = [
             98,
             62
         ],
-        "phonic": "baipisonglv",
+        "phonic": "bái pí sōng lǜ",
         "type": "green",
         "name": "白皮松绿",
         "hex": "#51623e"
@@ -148,7 +148,7 @@ const green = [
             50,
             13
         ],
-        "phonic": "anganlanlv",
+        "phonic": "àn gǎn lǎn lǜ",
         "type": "green",
         "name": "暗橄榄绿",
         "hex": "#3a320d"
@@ -159,7 +159,7 @@ const green = [
             203,
             173
         ],
-        "phonic": "fenlv",
+        "phonic": "fěn lǜ",
         "type": "green",
         "name": "粉绿",
         "hex": "#84cbad"
@@ -170,7 +170,7 @@ const green = [
             190,
             104
         ],
-        "phonic": "fupinglv",
+        "phonic": "fú píng lǜ",
         "type": "green",
         "name": "浮萍绿",
         "hex": "#7ebe68"
@@ -181,7 +181,7 @@ const green = [
             201,
             53
         ],
-        "phonic": "ganlanhuanglv",
+        "phonic": "gǎn lǎn huáng lǜ",
         "type": "green",
         "name": "橄榄黄绿",
         "hex": "#bfc935"
@@ -192,7 +192,7 @@ const green = [
             207,
             135
         ],
-        "phonic": "ganlanshilv",
+        "phonic": "gǎn lǎn shí lǜ",
         "type": "green",
         "name": "橄榄石绿",
         "hex": "#b1cf87"
@@ -203,7 +203,7 @@ const green = [
             150,
             75
         ],
-        "phonic": "gualv",
+        "phonic": "guā lǜ",
         "type": "green",
         "name": "瓜绿",
         "hex": "#6a964b"
@@ -214,7 +214,7 @@ const green = [
             168,
             56
         ],
-        "phonic": "guanlv",
+        "phonic": "guān lǜ",
         "type": "green",
         "name": "官绿",
         "hex": "#5ba838"
@@ -225,7 +225,7 @@ const green = [
             104,
             64
         ],
-        "phonic": "heyelv",
+        "phonic": "hé yè lǜ",
         "type": "green",
         "name": "荷叶绿",
         "hex": "#1a6840"
@@ -236,7 +236,7 @@ const green = [
             58,
             5
         ],
-        "phonic": "haidailv",
+        "phonic": "hǎi dài lǜ",
         "type": "green",
         "name": "海带绿",
         "hex": "#303a05"
@@ -247,7 +247,7 @@ const green = [
             82,
             80
         ],
-        "phonic": "guibeihuilv",
+        "phonic": "guī bèi huī lǜ",
         "type": "green",
         "name": "龟背灰绿",
         "hex": "#465250"
@@ -258,7 +258,7 @@ const green = [
             60,
             28
         ],
-        "phonic": "gutonglv",
+        "phonic": "gǔ tóng lǜ",
         "type": "green",
         "name": "古铜绿",
         "hex": "#533c1c"
@@ -269,7 +269,7 @@ const green = [
             137,
             78
         ],
-        "phonic": "gongdianlv",
+        "phonic": "gōng diàn lǜ",
         "type": "green",
         "name": "宫殿绿",
         "hex": "#20894e"
@@ -280,7 +280,7 @@ const green = [
             89,
             24
         ],
-        "phonic": "ganlanlv",
+        "phonic": "gǎn lǎn lǜ",
         "type": "green",
         "name": "橄榄绿",
         "hex": "#605918"
@@ -291,7 +291,7 @@ const green = [
             131,
             48
         ],
-        "phonic": "feicuilv",
+        "phonic": "fěi cuì",
         "type": "green",
         "name": "翡翠",
         "hex": "#2e8330"
@@ -302,7 +302,7 @@ const green = [
             117,
             104
         ],
-        "phonic": "feiquanlv",
+        "phonic": "fēi quán lǜ",
         "type": "green",
         "name": "飞泉绿",
         "hex": "#497568"
@@ -313,7 +313,7 @@ const green = [
             128,
             75
         ],
-        "phonic": "caohuilv",
+        "phonic": "cǎo huī lǜ",
         "type": "green",
         "name": "草灰绿",
         "hex": "#8d804b"
@@ -324,7 +324,7 @@ const green = [
             176,
             63
         ],
-        "phonic": "caolv",
+        "phonic": "cǎo lǜ",
         "type": "green",
         "name": "草绿",
         "hex": "#9cb03f"
@@ -335,7 +335,7 @@ const green = [
             219,
             5
         ],
-        "phonic": "chunlv",
+        "phonic": "chūn lǜ",
         "type": "green",
         "name": "春绿",
         "hex": "#99db05"
@@ -346,7 +346,7 @@ const green = [
             181,
             52
         ],
-        "phonic": "conglv",
+        "phonic": "cōng lǜ",
         "type": "green",
         "name": "葱绿",
         "hex": "#9ab534"
@@ -357,7 +357,7 @@ const green = [
             155,
             122
         ],
-        "phonic": "cuipinglv",
+        "phonic": "cuì píng lǜ",
         "type": "green",
         "name": "翠屏绿",
         "hex": "#769b7a"
@@ -368,7 +368,7 @@ const green = [
             172,
             133
         ],
-        "phonic": "danlv",
+        "phonic": "dàn lǜ",
         "type": "green",
         "name": "淡绿",
         "hex": "#61ac85"
@@ -379,7 +379,7 @@ const green = [
             149,
             115
         ],
-        "phonic": "danbaishilv",
+        "phonic": "dàn bái shí lǜ",
         "type": "green",
         "name": "蛋白石绿",
         "hex": "#589573"
@@ -390,7 +390,7 @@ const green = [
             178,
             134
         ],
-        "phonic": "doulv",
+        "phonic": "dòu lǜ",
         "type": "green",
         "name": "豆绿",
         "hex": "#93b286"
@@ -401,7 +401,7 @@ const green = [
             157,
             48
         ],
-        "phonic": "fangzhinianglv",
+        "phonic": "fǎng zhī niáng lǜ",
         "type": "green",
         "name": "纺织娘绿",
         "hex": "#6d9d30"
@@ -412,7 +412,7 @@ const green = [
             137,
             112
         ],
-        "phonic": "dushanyulv",
+        "phonic": "dú shān yù lǜ",
         "type": "green",
         "name": "独山玉绿",
         "hex": "#638970"
@@ -423,7 +423,7 @@ const green = [
             142,
             19
         ],
-        "phonic": "dongqinglv",
+        "phonic": "dōng qīng lǜ",
         "type": "green",
         "name": "冬青绿",
         "hex": "#668e13"
@@ -434,7 +434,7 @@ const green = [
             165,
             94
         ],
-        "phonic": "cuilv",
+        "phonic": "cuì lǜ",
         "type": "green",
         "name": "翠绿",
         "hex": "#20a55e"
@@ -445,7 +445,7 @@ const green = [
             56,
             51
         ],
-        "phonic": "congyoulv",
+        "phonic": "cōng yóu lǜ",
         "type": "green",
         "name": "葱油绿",
         "hex": "#373833"
@@ -456,7 +456,7 @@ const green = [
             149,
             103
         ],
-        "phonic": "chanlv",
+        "phonic": "chán lǜ",
         "type": "green",
         "name": "蟾绿",
         "hex": "#3c9567"
@@ -467,7 +467,7 @@ const green = [
             220,
             115
         ],
-        "phonic": "huaihuahuanglv",
+        "phonic": "huái huā huáng lǜ",
         "type": "green",
         "name": "槐花黄绿",
         "hex": "#cfdc73"
@@ -478,7 +478,7 @@ const green = [
             88,
             28
         ],
-        "phonic": "jianqiaolv",
+        "phonic": "jiàn qiào lǜ",
         "type": "green",
         "name": "剑鞘绿",
         "hex": "#40581c"
@@ -489,7 +489,7 @@ const green = [
             145,
             9
         ],
-        "phonic": "jinglv",
+        "phonic": "jīng lǜ",
         "type": "green",
         "name": "京绿",
         "hex": "#439109"
@@ -500,7 +500,7 @@ const green = [
             245,
             162
         ],
-        "phonic": "julv",
+        "phonic": "jú lǜ",
         "type": "green",
         "name": "菊绿",
         "hex": "#dcf5a2"
@@ -511,7 +511,7 @@ const green = [
             149,
             84
         ],
-        "phonic": "kongquelv",
+        "phonic": "kǒng què lǜ",
         "type": "green",
         "name": "孔雀绿",
         "hex": "#229554"
@@ -522,7 +522,7 @@ const green = [
             199,
             120
         ],
-        "phonic": "koushaolv",
+        "phonic": "kòu shāo lǜ",
         "type": "green",
         "name": "蔻梢绿",
         "hex": "#96c778"
@@ -533,7 +533,7 @@ const green = [
             179,
             121
         ],
-        "phonic": "kulv",
+        "phonic": "kū lǜ",
         "type": "green",
         "name": "枯绿",
         "hex": "#b9b379"
@@ -544,7 +544,7 @@ const green = [
             74,
             62
         ],
-        "phonic": "laolv",
+        "phonic": "lǎo lǜ",
         "type": "green",
         "name": "老绿",
         "hex": "#3e4a3e"
@@ -555,7 +555,7 @@ const green = [
             94,
             80
         ],
-        "phonic": "laolanhualv",
+        "phonic": "lǎo lán huā lǜ",
         "type": "green",
         "name": "老蓝花绿",
         "hex": "#3a5e50"
@@ -566,7 +566,7 @@ const green = [
             82,
             52
         ],
-        "phonic": "laokuilv",
+        "phonic": "lǎo kuí lǜ",
         "type": "green",
         "name": "老葵绿",
         "hex": "#295234"
@@ -577,7 +577,7 @@ const green = [
             81,
             77
         ],
-        "phonic": "laojulv",
+        "phonic": "lǎo jù lǜ",
         "type": "green",
         "name": "老醵绿",
         "hex": "#2d514d"
@@ -588,7 +588,7 @@ const green = [
             87,
             50
         ],
-        "phonic": "lvshen",
+        "phonic": "lǜ shěn",
         "type": "green",
         "name": "绿沈",
         "hex": "#375732"
@@ -599,7 +599,7 @@ const green = [
             74,
             68
         ],
-        "phonic": "huilv",
+        "phonic": "huī lǜ",
         "type": "green",
         "name": "灰绿",
         "hex": "#314a44"
@@ -610,7 +610,7 @@ const green = [
             49,
             45
         ],
-        "phonic": "hujishenglv",
+        "phonic": "hú jì shēng lǜ",
         "type": "green",
         "name": "槲寄生绿",
         "hex": "#2b312d"
@@ -621,7 +621,7 @@ const green = [
             31,
             4
         ],
-        "phonic": "heilvlv",
+        "phonic": "hēi lǜ",
         "type": "green",
         "name": "黒緑",
         "hex": "#151f04"
@@ -632,7 +632,7 @@ const green = [
             208,
             135
         ],
-        "phonic": "pingguolv",
+        "phonic": "píng guǒ lǜ",
         "type": "green",
         "name": "苹果绿",
         "hex": "#bed087"
@@ -643,7 +643,7 @@ const green = [
             188,
             152
         ],
-        "phonic": "piaoselv",
+        "phonic": "piǎo sè",
         "type": "green",
         "name": "缥色",
         "hex": "#6abc98"
@@ -654,7 +654,7 @@ const green = [
             177,
             68
         ],
-        "phonic": "nenlv",
+        "phonic": "nèn lǜ",
         "type": "green",
         "name": "嫩绿",
         "hex": "#44b144"
@@ -665,7 +665,7 @@ const green = [
             201,
             75
         ],
-        "phonic": "qicailv",
+        "phonic": "qí cài lǜ",
         "type": "green",
         "name": "荠菜绿",
         "hex": "#81c94b"
@@ -676,7 +676,7 @@ const green = [
             150,
             120
         ],
-        "phonic": "qingfanlv",
+        "phonic": "qīng fán lǜ",
         "type": "green",
         "name": "青矾绿",
         "hex": "#2b9678"
@@ -687,7 +687,7 @@ const green = [
             102,
             71
         ],
-        "phonic": "qingcailv",
+        "phonic": "qīng cài lǜ",
         "type": "green",
         "name": "青菜绿",
         "hex": "#3f6647"
@@ -698,7 +698,7 @@ const green = [
             122,
             117
         ],
-        "phonic": "qinglv",
+        "phonic": "qīng lǜ",
         "type": "green",
         "name": "青绿",
         "hex": "#117a75"
@@ -709,7 +709,7 @@ const green = [
             190,
             150
         ],
-        "phonic": "qingmeilv",
+        "phonic": "qīng méi lǜ",
         "type": "green",
         "name": "青梅绿",
         "hex": "#95be96"
@@ -720,7 +720,7 @@ const green = [
             200,
             131
         ],
-        "phonic": "qiuguilv",
+        "phonic": "qiū guī",
         "type": "green",
         "name": "秋瑰",
         "hex": "#adc883"
@@ -731,7 +731,7 @@ const green = [
             128,
             64
         ],
-        "phonic": "qiuxianglv",
+        "phonic": "qiū xiāng lǜ",
         "type": "green",
         "name": "秋香绿",
         "hex": "#808040"
@@ -742,7 +742,7 @@ const green = [
             238,
             207
         ],
-        "phonic": "shalv",
+        "phonic": "shā lǜ",
         "type": "green",
         "name": "沙绿",
         "hex": "#c7eecf"
@@ -753,7 +753,7 @@ const green = [
             49,
             24
         ],
-        "phonic": "shedanlv",
+        "phonic": "shé dǎn lǜ",
         "type": "green",
         "name": "蛇胆绿",
         "hex": "#333118"
@@ -764,7 +764,7 @@ const green = [
             138,
             108
         ],
-        "phonic": "sangpilv",
+        "phonic": "sāng pí lǜ",
         "type": "green",
         "name": "桑皮绿",
         "hex": "#8f8a6c"
@@ -775,7 +775,7 @@ const green = [
             27,
             16
         ],
-        "phonic": "qilvlv",
+        "phonic": "qī lǜ",
         "type": "green",
         "name": "漆緑",
         "hex": "#181b10"
@@ -786,7 +786,7 @@ const green = [
             211,
             28
         ],
-        "phonic": "liufanglv",
+        "phonic": "liǔ fāng lǜ",
         "type": "green",
         "name": "柳芳绿",
         "hex": "#b9d31c"
@@ -797,7 +797,7 @@ const green = [
             221,
             35
         ],
-        "phonic": "liulv",
+        "phonic": "liǔ lǜ",
         "type": "green",
         "name": "柳绿",
         "hex": "#afdd23"
@@ -808,7 +808,7 @@ const green = [
             208,
             122
         ],
-        "phonic": "luweilv",
+        "phonic": "lú wěi lǜ",
         "type": "green",
         "name": "芦苇绿",
         "hex": "#b8d07a"
@@ -819,7 +819,7 @@ const green = [
             187,
             139
         ],
-        "phonic": "mailv",
+        "phonic": "mài lǜ",
         "type": "green",
         "name": "麦绿",
         "hex": "#55bb8b"
@@ -830,7 +830,7 @@ const green = [
             192,
             132
         ],
-        "phonic": "maimiaolv",
+        "phonic": "mài miáo lǜ",
         "type": "green",
         "name": "麦苗绿",
         "hex": "#5bc084"
@@ -841,7 +841,7 @@ const green = [
             122,
             20
         ],
-        "phonic": "maolv",
+        "phonic": "máo lǜ",
         "type": "green",
         "name": "毛绿",
         "hex": "#447a14"
@@ -852,7 +852,7 @@ const green = [
             170,
             157
         ],
-        "phonic": "meidielv",
+        "phonic": "měi dié lǜ",
         "type": "green",
         "name": "美蝶绿",
         "hex": "#12aa9d"
@@ -863,7 +863,7 @@ const green = [
             166,
             96
         ],
-        "phonic": "minglv",
+        "phonic": "míng lǜ",
         "type": "green",
         "name": "明绿",
         "hex": "#7ea660"
@@ -874,7 +874,7 @@ const green = [
             153,
             117
         ],
-        "phonic": "mulilv",
+        "phonic": "mǔ lì lǜ",
         "type": "green",
         "name": "牡蛎绿",
         "hex": "#939975"
@@ -885,7 +885,7 @@ const green = [
             176,
             121
         ],
-        "phonic": "nailv",
+        "phonic": "nǎi lǜ",
         "type": "green",
         "name": "奶绿",
         "hex": "#a7b079"
@@ -896,7 +896,7 @@ const green = [
             51,
             35
         ],
-        "phonic": "molv",
+        "phonic": "mò lǜ",
         "type": "green",
         "name": "墨绿",
         "hex": "#223323"
@@ -907,7 +907,7 @@ const green = [
             31,
             27
         ],
-        "phonic": "mangconglv",
+        "phonic": "mǎng cóng lǜ",
         "type": "green",
         "name": "莽丛绿",
         "hex": "#141f1b"
@@ -918,7 +918,7 @@ const green = [
             139,
             11
         ],
-        "phonic": "matilianlv",
+        "phonic": "mǎ tí lián lǜ",
         "type": "green",
         "name": "马蹄莲绿",
         "hex": "#6e8b0b"
@@ -929,7 +929,7 @@ const green = [
             87,
             83
         ],
-        "phonic": "liulilv",
+        "phonic": "liú lí lǜ",
         "type": "green",
         "name": "琉璃绿",
         "hex": "#1c5753"
@@ -940,7 +940,7 @@ const green = [
             206,
             102
         ],
-        "phonic": "qiukuilv",
+        "phonic": "qiū kuí lǜ",
         "type": "green",
         "name": "秋葵绿",
         "hex": "#bace66"
@@ -951,7 +951,7 @@ const green = [
             126,
             87
         ],
-        "phonic": "shihulv",
+        "phonic": "shí hú lǜ",
         "type": "green",
         "name": "石斛绿",
         "hex": "#687e57"
@@ -962,7 +962,7 @@ const green = [
             212,
             155
         ],
-        "phonic": "shuilv",
+        "phonic": "shuǐ lǜ",
         "type": "green",
         "name": "水绿",
         "hex": "#a1d49b"
@@ -973,7 +973,7 @@ const green = [
             160,
             140
         ],
-        "phonic": "songshuanglv",
+        "phonic": "sōng shuāng lǜ",
         "type": "green",
         "name": "松霜绿",
         "hex": "#83a08c"
@@ -984,7 +984,7 @@ const green = [
             210,
             198
         ],
-        "phonic": "tianshuibilv",
+        "phonic": "tiān shuǐ bì",
         "type": "green",
         "name": "天水碧",
         "hex": "#96d2c6"
@@ -995,7 +995,7 @@ const green = [
             121,
             55
         ],
-        "phonic": "tanglanglv",
+        "phonic": "táng láng lǜ",
         "type": "green",
         "name": "螳螂绿",
         "hex": "#467937"
@@ -1006,7 +1006,7 @@ const green = [
             208,
             73
         ],
-        "phonic": "wojulv",
+        "phonic": "wō jù lǜ",
         "type": "green",
         "name": "莴苣绿",
         "hex": "#74d049"
@@ -1017,7 +1017,7 @@ const green = [
             184,
             135
         ],
-        "phonic": "walv",
+        "phonic": "wā lǜ",
         "type": "green",
         "name": "蛙绿",
         "hex": "#46b887"
@@ -1028,7 +1028,7 @@ const green = [
             174,
             144
         ],
-        "phonic": "tonglv",
+        "phonic": "tóng lǜ",
         "type": "green",
         "name": "铜绿",
         "hex": "#2eae90"
@@ -1039,7 +1039,7 @@ const green = [
             161,
             150
         ],
-        "phonic": "wuzhilv",
+        "phonic": "wú zhī lǜ",
         "type": "green",
         "name": "梧枝绿",
         "hex": "#69a196"
@@ -1050,7 +1050,7 @@ const green = [
             102,
             91
         ],
-        "phonic": "tianluolv",
+        "phonic": "tián luó lǜ",
         "type": "green",
         "name": "田螺绿",
         "hex": "#5e665b"
@@ -1061,7 +1061,7 @@ const green = [
             115,
             34
         ],
-        "phonic": "tailv",
+        "phonic": "tái lǜ",
         "type": "green",
         "name": "苔绿",
         "hex": "#887322"
@@ -1072,7 +1072,7 @@ const green = [
             88,
             34
         ],
-        "phonic": "tanshuilv",
+        "phonic": "tán shuǐ lǜ",
         "type": "green",
         "name": "潭水绿",
         "hex": "#635822"
@@ -1083,7 +1083,7 @@ const green = [
             91,
             54
         ],
-        "phonic": "songlv",
+        "phonic": "sōng lǜ",
         "type": "green",
         "name": "松绿",
         "hex": "#355b36"
@@ -1094,7 +1094,7 @@ const green = [
             59,
             50
         ],
-        "phonic": "shenhailv",
+        "phonic": "shēn hǎi lǜ",
         "type": "green",
         "name": "深海绿",
         "hex": "#1a3b32"
@@ -1105,7 +1105,7 @@ const green = [
             243,
             198
         ],
-        "phonic": "yuselv",
+        "phonic": "yù sè",
         "type": "green",
         "name": "玉色",
         "hex": "#bbf3c6"
@@ -1116,7 +1116,7 @@ const green = [
             179,
             73
         ],
-        "phonic": "yusuilv",
+        "phonic": "yù suǐ lǜ",
         "type": "green",
         "name": "玉髓绿",
         "hex": "#42b349"
@@ -1127,7 +1127,7 @@ const green = [
             202,
             181
         ],
-        "phonic": "yuzanlv",
+        "phonic": "yù zān lǜ",
         "type": "green",
         "name": "玉簪绿",
         "hex": "#a4cab5"
@@ -1138,7 +1138,7 @@ const green = [
             213,
             180
         ],
-        "phonic": "zhuhuanglv",
+        "phonic": "zhú huáng lǜ",
         "type": "green",
         "name": "竹篁绿",
         "hex": "#bad5b4"
@@ -1149,7 +1149,7 @@ const green = [
             192,
             77
         ],
-        "phonic": "zhulv",
+        "phonic": "zhú lǜ",
         "type": "green",
         "name": "竹绿",
         "hex": "#81c04d"
@@ -1160,7 +1160,7 @@ const green = [
             170,
             117
         ],
-        "phonic": "zishanlv",
+        "phonic": "zǐ shān lǜ",
         "type": "green",
         "name": "紫杉绿",
         "hex": "#8faa75"
@@ -1171,7 +1171,7 @@ const green = [
             159,
             1
         ],
-        "phonic": "zhitiaolvlv",
+        "phonic": "zhī tiáo lǜ",
         "type": "green",
         "name": "枝条緑",
         "hex": "#719f01"
@@ -1182,7 +1182,7 @@ const green = [
             49,
             24
         ],
-        "phonic": "shedanlv",
+        "phonic": "shé dǎn",
         "type": "green",
         "name": "蛇胆",
         "hex": "#333118"
@@ -1193,7 +1193,7 @@ const green = [
             134,
             96
         ],
-        "phonic": "shilv",
+        "phonic": "shí lǜ",
         "type": "green",
         "name": "石绿",
         "hex": "#228660"
@@ -1204,7 +1204,7 @@ const green = [
             104,
             24
         ],
-        "phonic": "zongyelv",
+        "phonic": "zōng yè lǜ",
         "type": "green",
         "name": "棕叶绿",
         "hex": "#876818"
@@ -1215,7 +1215,7 @@ const green = [
             73,
             19
         ],
-        "phonic": "zonglvlv",
+        "phonic": "zōng lǘ lǜ",
         "type": "green",
         "name": "棕榈绿",
         "hex": "#5a4913"
@@ -1226,7 +1226,7 @@ const green = [
             30,
             24
         ],
-        "phonic": "yunshanlv",
+        "phonic": "yún shān lǜ",
         "type": "green",
         "name": "云杉绿",
         "hex": "#1a1e18"
@@ -1237,7 +1237,7 @@ const green = [
             84,
             50
         ],
-        "phonic": "youlv",
+        "phonic": "yóu lǜ",
         "type": "green",
         "name": "油绿",
         "hex": "#005432"
@@ -1248,7 +1248,7 @@ const green = [
             80,
             65
         ],
-        "phonic": "youlv",
+        "phonic": "yǒu lǜ",
         "type": "green",
         "name": "黝绿",
         "hex": "#345041"
@@ -1259,7 +1259,7 @@ const green = [
             210,
             21
         ],
-        "phonic": "xinhelv",
+        "phonic": "xīn hé lǜ",
         "type": "green",
         "name": "新禾绿",
         "hex": "#d0d215"
@@ -1270,7 +1270,7 @@ const green = [
             224,
             1
         ],
-        "phonic": "xiuqiulv",
+        "phonic": "xiù qiú lǜ",
         "type": "green",
         "name": "绣球绿",
         "hex": "#b3e001"
@@ -1281,7 +1281,7 @@ const green = [
             195,
             78
         ],
-        "phonic": "yalv",
+        "phonic": "yá lǜ",
         "type": "green",
         "name": "芽绿",
         "hex": "#96c34e"
@@ -1292,7 +1292,7 @@ const green = [
             176,
             52
         ],
-        "phonic": "yangselv",
+        "phonic": "yāng sè",
         "type": "green",
         "name": "秧色",
         "hex": "#74b034"
@@ -1303,7 +1303,7 @@ const green = [
             196,
             47
         ],
-        "phonic": "yinlv",
+        "phonic": "yīn lǜ",
         "type": "green",
         "name": "茵绿",
         "hex": "#98c42f"
@@ -1314,7 +1314,7 @@ const green = [
             173,
             36
         ],
-        "phonic": "yingwulv",
+        "phonic": "yīng wǔ lǜ",
         "type": "green",
         "name": "鹦鹉绿",
         "hex": "#5bad24"
@@ -1325,7 +1325,7 @@ const green = [
             155,
             107
         ],
-        "phonic": "yinggelv",
+        "phonic": "yīng gē lǜ",
         "type": "green",
         "name": "鹦哥绿",
         "hex": "#539b6b"
@@ -1336,7 +1336,7 @@ const green = [
             110,
             78
         ],
-        "phonic": "zaolv",
+        "phonic": "zǎo lǜ",
         "type": "green",
         "name": "藻绿",
         "hex": "#5b6e4e"
@@ -1347,7 +1347,7 @@ const green = [
             192,
             26
         ],
-        "phonic": "zuocanlv",
+        "phonic": "zuò cán lǜ",
         "type": "green",
         "name": "柞蚕绿",
         "hex": "#9cc01a"
@@ -1358,7 +1358,7 @@ const green = [
             141,
             72
         ],
-        "phonic": "zhuyeqinglv",
+        "phonic": "zhú yè qīng",
         "type": "green",
         "name": "竹叶青",
         "hex": "#5a8d48"
@@ -1369,7 +1369,7 @@ const green = [
             140,
             87
         ],
-        "phonic": "yalv",
+        "phonic": "yā lǜ",
         "type": "green",
         "name": "鸭绿",
         "hex": "#648c57"
@@ -1380,7 +1380,7 @@ const green = [
             112,
             86
         ],
-        "phonic": "xiulv",
+        "phonic": "xiù lǜ",
         "type": "green",
         "name": "锈绿",
         "hex": "#427056"
@@ -1391,7 +1391,7 @@ const green = [
             94,
             29
         ],
-        "phonic": "xiyilv",
+        "phonic": "xī yì lǜ",
         "type": "green",
         "name": "蜥蜴绿",
         "hex": "#845e1d"
@@ -1402,7 +1402,7 @@ const green = [
             78,
             50
         ],
-        "phonic": "xiancailv",
+        "phonic": "xián cài lǜ",
         "type": "green",
         "name": "咸菜绿",
         "hex": "#414e32"

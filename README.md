@@ -8,6 +8,7 @@
 <a href="https://marketplace.visualstudio.com/items?itemName=taiyuuki.chinese-color">
 <img alt="Marketplace Version" src="https://img.shields.io/visual-studio-marketplace/v/taiyuuki.chinese-color?color=%23813c85&label=Marketplace&logo=visual%20studio%20code"></a>
  <img alt="Visual Studio Marketplace Installs" src="https://img.shields.io/visual-studio-marketplace/i/taiyuuki.chinese-color">
+  <img alt="Visual Studio Marketplace Installs" src="https://img.shields.io/visual-studio-marketplace/d/taiyuuki.chinese-color">
  <a href="https://github.com/taiyuuki/chinese-colors"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/taiyuuki/chinese-colors?style=social"></a>
 </p>
 

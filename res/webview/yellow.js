@@ -5,7 +5,7 @@ const yellow = [
             234,
             161
         ],
-        "phonic": "conghuang",
+        "phonic": "cōng huáng",
         "type": "yellow",
         "name": "葱黄",
         "hex": "#e8eaa1"
@@ -16,7 +16,7 @@ const yellow = [
             162,
             74
         ],
-        "phonic": "ehuang",
+        "phonic": "é huáng",
         "type": "yellow",
         "name": "鹅黄",
         "hex": "#e2a24a"
@@ -27,7 +27,7 @@ const yellow = [
             144,
             3
         ],
-        "phonic": "jinhuang",
+        "phonic": "jīn huáng",
         "type": "yellow",
         "name": "金黄",
         "hex": "#ff9003"
@@ -38,7 +38,7 @@ const yellow = [
             238,
             91
         ],
-        "phonic": "liuhuang",
+        "phonic": "liǔ huáng",
         "type": "yellow",
         "name": "柳黄",
         "hex": "#eaee5b"
@@ -49,7 +49,7 @@ const yellow = [
             234,
             161
         ],
-        "phonic": "tenghuang",
+        "phonic": "téng huáng",
         "type": "yellow",
         "name": "藤黄",
         "hex": "#e8eaa1"
@@ -60,7 +60,7 @@ const yellow = [
             170,
             20
         ],
-        "phonic": "qiuxianghuang",
+        "phonic": "qiū xiāng",
         "type": "yellow",
         "name": "秋香",
         "hex": "#ceaa14"
@@ -71,7 +71,7 @@ const yellow = [
             197,
             100
         ],
-        "phonic": "shihuang",
+        "phonic": "shí huáng",
         "type": "yellow",
         "name": "石黄",
         "hex": "#e9c564"
@@ -82,7 +82,7 @@ const yellow = [
             249,
             213
         ],
-        "phonic": "mihehuang",
+        "phonic": "mì hé",
         "type": "yellow",
         "name": "蜜合",
         "hex": "#fff9d5"
@@ -93,7 +93,7 @@ const yellow = [
             223,
             106
         ],
-        "phonic": "songhuahuang",
+        "phonic": "sōng huā",
         "type": "yellow",
         "name": "松花",
         "hex": "#e6df6a"
@@ -104,7 +104,7 @@ const yellow = [
             160,
             20
         ],
-        "phonic": "zhongminghuang",
+        "phonic": "zhōng míng",
         "type": "yellow",
         "name": "中明",
         "hex": "#dba014"
@@ -115,7 +115,7 @@ const yellow = [
             197,
             108
         ],
-        "phonic": "xinghuang",
+        "phonic": "xìng huáng",
         "type": "yellow",
         "name": "杏黄",
         "hex": "#fec56c"
@@ -126,7 +126,7 @@ const yellow = [
             223,
             10
         ],
-        "phonic": "minghuang",
+        "phonic": "míng huáng",
         "type": "yellow",
         "name": "明黄",
         "hex": "#fedf0a"
@@ -137,7 +137,7 @@ const yellow = [
             172,
             34
         ],
-        "phonic": "fanhuang",
+        "phonic": "fān huáng",
         "type": "yellow",
         "name": "番黄",
         "hex": "#e7ac22"
@@ -148,7 +148,7 @@ const yellow = [
             202,
             78
         ],
-        "phonic": "hehuahuang",
+        "phonic": "hé huā",
         "type": "yellow",
         "name": "荷花",
         "hex": "#d5ca4e"
@@ -159,7 +159,7 @@ const yellow = [
             212,
             26
         ],
-        "phonic": "mihuang",
+        "phonic": "mì huáng",
         "type": "yellow",
         "name": "蜜黄",
         "hex": "#fdd41a"
@@ -170,7 +170,7 @@ const yellow = [
             129,
             60
         ],
-        "phonic": "tanxianghuang",
+        "phonic": "tán xiāng",
         "type": "yellow",
         "name": "檀香",
         "hex": "#c6813c"
@@ -181,7 +181,7 @@ const yellow = [
             137,
             37
         ],
-        "phonic": "zhehuang",
+        "phonic": "zhè huáng",
         "type": "yellow",
         "name": "柘黄",
         "hex": "#ea8925"
@@ -192,7 +192,7 @@ const yellow = [
             162,
             109
         ],
-        "phonic": "tuhuang",
+        "phonic": "tǔ huáng",
         "type": "yellow",
         "name": "土黄",
         "hex": "#d7a26d"
@@ -203,7 +203,7 @@ const yellow = [
             200,
             90
         ],
-        "phonic": "gancaohuang",
+        "phonic": "gān cǎo huáng",
         "type": "yellow",
         "name": "甘草黄",
         "hex": "#e9c85a"
@@ -214,7 +214,7 @@ const yellow = [
             196,
             21
         ],
-        "phonic": "huanglianhuang",
+        "phonic": "huáng lián huáng",
         "type": "yellow",
         "name": "黄连黄",
         "hex": "#fcc415"
@@ -225,7 +225,7 @@ const yellow = [
             179,
             75
         ],
-        "phonic": "jiehuang",
+        "phonic": "jiè huáng",
         "type": "yellow",
         "name": "芥黄",
         "hex": "#ccb34b"
@@ -236,7 +236,7 @@ const yellow = [
             223,
             153
         ],
-        "phonic": "miehuang",
+        "phonic": "miè huáng",
         "type": "yellow",
         "name": "篾黄",
         "hex": "#f7df99"
@@ -247,7 +247,7 @@ const yellow = [
             175,
             23
         ],
-        "phonic": "jianghuang",
+        "phonic": "jiāng huáng",
         "type": "yellow",
         "name": "姜黄",
         "hex": "#e2af17"
@@ -258,7 +258,7 @@ const yellow = [
             187,
             71
         ],
-        "phonic": "guhuang",
+        "phonic": "gǔ huáng",
         "type": "yellow",
         "name": "谷黄",
         "hex": "#fabb47"
@@ -269,7 +269,7 @@ const yellow = [
             248,
             1
         ],
-        "phonic": "yaohuang",
+        "phonic": "yáo huáng",
         "type": "yellow",
         "name": "姚黄",
         "hex": "#fdf801"
@@ -280,7 +280,7 @@ const yellow = [
             203,
             3
         ],
-        "phonic": "youhuang",
+        "phonic": "yòu huáng",
         "type": "yellow",
         "name": "柚黄",
         "hex": "#e9cb03"
@@ -291,7 +291,7 @@ const yellow = [
             154,
             89
         ],
-        "phonic": "youhuang",
+        "phonic": "yòu huáng",
         "type": "yellow",
         "name": "鼬黄",
         "hex": "#da9a59"
@@ -302,7 +302,7 @@ const yellow = [
             210,
             42
         ],
-        "phonic": "haohuang",
+        "phonic": "hāo huáng",
         "type": "yellow",
         "name": "蒿黄",
         "hex": "#e7d22a"
@@ -313,7 +313,7 @@ const yellow = [
             97,
             45
         ],
-        "phonic": "canghuang",
+        "phonic": "cāng huáng",
         "type": "yellow",
         "name": "苍黄",
         "hex": "#a4612d"
@@ -324,7 +324,7 @@ const yellow = [
             137,
             24
         ],
-        "phonic": "xionghuang",
+        "phonic": "xióng huáng",
         "type": "yellow",
         "name": "雄黄",
         "hex": "#f88918"
@@ -335,7 +335,7 @@ const yellow = [
             181,
             45
         ],
-        "phonic": "caohuang",
+        "phonic": "cǎo huáng",
         "type": "yellow",
         "name": "草黄",
         "hex": "#d2b52d"
@@ -346,7 +346,7 @@ const yellow = [
             206,
             109
         ],
-        "phonic": "shuihuang",
+        "phonic": "shuǐ huáng",
         "type": "yellow",
         "name": "水黄",
         "hex": "#f4ce6d"
@@ -357,7 +357,7 @@ const yellow = [
             153,
             1
         ],
-        "phonic": "juhuang",
+        "phonic": "jú huáng",
         "type": "yellow",
         "name": "桔黄",
         "hex": "#fe9901"
@@ -368,7 +368,7 @@ const yellow = [
             125,
             29
         ],
-        "phonic": "juchenghuang",
+        "phonic": "jú chéng",
         "type": "yellow",
         "name": "橘橙",
         "hex": "#f97d1d"
@@ -379,7 +379,7 @@ const yellow = [
             106,
             58
         ],
-        "phonic": "zhubiaohuang",
+        "phonic": "zhū biāo",
         "type": "yellow",
         "name": "朱膘",
         "hex": "#f26a3a"
@@ -390,7 +390,7 @@ const yellow = [
             142,
             14
         ],
-        "phonic": "huanglu",
+        "phonic": "huáng lú",
         "type": "yellow",
         "name": "黄栌",
         "hex": "#e08e0e"
@@ -401,7 +401,7 @@ const yellow = [
             243,
             134
         ],
-        "phonic": "yingchunhuang",
+        "phonic": "yíng chūn huáng",
         "type": "yellow",
         "name": "迎春黄",
         "hex": "#f5f386"
@@ -412,7 +412,7 @@ const yellow = [
             203,
             22
         ],
-        "phonic": "suxinhuang",
+        "phonic": "sù xīn huáng",
         "type": "yellow",
         "name": "素馨黄",
         "hex": "#fccb16"
@@ -423,7 +423,7 @@ const yellow = [
             223,
             113
         ],
-        "phonic": "molihuang",
+        "phonic": "mò lì huáng",
         "type": "yellow",
         "name": "茉莉黄",
         "hex": "#f7df71"
@@ -434,7 +434,7 @@ const yellow = [
             215,
             112
         ],
-        "phonic": "danjianhuang",
+        "phonic": "dàn jiǎn huáng",
         "type": "yellow",
         "name": "淡茧黄",
         "hex": "#f8d770"
@@ -445,7 +445,7 @@ const yellow = [
             210,
             71
         ],
-        "phonic": "jianhuang",
+        "phonic": "jiǎn huáng",
         "type": "yellow",
         "name": "茧黄",
         "hex": "#f0d247"
@@ -456,7 +456,7 @@ const yellow = [
             143,
             1
         ],
-        "phonic": "juhuang",
+        "phonic": "jú huáng",
         "type": "yellow",
         "name": "橘黄",
         "hex": "#fe8f01"
@@ -467,7 +467,7 @@ const yellow = [
             236,
             71
         ],
-        "phonic": "yingchunhuahuang",
+        "phonic": "yíng chūn huā huáng",
         "type": "yellow",
         "name": "迎春花黄",
         "hex": "#efec47"
@@ -478,7 +478,7 @@ const yellow = [
             195,
             135
         ],
-        "phonic": "dankehuang",
+        "phonic": "dàn ké huáng",
         "type": "yellow",
         "name": "蛋壳黄",
         "hex": "#f7c387"
@@ -489,7 +489,7 @@ const yellow = [
             158,
             68
         ],
-        "phonic": "ruanmuhuang",
+        "phonic": "ruǎn mù huáng",
         "type": "yellow",
         "name": "软木黄",
         "hex": "#de9e44"
@@ -500,7 +500,7 @@ const yellow = [
             223,
             112
         ],
-        "phonic": "maiganhuang",
+        "phonic": "mài gān huáng",
         "type": "yellow",
         "name": "麦杆黄",
         "hex": "#f9df70"
@@ -511,7 +511,7 @@ const yellow = [
             232,
             120
         ],
-        "phonic": "hupohuang",
+        "phonic": "hǔ pò huáng",
         "type": "yellow",
         "name": "琥珀黄",
         "hex": "#ffe878"
@@ -522,7 +522,7 @@ const yellow = [
             214,
             148
         ],
-        "phonic": "xiangyahuang",
+        "phonic": "xiàng yá huáng",
         "type": "yellow",
         "name": "象牙黄",
         "hex": "#efd694"
@@ -533,7 +533,7 @@ const yellow = [
             200,
             47
         ],
-        "phonic": "yalihuang",
+        "phonic": "yǎ lí huáng",
         "type": "yellow",
         "name": "雅梨黄",
         "hex": "#fbc82f"
@@ -544,7 +544,7 @@ const yellow = [
             216,
             155
         ],
-        "phonic": "kuishanhuang",
+        "phonic": "kuí shàn huáng",
         "type": "yellow",
         "name": "葵扇黄",
         "hex": "#ead89b"
@@ -555,7 +555,7 @@ const yellow = [
             166,
             52
         ],
-        "phonic": "liuehuang",
+        "phonic": "liú è huáng",
         "type": "yellow",
         "name": "榴萼黄",
         "hex": "#faa634"
@@ -566,7 +566,7 @@ const yellow = [
             145,
             35
         ],
-        "phonic": "fengfanhuang",
+        "phonic": "fēng fān huáng",
         "type": "yellow",
         "name": "风帆黄",
         "hex": "#dd9123"
@@ -577,7 +577,7 @@ const yellow = [
             212,
             55
         ],
-        "phonic": "ningmenghuang",
+        "phonic": "níng méng huáng",
         "type": "yellow",
         "name": "柠檬黄",
         "hex": "#fcd437"
@@ -588,7 +588,7 @@ const yellow = [
             205,
             49
         ],
-        "phonic": "dadouhuang",
+        "phonic": "dà dòu huáng",
         "type": "yellow",
         "name": "大豆黄",
         "hex": "#fbcd31"
@@ -599,7 +599,7 @@ const yellow = [
             140,
             38
         ],
-        "phonic": "shanjihuang",
+        "phonic": "shān jī huáng",
         "type": "yellow",
         "name": "山鸡黄",
         "hex": "#b78c26"
@@ -610,7 +610,7 @@ const yellow = [
             140,
             36
         ],
-        "phonic": "beiguahuang",
+        "phonic": "běi guā huáng",
         "type": "yellow",
         "name": "北瓜黄",
         "hex": "#fd8c24"
@@ -621,7 +621,7 @@ const yellow = [
             210,
             22
         ],
-        "phonic": "jinguahuang",
+        "phonic": "jīn guā huáng",
         "type": "yellow",
         "name": "金瓜黄",
         "hex": "#fbd216"
@@ -632,7 +632,7 @@ const yellow = [
             201,
             91
         ],
-        "phonic": "muguahuang",
+        "phonic": "mù guā huáng",
         "type": "yellow",
         "name": "木瓜黄",
         "hex": "#e5c95b"
@@ -643,7 +643,7 @@ const yellow = [
             215,
             26
         ],
-        "phonic": "foshouhuang",
+        "phonic": "fó shǒu huáng",
         "type": "yellow",
         "name": "佛手黄",
         "hex": "#fed71a"
@@ -654,7 +654,7 @@ const yellow = [
             246,
             195
         ],
-        "phonic": "xingrenhuang",
+        "phonic": "xìng rén huáng",
         "type": "yellow",
         "name": "杏仁黄",
         "hex": "#f9f6c3"
@@ -665,7 +665,7 @@ const yellow = [
             183,
             80
         ],
-        "phonic": "shashihuang",
+        "phonic": "shā shí huáng",
         "type": "yellow",
         "name": "沙石黄",
         "hex": "#e4b750"
@@ -676,7 +676,7 @@ const yellow = [
             194,
             3
         ],
-        "phonic": "mangguohuang",
+        "phonic": "máng guǒ huáng",
         "type": "yellow",
         "name": "芒果黄",
         "hex": "#fdc203"
@@ -687,7 +687,7 @@ const yellow = [
             232,
             193
         ],
-        "phonic": "douzhihuang",
+        "phonic": "dòu zhī huáng",
         "type": "yellow",
         "name": "豆汁黄",
         "hex": "#f7e8c1"
@@ -698,7 +698,7 @@ const yellow = [
             202,
             12
         ],
-        "phonic": "ruyahuang",
+        "phonic": "rǔ yā huáng",
         "type": "yellow",
         "name": "乳鸭黄",
         "hex": "#ffca0c"
@@ -709,7 +709,7 @@ const yellow = [
             162,
             6
         ],
-        "phonic": "pipahuang",
+        "phonic": "pí pá huáng",
         "type": "yellow",
         "name": "枇杷黄",
         "hex": "#fca206"
@@ -720,7 +720,7 @@ const yellow = [
             208,
             107
         ],
-        "phonic": "chaomihuang",
+        "phonic": "chǎo mǐ huáng",
         "type": "yellow",
         "name": "炒米黄",
         "hex": "#ffd06b"
@@ -731,7 +731,7 @@ const yellow = [
             173,
             26
         ],
-        "phonic": "hupihuang",
+        "phonic": "hǔ pí huáng",
         "type": "yellow",
         "name": "虎皮黄",
         "hex": "#ebad1a"
@@ -742,7 +742,7 @@ const yellow = [
             195,
             7
         ],
-        "phonic": "jinzhanhuang",
+        "phonic": "jīn zhǎn huáng",
         "type": "yellow",
         "name": "金盏黄",
         "hex": "#fdc307"
@@ -753,7 +753,7 @@ const yellow = [
             165,
             16
         ],
-        "phonic": "jinyehuang",
+        "phonic": "jīn yè huáng",
         "type": "yellow",
         "name": "金叶黄",
         "hex": "#ffa510"
@@ -764,7 +764,7 @@ const yellow = [
             161,
             1
         ],
-        "phonic": "jinyinghuang",
+        "phonic": "jīn yīng huáng",
         "type": "yellow",
         "name": "金莺黄",
         "hex": "#ffa101"
@@ -775,7 +775,7 @@ const yellow = [
             164,
             90
         ],
-        "phonic": "daimaohuang",
+        "phonic": "dài mào huáng",
         "type": "yellow",
         "name": "玳瑁黄",
         "hex": "#daa45a"
@@ -786,7 +786,7 @@ const yellow = [
             208,
             68
         ],
-        "phonic": "qiukuihuang",
+        "phonic": "qiū kuí huáng",
         "type": "yellow",
         "name": "秋葵黄",
         "hex": "#edd044"
@@ -797,7 +797,7 @@ const yellow = [
             190,
             17
         ],
-        "phonic": "xiangjiaohuang",
+        "phonic": "xiāng jiāo huáng",
         "type": "yellow",
         "name": "香蕉黄",
         "hex": "#e4be11"
@@ -808,7 +808,7 @@ const yellow = [
             182,
             17
         ],
-        "phonic": "jidanhuang",
+        "phonic": "jī dàn huáng",
         "type": "yellow",
         "name": "鸡蛋黄",
         "hex": "#fbb611"
@@ -819,7 +819,7 @@ const yellow = [
             184,
             41
         ],
-        "phonic": "ezhanghuang",
+        "phonic": "é zhǎng huáng",
         "type": "yellow",
         "name": "鹅掌黄",
         "hex": "#fbb829"
@@ -830,7 +830,7 @@ const yellow = [
             221,
             141
         ],
-        "phonic": "xiaojihuang",
+        "phonic": "xiǎo jī huáng",
         "type": "yellow",
         "name": "小鸡黄",
         "hex": "#f6dd8d"
@@ -841,7 +841,7 @@ const yellow = [
             216,
             74
         ],
-        "phonic": "diehuang",
+        "phonic": "dié huáng",
         "type": "yellow",
         "name": "蝶黄",
         "hex": "#e3d84a"
@@ -852,7 +852,7 @@ const yellow = [
             205,
             17
         ],
-        "phonic": "xiangrikuihuang",
+        "phonic": "xiàng rì kuí huáng",
         "type": "yellow",
         "name": "向日葵黄",
         "hex": "#fecd11"
@@ -863,7 +863,7 @@ const yellow = [
             218,
             65
         ],
-        "phonic": "youcaihuahuang",
+        "phonic": "yóu cài huā huáng",
         "type": "yellow",
         "name": "油菜花黄",
         "hex": "#fbda41"
@@ -874,7 +874,7 @@ const yellow = [
             188,
             48
         ],
-        "phonic": "chushuxinghuang",
+        "phonic": "chū shú xìng huáng",
         "type": "yellow",
         "name": "初熟杏黄",
         "hex": "#f7bc30"
@@ -885,7 +885,7 @@ const yellow = [
             107,
             28
         ],
-        "phonic": "jinlianhuachenghuang",
+        "phonic": "jīn lián huā chéng",
         "type": "yellow",
         "name": "金莲花橙",
         "hex": "#f86b1c"
@@ -896,7 +896,7 @@ const yellow = [
             179,
             15
         ],
-        "phonic": "lameihuang",
+        "phonic": "là méi huáng",
         "type": "yellow",
         "name": "腊梅黄",
         "hex": "#c9b30f"
@@ -907,7 +907,7 @@ const yellow = [
             126,
             36
         ],
-        "phonic": "meirenjiaochenghuang",
+        "phonic": "měi rén jiāo chéng",
         "type": "yellow",
         "name": "美人焦橙",
         "hex": "#fa7e24"
@@ -918,7 +918,7 @@ const yellow = [
             210,
             125
         ],
-        "phonic": "maiyatanghuang",
+        "phonic": "mài yá táng huáng",
         "type": "yellow",
         "name": "麦芽糖黄",
         "hex": "#f8d27d"
@@ -929,7 +929,7 @@ const yellow = [
             195,
             132
         ],
-        "phonic": "lihuang",
+        "phonic": "lí huáng",
         "type": "yellow",
         "name": "梨黄",
         "hex": "#d1c384"
@@ -940,7 +940,7 @@ const yellow = [
             147,
             8
         ],
-        "phonic": "wanshoujuhuang",
+        "phonic": "wàn shòu jú huáng",
         "type": "yellow",
         "name": "万寿菊黄",
         "hex": "#fb9308"
@@ -951,7 +951,7 @@ const yellow = [
             217,
             7
         ],
-        "phonic": "huaihuahuang",
+        "phonic": "huái huā huáng",
         "type": "yellow",
         "name": "槐花黄",
         "hex": "#fdd907"
@@ -962,7 +962,7 @@ const yellow = [
             192,
             65
         ],
-        "phonic": "ganlanhuang",
+        "phonic": "gǎn lǎn huáng",
         "type": "yellow",
         "name": "橄榄黄",
         "hex": "#dfc041"
@@ -973,7 +973,7 @@ const yellow = [
             196,
             49
         ],
-        "phonic": "yingwuguanhuang",
+        "phonic": "yīng wǔ guān huáng",
         "type": "yellow",
         "name": "鹦鹉冠黄",
         "hex": "#f6c431"
@@ -984,7 +984,7 @@ const yellow = [
             185,
             88
         ],
-        "phonic": "mihuangse",
+        "phonic": "mì huáng sè",
         "type": "yellow",
         "name": "蜜黄色",
         "hex": "#fbb958"
@@ -995,7 +995,7 @@ const yellow = [
             212,
             161
         ],
-        "phonic": "shuimihuang",
+        "phonic": "shuǐ mì",
         "type": "yellow",
         "name": "水蜜",
         "hex": "#f5d4a1"
@@ -1006,7 +1006,7 @@ const yellow = [
             143,
             78
         ],
-        "phonic": "zhehuang",
+        "phonic": "zhě huáng",
         "type": "yellow",
         "name": "赭黄",
         "hex": "#b68f4e"
@@ -1017,7 +1017,7 @@ const yellow = [
             178,
             13
         ],
-        "phonic": "zhizihuang",
+        "phonic": "zhī zǐ huáng",
         "type": "yellow",
         "name": "栀子黄",
         "hex": "#ebb20d"
@@ -1028,7 +1028,7 @@ const yellow = [
             142,
             4
         ],
-        "phonic": "shihuang",
+        "phonic": "shì huáng",
         "type": "yellow",
         "name": "柿黄",
         "hex": "#ee8e04"
@@ -1039,7 +1039,7 @@ const yellow = [
             158,
             104
         ],
-        "phonic": "fenchenghuang",
+        "phonic": "fěn chéng",
         "type": "yellow",
         "name": "粉橙",
         "hex": "#eb9e68"
@@ -1050,7 +1050,7 @@ const yellow = [
             161,
             3
         ],
-        "phonic": "chengpihuang",
+        "phonic": "chéng pí huáng",
         "type": "yellow",
         "name": "橙皮黄",
         "hex": "#fba103"
@@ -1061,7 +1061,7 @@ const yellow = [
             126,
             64
         ],
-        "phonic": "jintuohuang",
+        "phonic": "jīn tuó",
         "type": "yellow",
         "name": "金驼",
         "hex": "#fa7e40"
@@ -1072,7 +1072,7 @@ const yellow = [
             218,
             148
         ],
-        "phonic": "xiangshuimeiguihuang",
+        "phonic": "xiāng shuǐ méi guī huáng",
         "type": "yellow",
         "name": "香水玫瑰黄",
         "hex": "#f7da94"
@@ -1083,7 +1083,7 @@ const yellow = [
             231,
             154
         ],
-        "phonic": "yinxianghuang",
+        "phonic": "yín xiāng",
         "type": "yellow",
         "name": "银缃",
         "hex": "#f0e79a"
@@ -1094,7 +1094,7 @@ const yellow = [
             202,
             88
         ],
-        "phonic": "laoxianghuang",
+        "phonic": "lǎo xiāng",
         "type": "yellow",
         "name": "老缃",
         "hex": "#d7ca58"

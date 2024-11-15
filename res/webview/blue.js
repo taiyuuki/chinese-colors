@@ -5,7 +5,7 @@ const blue = [
             112,
             166
         ],
-        "phonic": "ananlan",
+        "phonic": "ān ān lán",
         "type": "blue",
         "name": "安安蓝",
         "hex": "#3170a6"
@@ -16,7 +16,7 @@ const blue = [
             32,
             48
         ],
-        "phonic": "anlan",
+        "phonic": "àn lán",
         "type": "blue",
         "name": "暗蓝",
         "hex": "#102030"
@@ -27,7 +27,7 @@ const blue = [
             70,
             175
         ],
-        "phonic": "baolan",
+        "phonic": "bǎo lán",
         "type": "blue",
         "name": "宝蓝",
         "hex": "#3946af"
@@ -38,7 +38,7 @@ const blue = [
             179,
             204
         ],
-        "phonic": "biqinglan",
+        "phonic": "bì qīng",
         "type": "blue",
         "name": "碧青",
         "hex": "#5db3cc"
@@ -49,7 +49,7 @@ const blue = [
             216,
             251
         ],
-        "phonic": "bingshanlan",
+        "phonic": "bīng shān lán",
         "type": "blue",
         "name": "冰山蓝",
         "hex": "#add8fb"
@@ -60,7 +60,7 @@ const blue = [
             41,
             84
         ],
-        "phonic": "binglan",
+        "phonic": "bìng lán",
         "type": "blue",
         "name": "并蓝",
         "hex": "#202954"
@@ -71,7 +71,7 @@ const blue = [
             72,
             88
         ],
-        "phonic": "canglan",
+        "phonic": "cāng lán",
         "type": "blue",
         "name": "苍蓝",
         "hex": "#134858"
@@ -82,7 +82,7 @@ const blue = [
             40,
             49
         ],
-        "phonic": "cangheilan",
+        "phonic": "cáng hēi lán",
         "type": "blue",
         "name": "藏黑蓝",
         "hex": "#252831"
@@ -93,7 +93,7 @@ const blue = [
             5,
             47
         ],
-        "phonic": "canglan",
+        "phonic": "cáng lán",
         "type": "blue",
         "name": "藏蓝",
         "hex": "#0c052f"
@@ -104,7 +104,7 @@ const blue = [
             10,
             37
         ],
-        "phonic": "zangqinglan",
+        "phonic": "zàng qīng",
         "type": "blue",
         "name": "藏青",
         "hex": "#060a25"
@@ -115,7 +115,7 @@ const blue = [
             178,
             189
         ],
-        "phonic": "chunlan",
+        "phonic": "chūn lán",
         "type": "blue",
         "name": "春蓝",
         "hex": "#9eb2bd"
@@ -126,7 +126,7 @@ const blue = [
             218,
             248
         ],
-        "phonic": "cuilan",
+        "phonic": "cuì lán",
         "type": "blue",
         "name": "翠蓝",
         "hex": "#27daf8"
@@ -137,7 +137,7 @@ const blue = [
             71,
             87
         ],
-        "phonic": "dailan",
+        "phonic": "dài lán",
         "type": "blue",
         "name": "黛蓝",
         "hex": "#304757"
@@ -148,7 +148,7 @@ const blue = [
             31,
             60
         ],
-        "phonic": "daiqinglan",
+        "phonic": "dài qīng",
         "type": "blue",
         "name": "黛青",
         "hex": "#1b1f3c"
@@ -159,7 +159,7 @@ const blue = [
             174,
             195
         ],
-        "phonic": "dianzilan",
+        "phonic": "diàn zǐ lán",
         "type": "blue",
         "name": "甸子蓝",
         "hex": "#0faec3"
@@ -170,7 +170,7 @@ const blue = [
             171,
             239
         ],
-        "phonic": "pinyuelan",
+        "phonic": "pǐn yuè",
         "type": "blue",
         "name": "品月",
         "hex": "#7aabef"
@@ -181,7 +181,7 @@ const blue = [
             61,
             95
         ],
-        "phonic": "dianqinglan",
+        "phonic": "diàn qīng",
         "type": "blue",
         "name": "靛青",
         "hex": "#203d5f"
@@ -192,7 +192,7 @@ const blue = [
             125,
             161
         ],
-        "phonic": "diechilan",
+        "phonic": "dié chì lán",
         "type": "blue",
         "name": "蝶翅蓝",
         "hex": "#4f7da1"
@@ -203,7 +203,7 @@ const blue = [
             89,
             164
         ],
-        "phonic": "feiyancaolan",
+        "phonic": "fēi yàn cǎo lán",
         "type": "blue",
         "name": "飞燕草蓝",
         "hex": "#0f59a4"
@@ -214,7 +214,7 @@ const blue = [
             208,
             219
         ],
-        "phonic": "fenqinglan",
+        "phonic": "fěn qīng",
         "type": "blue",
         "name": "粉青",
         "hex": "#b2d0db"
@@ -225,7 +225,7 @@ const blue = [
             30,
             81
         ],
-        "phonic": "foqinglan",
+        "phonic": "fó qīng",
         "type": "blue",
         "name": "佛青",
         "hex": "#0a1e51"
@@ -236,7 +236,7 @@ const blue = [
             20,
             34
         ],
-        "phonic": "ganglan",
+        "phonic": "gāng lán",
         "type": "blue",
         "name": "钢蓝",
         "hex": "#0e1422"
@@ -247,7 +247,7 @@ const blue = [
             36,
             52
         ],
-        "phonic": "gangqinglan",
+        "phonic": "gāng qīng",
         "type": "blue",
         "name": "钢青",
         "hex": "#142434"
@@ -258,7 +258,7 @@ const blue = [
             41,
             57
         ],
-        "phonic": "gelan",
+        "phonic": "gē lán",
         "type": "blue",
         "name": "鸽蓝",
         "hex": "#1c2939"
@@ -269,7 +269,7 @@ const blue = [
             67,
             122
         ],
-        "phonic": "haichanglan",
+        "phonic": "hǎi chāng lán",
         "type": "blue",
         "name": "海昌蓝",
         "hex": "#28437a"
@@ -280,7 +280,7 @@ const blue = [
             79,
             126
         ],
-        "phonic": "hailan",
+        "phonic": "hǎi lán",
         "type": "blue",
         "name": "海蓝",
         "hex": "#174f7e"
@@ -291,7 +291,7 @@ const blue = [
             163,
             195
         ],
-        "phonic": "haiqinglan",
+        "phonic": "hǎi qīng",
         "type": "blue",
         "name": "海青",
         "hex": "#22a3c3"
@@ -302,7 +302,7 @@ const blue = [
             86,
             154
         ],
-        "phonic": "haitaolan",
+        "phonic": "hǎi tāo lán",
         "type": "blue",
         "name": "海涛蓝",
         "hex": "#15569a"
@@ -313,7 +313,7 @@ const blue = [
             230,
             232
         ],
-        "phonic": "haitianlan",
+        "phonic": "hǎi tiān lán",
         "type": "blue",
         "name": "海天蓝",
         "hex": "#c7e6e8"
@@ -324,7 +324,7 @@ const blue = [
             119,
             184
         ],
-        "phonic": "honglan",
+        "phonic": "hóng lán",
         "type": "blue",
         "name": "虹蓝",
         "hex": "#2277b8"
@@ -335,7 +335,7 @@ const blue = [
             163,
             209
         ],
-        "phonic": "hulan",
+        "phonic": "hú lán",
         "type": "blue",
         "name": "湖蓝",
         "hex": "#16a3d1"
@@ -346,7 +346,7 @@ const blue = [
             18,
             53
         ],
-        "phonic": "huaqinglan",
+        "phonic": "huā qīng",
         "type": "blue",
         "name": "花青",
         "hex": "#041235"
@@ -357,7 +357,7 @@ const blue = [
             28,
             52
         ],
-        "phonic": "cengqinglan",
+        "phonic": "céng qīng",
         "type": "blue",
         "name": "曾青",
         "hex": "#101c34"
@@ -368,7 +368,7 @@ const blue = [
             119,
             132
         ],
-        "phonic": "xiaqinglan",
+        "phonic": "xiā qīng",
         "type": "blue",
         "name": "虾青",
         "hex": "#677784"
@@ -379,7 +379,7 @@ const blue = [
             94,
             134
         ],
-        "phonic": "huilan",
+        "phonic": "huī lán",
         "type": "blue",
         "name": "灰蓝",
         "hex": "#3e5e86"
@@ -390,7 +390,7 @@ const blue = [
             125,
             212
         ],
-        "phonic": "danfanlan",
+        "phonic": "dǎn fán lán",
         "type": "blue",
         "name": "胆矾蓝",
         "hex": "#297dd4"
@@ -401,7 +401,7 @@ const blue = [
             103,
             231
         ],
-        "phonic": "yazhicaolan",
+        "phonic": "yā zhí cǎo lán",
         "type": "blue",
         "name": "鸭跖草蓝",
         "hex": "#4667e7"
@@ -412,7 +412,7 @@ const blue = [
             104,
             188
         ],
-        "phonic": "weilan",
+        "phonic": "wèi lán",
         "type": "blue",
         "name": "蔚蓝",
         "hex": "#2a68bc"
@@ -423,7 +423,7 @@ const blue = [
             113,
             173
         ],
-        "phonic": "pinlan",
+        "phonic": "pǐn lán",
         "type": "blue",
         "name": "品蓝",
         "hex": "#2b71ad"
@@ -434,7 +434,7 @@ const blue = [
             48,
             73
         ],
-        "phonic": "jiqinglan",
+        "phonic": "jì qīng",
         "type": "blue",
         "name": "霁青",
         "hex": "#2c3049"
@@ -445,7 +445,7 @@ const blue = [
             144,
             168
         ],
-        "phonic": "jianniaolan",
+        "phonic": "jiān niǎo lán",
         "type": "blue",
         "name": "樫鸟蓝",
         "hex": "#1490a8"
@@ -456,7 +456,7 @@ const blue = [
             169,
             201
         ],
-        "phonic": "jianshilan",
+        "phonic": "jiàn shí lán",
         "type": "blue",
         "name": "涧石蓝",
         "hex": "#67a9c9"
@@ -467,7 +467,7 @@ const blue = [
             155,
             184
         ],
-        "phonic": "jiaoqinglan",
+        "phonic": "jiāo qīng",
         "type": "blue",
         "name": "鲛青",
         "hex": "#8c9bb8"
@@ -478,7 +478,7 @@ const blue = [
             52,
             107
         ],
-        "phonic": "jinglan",
+        "phonic": "jīng lán",
         "type": "blue",
         "name": "京蓝",
         "hex": "#2f346b"
@@ -489,7 +489,7 @@ const blue = [
             65,
             103
         ],
-        "phonic": "jingqinglan",
+        "phonic": "jīng qīng",
         "type": "blue",
         "name": "京青",
         "hex": "#294167"
@@ -500,7 +500,7 @@ const blue = [
             214,
             225
         ],
-        "phonic": "jingtianlan",
+        "phonic": "jǐng tiān lán",
         "type": "blue",
         "name": "井天蓝",
         "hex": "#bbd6e1"
@@ -511,7 +511,7 @@ const blue = [
             178,
             221
         ],
-        "phonic": "jingtailan",
+        "phonic": "jǐng tài lán",
         "type": "blue",
         "name": "景泰蓝",
         "hex": "#61b2dd"
@@ -522,7 +522,7 @@ const blue = [
             99,
             101
         ],
-        "phonic": "juqinglan",
+        "phonic": "jù qīng",
         "type": "blue",
         "name": "醵青",
         "hex": "#3b6365"
@@ -533,7 +533,7 @@ const blue = [
             176,
             201
         ],
-        "phonic": "kongquelan",
+        "phonic": "kǒng què lán",
         "type": "blue",
         "name": "孔雀蓝",
         "hex": "#0eb0c9"
@@ -544,7 +544,7 @@ const blue = [
             66,
             150
         ],
-        "phonic": "kuquelan",
+        "phonic": "kǔ què lán",
         "type": "blue",
         "name": "苦鹊蓝",
         "hex": "#294296"
@@ -555,7 +555,7 @@ const blue = [
             78,
             143
         ],
-        "phonic": "quelan",
+        "phonic": "què lán",
         "type": "blue",
         "name": "鹊蓝",
         "hex": "#404e8f"
@@ -566,7 +566,7 @@ const blue = [
             59,
             94
         ],
-        "phonic": "maolan",
+        "phonic": "máo lán",
         "type": "blue",
         "name": "毛蓝",
         "hex": "#133b5e"
@@ -577,7 +577,7 @@ const blue = [
             122,
             161
         ],
-        "phonic": "maoyuelan",
+        "phonic": "máo yuè",
         "type": "blue",
         "name": "毛月",
         "hex": "#2f7aa1"
@@ -588,7 +588,7 @@ const blue = [
             51,
             75
         ],
-        "phonic": "menqinglan",
+        "phonic": "mén qīng",
         "type": "blue",
         "name": "扪青",
         "hex": "#1d334b"
@@ -599,7 +599,7 @@ const blue = [
             64,
             71
         ],
-        "phonic": "moqinglan",
+        "phonic": "mò qīng",
         "type": "blue",
         "name": "墨青",
         "hex": "#2f4047"
@@ -610,7 +610,7 @@ const blue = [
             73,
             121
         ],
-        "phonic": "pulan",
+        "phonic": "pú lán",
         "type": "blue",
         "name": "蒲蓝",
         "hex": "#014979"
@@ -621,7 +621,7 @@ const blue = [
             49,
             82
         ],
-        "phonic": "puqinglan",
+        "phonic": "pú qīng",
         "type": "blue",
         "name": "蒲青",
         "hex": "#003152"
@@ -632,7 +632,7 @@ const blue = [
             196,
             211
         ],
-        "phonic": "pubulan",
+        "phonic": "pù bù lán",
         "type": "blue",
         "name": "瀑布蓝",
         "hex": "#50c4d3"
@@ -643,7 +643,7 @@ const blue = [
             109,
             181
         ],
-        "phonic": "qianniuhualan",
+        "phonic": "qiān niú huā lán",
         "type": "blue",
         "name": "牵牛花蓝",
         "hex": "#376db5"
@@ -654,7 +654,7 @@ const blue = [
             49,
             126
         ],
-        "phonic": "qingjinlan",
+        "phonic": "qīng jīn",
         "type": "blue",
         "name": "青金",
         "hex": "#28317e"
@@ -665,7 +665,7 @@ const blue = [
             213,
             222
         ],
-        "phonic": "qingshuilan",
+        "phonic": "qīng shuǐ lán",
         "type": "blue",
         "name": "清水蓝",
         "hex": "#b0d5de"
@@ -676,7 +676,7 @@ const blue = [
             167,
             232
         ],
-        "phonic": "qingtinglan",
+        "phonic": "qīng tíng lán",
         "type": "blue",
         "name": "蜻蜓蓝",
         "hex": "#10a7e8"
@@ -687,7 +687,7 @@ const blue = [
             151,
             195
         ],
-        "phonic": "qinglan",
+        "phonic": "qíng lán",
         "type": "blue",
         "name": "晴蓝",
         "hex": "#5797c3"
@@ -698,7 +698,7 @@ const blue = [
             135,
             177
         ],
-        "phonic": "qingshanlan",
+        "phonic": "qíng shān lán",
         "type": "blue",
         "name": "晴山蓝",
         "hex": "#4c87b1"
@@ -709,7 +709,7 @@ const blue = [
             189,
             210
         ],
-        "phonic": "qiubolan",
+        "phonic": "qiū bō lán",
         "type": "blue",
         "name": "秋波蓝",
         "hex": "#8abdd2"
@@ -720,7 +720,7 @@ const blue = [
             174,
             214
         ],
-        "phonic": "qielan",
+        "phonic": "qiè lán",
         "type": "blue",
         "name": "窃蓝",
         "hex": "#92aed6"
@@ -731,7 +731,7 @@ const blue = [
             35,
             53
         ],
-        "phonic": "quetoulan",
+        "phonic": "què tóu lán",
         "type": "blue",
         "name": "雀头蓝",
         "hex": "#042335"
@@ -742,7 +742,7 @@ const blue = [
             94,
             146
         ],
-        "phonic": "ronglan",
+        "phonic": "róng lán",
         "type": "blue",
         "name": "绒蓝",
         "hex": "#2f5e92"
@@ -753,7 +753,7 @@ const blue = [
             65,
             123
         ],
-        "phonic": "shaqinglan",
+        "phonic": "shā qīng",
         "type": "blue",
         "name": "沙青",
         "hex": "#3c417b"
@@ -764,7 +764,7 @@ const blue = [
             170,
             176
         ],
-        "phonic": "shanlan",
+        "phonic": "shǎn lán",
         "type": "blue",
         "name": "闪蓝",
         "hex": "#7baab0"
@@ -775,7 +775,7 @@ const blue = [
             37,
             90
         ],
-        "phonic": "shiqinglan",
+        "phonic": "shí qīng",
         "type": "blue",
         "name": "石青",
         "hex": "#1b255a"
@@ -786,7 +786,7 @@ const blue = [
             163,
             218
         ],
-        "phonic": "shiruilan",
+        "phonic": "shí ruǐ lán",
         "type": "blue",
         "name": "石蕊蓝",
         "hex": "#04a3da"
@@ -797,7 +797,7 @@ const blue = [
             34,
             88
         ],
-        "phonic": "shuanglan",
+        "phonic": "shuāng lán",
         "type": "blue",
         "name": "双蓝",
         "hex": "#032258"
@@ -808,7 +808,7 @@ const blue = [
             203,
             255
         ],
-        "phonic": "tianlan",
+        "phonic": "tiān lán",
         "type": "blue",
         "name": "天蓝",
         "hex": "#66cbff"
@@ -819,7 +819,7 @@ const blue = [
             176,
             198
         ],
-        "phonic": "tianqinglan",
+        "phonic": "tiān qīng",
         "type": "blue",
         "name": "天青",
         "hex": "#94b0c6"
@@ -830,7 +830,7 @@ const blue = [
             119,
             166
         ],
-        "phonic": "tulan",
+        "phonic": "tǔ lán",
         "type": "blue",
         "name": "土蓝",
         "hex": "#5c77a6"
@@ -841,7 +841,7 @@ const blue = [
             142,
             148
         ],
-        "phonic": "wanbolan",
+        "phonic": "wǎn bō lán",
         "type": "blue",
         "name": "晚波蓝",
         "hex": "#658e94"
@@ -852,7 +852,7 @@ const blue = [
             95,
             148
         ],
-        "phonic": "xiaolan",
+        "phonic": "xiāo lán",
         "type": "blue",
         "name": "霄蓝",
         "hex": "#3e5f94"
@@ -863,7 +863,7 @@ const blue = [
             180,
             247
         ],
-        "phonic": "xinglan",
+        "phonic": "xīng lán",
         "type": "blue",
         "name": "星蓝",
         "hex": "#93b4f7"
@@ -874,7 +874,7 @@ const blue = [
             48,
             73
         ],
-        "phonic": "xuanqinglan",
+        "phonic": "xuán qīng",
         "type": "blue",
         "name": "玄青",
         "hex": "#2c3049"
@@ -885,7 +885,7 @@ const blue = [
             188,
             174
         ],
-        "phonic": "yadanqinglan",
+        "phonic": "yā dàn qīng",
         "type": "blue",
         "name": "鸭蛋青",
         "hex": "#a4bcae"
@@ -896,7 +896,7 @@ const blue = [
             85,
             203
         ],
-        "phonic": "yanlan",
+        "phonic": "yàn lán",
         "type": "blue",
         "name": "焰蓝",
         "hex": "#0455cb"
@@ -907,7 +907,7 @@ const blue = [
             24,
             36
         ],
-        "phonic": "yanhanlan",
+        "phonic": "yàn hàn lán",
         "type": "blue",
         "name": "燕颔蓝",
         "hex": "#141824"
@@ -918,7 +918,7 @@ const blue = [
             62,
             88
         ],
-        "phonic": "yanweiqinglan",
+        "phonic": "yàn wěi qīng",
         "type": "blue",
         "name": "燕尾青",
         "hex": "#383e58"
@@ -929,7 +929,7 @@ const blue = [
             130,
             174
         ],
-        "phonic": "yanlan",
+        "phonic": "yàn lán",
         "type": "blue",
         "name": "鷃蓝",
         "hex": "#2f82ae"
@@ -940,7 +940,7 @@ const blue = [
             76,
             118
         ],
-        "phonic": "quetouqinglan",
+        "phonic": "què tóu qīng",
         "type": "blue",
         "name": "雀头青",
         "hex": "#294c76"
@@ -951,7 +951,7 @@ const blue = [
             165,
             248
         ],
-        "phonic": "yingguanglan",
+        "phonic": "yíng guāng lán",
         "type": "blue",
         "name": "荧光蓝",
         "hex": "#03a5f8"
@@ -962,7 +962,7 @@ const blue = [
             129,
             181
         ],
-        "phonic": "youlan",
+        "phonic": "yòu lán",
         "type": "blue",
         "name": "釉蓝",
         "hex": "#1781b5"
@@ -973,7 +973,7 @@ const blue = [
             155,
             195
         ],
-        "phonic": "yushandoulan",
+        "phonic": "yǔ shàn dòu lán",
         "type": "blue",
         "name": "羽扇豆蓝",
         "hex": "#619bc3"
@@ -984,7 +984,7 @@ const blue = [
             176,
             183
         ],
-        "phonic": "yuguotianqinglan",
+        "phonic": "yǔ guò tiān qīng",
         "type": "blue",
         "name": "雨过天青",
         "hex": "#7fb0b7"
@@ -995,7 +995,7 @@ const blue = [
             110,
             131
         ],
-        "phonic": "yuchailan",
+        "phonic": "yù chāi lán",
         "type": "blue",
         "name": "玉钗蓝",
         "hex": "#126e83"
@@ -1006,7 +1006,7 @@ const blue = [
             77,
             244
         ],
-        "phonic": "yushilan",
+        "phonic": "yù shí lán",
         "type": "blue",
         "name": "玉石蓝",
         "hex": "#384df4"
@@ -1017,7 +1017,7 @@ const blue = [
             80,
             231
         ],
-        "phonic": "caohualan",
+        "phonic": "cǎo huā lán",
         "type": "blue",
         "name": "草花蓝",
         "hex": "#0550e7"
@@ -1028,7 +1028,7 @@ const blue = [
             183,
             252
         ],
-        "phonic": "yuanweilan",
+        "phonic": "yuān wěi lán",
         "type": "blue",
         "name": "鸢尾蓝",
         "hex": "#9cb7fc"
@@ -1039,7 +1039,7 @@ const blue = [
             223,
             238
         ],
-        "phonic": "yuantianlan",
+        "phonic": "yuǎn tiān lán",
         "type": "blue",
         "name": "远天蓝",
         "hex": "#cfdfee"
@@ -1050,7 +1050,7 @@ const blue = [
             242,
             248
         ],
-        "phonic": "yuebailan",
+        "phonic": "yuè bái",
         "type": "blue",
         "name": "月白",
         "hex": "#f3f2f8"
@@ -1061,7 +1061,7 @@ const blue = [
             195,
             251
         ],
-        "phonic": "yuelan",
+        "phonic": "yuè lán",
         "type": "blue",
         "name": "月蓝",
         "hex": "#7cc3fb"
@@ -1072,7 +1072,7 @@ const blue = [
             144,
             186
         ],
-        "phonic": "yunshanlan",
+        "phonic": "yún shān lán",
         "type": "blue",
         "name": "云山蓝",
         "hex": "#2f90ba"
@@ -1083,7 +1083,7 @@ const blue = [
             188,
             209
         ],
-        "phonic": "yunshuilan",
+        "phonic": "yún shuǐ lán",
         "type": "blue",
         "name": "云水蓝",
         "hex": "#9dbcd1"
@@ -1094,7 +1094,7 @@ const blue = [
             173,
             206
         ],
-        "phonic": "zhuyuelan",
+        "phonic": "zhú yuè",
         "type": "blue",
         "name": "竹月",
         "hex": "#59adce"
@@ -1105,7 +1105,7 @@ const blue = [
             59,
             81
         ],
-        "phonic": "zhenqinglan",
+        "phonic": "zhēn qīng",
         "type": "blue",
         "name": "真青",
         "hex": "#293b51"

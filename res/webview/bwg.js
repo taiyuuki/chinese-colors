@@ -5,7 +5,7 @@ const bwg = [
             126,
             132
         ],
-        "phonic": "anzhuanhui",
+        "phonic": "àn zhuān huī",
         "type": "bwg",
         "name": "暗砖灰",
         "hex": "#7f7e84"
@@ -16,7 +16,7 @@ const bwg = [
             86,
             86
         ],
-        "phonic": "baicaoshuang",
+        "phonic": "bǎi cǎo shuāng",
         "type": "bwg",
         "name": "百草霜",
         "hex": "#565656"
@@ -27,7 +27,7 @@ const bwg = [
             167,
             162
         ],
-        "phonic": "banjiuhui",
+        "phonic": "bān jiū huī",
         "type": "bwg",
         "name": "斑鸠灰",
         "hex": "#a8a7a2"
@@ -38,7 +38,7 @@ const bwg = [
             207,
             194
         ],
-        "phonic": "bangroubai",
+        "phonic": "bàng ròu bái",
         "type": "bwg",
         "name": "蚌肉白",
         "hex": "#d7cfc2"
@@ -49,7 +49,7 @@ const bwg = [
             113,
             123
         ],
-        "phonic": "binghui",
+        "phonic": "bìng huī",
         "type": "bwg",
         "name": "并灰",
         "hex": "#71717b"
@@ -60,7 +60,7 @@ const bwg = [
             199,
             204
         ],
-        "phonic": "caihui",
+        "phonic": "cài huī",
         "type": "bwg",
         "name": "菜灰",
         "hex": "#c4c7cc"
@@ -71,7 +71,7 @@ const bwg = [
             220,
             210
         ],
-        "phonic": "caobai",
+        "phonic": "cǎo bái",
         "type": "bwg",
         "name": "草白",
         "hex": "#dcdcd2"
@@ -82,7 +82,7 @@ const bwg = [
             164,
             118
         ],
-        "phonic": "chenhui",
+        "phonic": "chén huī",
         "type": "bwg",
         "name": "尘灰",
         "hex": "#b6a476"
@@ -93,7 +93,7 @@ const bwg = [
             125,
             132
         ],
-        "phonic": "chunhui",
+        "phonic": "chún huī",
         "type": "bwg",
         "name": "鹑灰",
         "hex": "#847d84"
@@ -104,7 +104,7 @@ const bwg = [
             203,
             206
         ],
-        "phonic": "dalishi",
+        "phonic": "dà lǐ shí",
         "type": "bwg",
         "name": "大理石",
         "hex": "#c3cbce"
@@ -115,7 +115,7 @@ const bwg = [
             174,
             182
         ],
-        "phonic": "danlanhui",
+        "phonic": "dàn lán huī",
         "type": "bwg",
         "name": "淡蓝灰",
         "hex": "#9daeb6"
@@ -126,7 +126,7 @@ const bwg = [
             194,
             188
         ],
-        "phonic": "danlvhui",
+        "phonic": "dàn lǜ huī",
         "type": "bwg",
         "name": "淡绿灰",
         "hex": "#bdc2bc"
@@ -137,7 +137,7 @@ const bwg = [
             148,
             132
         ],
-        "phonic": "danmeiguihui",
+        "phonic": "dàn méi guī huī",
         "type": "bwg",
         "name": "淡玫瑰灰",
         "hex": "#b89484"
@@ -148,7 +148,7 @@ const bwg = [
             64,
             48
         ],
-        "phonic": "dansongyan",
+        "phonic": "dàn sōng yān",
         "type": "bwg",
         "name": "淡松烟",
         "hex": "#4d4030"
@@ -159,7 +159,7 @@ const bwg = [
             156,
             157
         ],
-        "phonic": "dantiehui",
+        "phonic": "dàn tiě huī",
         "type": "bwg",
         "name": "淡铁灰",
         "hex": "#9e9c9d"
@@ -170,7 +170,7 @@ const bwg = [
             178,
             163
         ],
-        "phonic": "danyinhui",
+        "phonic": "dàn yín huī",
         "type": "bwg",
         "name": "淡银灰",
         "hex": "#c2b2a3"
@@ -181,7 +181,7 @@ const bwg = [
             45,
             50
         ],
-        "phonic": "dengcaohui",
+        "phonic": "dēng cǎo huī",
         "type": "bwg",
         "name": "灯草灰",
         "hex": "#262d32"
@@ -192,7 +192,7 @@ const bwg = [
             240,
             246
         ],
-        "phonic": "dongfangliang",
+        "phonic": "dōng fāng liàng",
         "type": "bwg",
         "name": "东方亮",
         "hex": "#e9f0f6"
@@ -203,7 +203,7 @@ const bwg = [
             188,
             185
         ],
-        "phonic": "ehui",
+        "phonic": "è huī",
         "type": "bwg",
         "name": "垩灰",
         "hex": "#babcb9"
@@ -214,7 +214,7 @@ const bwg = [
             242,
             227
         ],
-        "phonic": "fenbai",
+        "phonic": "fěn bái",
         "type": "bwg",
         "name": "粉白",
         "hex": "#fbf2e3"
@@ -225,7 +225,7 @@ const bwg = [
             62,
             42
         ],
-        "phonic": "ganlanhui",
+        "phonic": "gǎn lǎn huī",
         "type": "bwg",
         "name": "橄榄灰",
         "hex": "#503e2a"
@@ -236,7 +236,7 @@ const bwg = [
             140,
             165
         ],
-        "phonic": "ganlanshihui",
+        "phonic": "gǎn lǎn shí huī",
         "type": "bwg",
         "name": "橄榄石灰",
         "hex": "#8a8ca5"
@@ -247,7 +247,7 @@ const bwg = [
             249,
             241
         ],
-        "phonic": "gaosu",
+        "phonic": "gǎo sù",
         "type": "bwg",
         "name": "缟素",
         "hex": "#f9f9f1"
@@ -258,7 +258,7 @@ const bwg = [
             170,
             170
         ],
-        "phonic": "gezihui",
+        "phonic": "gē zi huī",
         "type": "bwg",
         "name": "鸽子灰",
         "hex": "#aaaaaa"
@@ -269,7 +269,7 @@ const bwg = [
             155,
             162
         ],
-        "phonic": "gudinghui",
+        "phonic": "gǔ dǐng huī",
         "type": "bwg",
         "name": "古鼎灰",
         "hex": "#929ba2"
@@ -280,7 +280,7 @@ const bwg = [
             143,
             131
         ],
-        "phonic": "guibeihui",
+        "phonic": "guī bèi huī",
         "type": "bwg",
         "name": "龟背灰",
         "hex": "#8f8f83"
@@ -291,7 +291,7 @@ const bwg = [
             51,
             50
         ],
-        "phonic": "haibaohui",
+        "phonic": "hǎi bào huī",
         "type": "bwg",
         "name": "海豹灰",
         "hex": "#483332"
@@ -302,7 +302,7 @@ const bwg = [
             153,
             126
         ],
-        "phonic": "haishenhui",
+        "phonic": "hǎi shēn huī",
         "type": "bwg",
         "name": "海参灰",
         "hex": "#a7997e"
@@ -313,7 +313,7 @@ const bwg = [
             243,
             237
         ],
-        "phonic": "hanbaiyu",
+        "phonic": "hàn bái yù",
         "type": "bwg",
         "name": "汉白玉",
         "hex": "#f8f3ed"
@@ -324,7 +324,7 @@ const bwg = [
             53,
             57
         ],
-        "phonic": "hetunhui",
+        "phonic": "hé tún huī",
         "type": "bwg",
         "name": "河豚灰",
         "hex": "#3a3539"
@@ -335,7 +335,7 @@ const bwg = [
             236,
             223
         ],
-        "phonic": "hehuabai",
+        "phonic": "hé huā bái",
         "type": "bwg",
         "name": "荷花白",
         "hex": "#fcecdf"
@@ -346,7 +346,7 @@ const bwg = [
             157,
             167
         ],
-        "phonic": "hehui",
+        "phonic": "hè huī",
         "type": "bwg",
         "name": "鹤灰",
         "hex": "#939da7"
@@ -357,7 +357,7 @@ const bwg = [
             74,
             81
         ],
-        "phonic": "heimen",
+        "phonic": "hēi mén",
         "type": "bwg",
         "name": "黑扪",
         "hex": "#4d4a51"
@@ -368,7 +368,7 @@ const bwg = [
             88,
             95
         ],
-        "phonic": "hongmen",
+        "phonic": "hóng mén",
         "type": "bwg",
         "name": "红扪",
         "hex": "#5f585f"
@@ -379,7 +379,7 @@ const bwg = [
             7,
             23
         ],
-        "phonic": "hongqing",
+        "phonic": "hóng qīng",
         "type": "bwg",
         "name": "红青",
         "hex": "#1f0717"
@@ -390,7 +390,7 @@ const bwg = [
             66,
             67
         ],
-        "phonic": "hongzao",
+        "phonic": "hóng zào",
         "type": "bwg",
         "name": "红皂",
         "hex": "#464243"
@@ -401,7 +401,7 @@ const bwg = [
             132,
             108
         ],
-        "phonic": "houmaohui",
+        "phonic": "hóu máo huī",
         "type": "bwg",
         "name": "猴毛灰",
         "hex": "#98846c"
@@ -412,7 +412,7 @@ const bwg = [
             242,
             230
         ],
-        "phonic": "hufen",
+        "phonic": "hú fěn",
         "type": "bwg",
         "name": "胡粉",
         "hex": "#f8f2e6"
@@ -423,7 +423,7 @@ const bwg = [
             124,
             117
         ],
-        "phonic": "huanghunhui",
+        "phonic": "huáng hūn huī",
         "type": "bwg",
         "name": "黄昏灰",
         "hex": "#857c75"
@@ -434,7 +434,7 @@ const bwg = [
             225,
             230
         ],
-        "phonic": "huibai",
+        "phonic": "huī bái",
         "type": "bwg",
         "name": "灰白",
         "hex": "#e2e1e6"
@@ -445,7 +445,7 @@ const bwg = [
             73,
             73
         ],
-        "phonic": "huihei",
+        "phonic": "huī hēi",
         "type": "bwg",
         "name": "灰黑",
         "hex": "#494949"
@@ -456,7 +456,7 @@ const bwg = [
             175,
             185
         ],
-        "phonic": "huimi",
+        "phonic": "huī mǐ",
         "type": "bwg",
         "name": "灰米",
         "hex": "#a8afb9"
@@ -467,7 +467,7 @@ const bwg = [
             88,
             93
         ],
-        "phonic": "huishu",
+        "phonic": "huī shǔ",
         "type": "bwg",
         "name": "灰鼠",
         "hex": "#5a585d"
@@ -478,7 +478,7 @@ const bwg = [
             237,
             243
         ],
-        "phonic": "jianbai",
+        "phonic": "jiǎn bái",
         "type": "bwg",
         "name": "茧白",
         "hex": "#e6edf3"
@@ -489,7 +489,7 @@ const bwg = [
             98,
             94
         ],
-        "phonic": "jiaoqing",
+        "phonic": "jiāo qīng",
         "type": "bwg",
         "name": "胶青",
         "hex": "#56625e"
@@ -500,7 +500,7 @@ const bwg = [
             252,
             252
         ],
-        "phonic": "jiebai",
+        "phonic": "jié bái",
         "type": "bwg",
         "name": "洁白",
         "hex": "#fcfcfc"
@@ -511,7 +511,7 @@ const bwg = [
             213,
             218
         ],
-        "phonic": "jinhui",
+        "phonic": "jìn huī",
         "type": "bwg",
         "name": "烬灰",
         "hex": "#d7d5da"
@@ -522,7 +522,7 @@ const bwg = [
             80,
             99
         ],
-        "phonic": "jingyuhui",
+        "phonic": "jīng yú huī",
         "type": "bwg",
         "name": "鲸鱼灰",
         "hex": "#495063"
@@ -533,7 +533,7 @@ const bwg = [
             246,
             207
         ],
-        "phonic": "juleibai",
+        "phonic": "jú lěi bái",
         "type": "bwg",
         "name": "菊蕾白",
         "hex": "#fff6cf"
@@ -544,7 +544,7 @@ const bwg = [
             198,
             204
         ],
-        "phonic": "kaohui",
+        "phonic": "kào huī",
         "type": "bwg",
         "name": "靠灰",
         "hex": "#bbc6cc"
@@ -555,7 +555,7 @@ const bwg = [
             227,
             230
         ],
-        "phonic": "labai",
+        "phonic": "là bái",
         "type": "bwg",
         "name": "蜡白",
         "hex": "#dee3e6"
@@ -566,7 +566,7 @@ const bwg = [
             122,
             136
         ],
-        "phonic": "lanhui",
+        "phonic": "lán huī",
         "type": "bwg",
         "name": "蓝灰",
         "hex": "#5e7a88"
@@ -577,7 +577,7 @@ const bwg = [
             134,
             135
         ],
-        "phonic": "langyanhui",
+        "phonic": "láng yān huī",
         "type": "bwg",
         "name": "狼烟灰",
         "hex": "#828687"
@@ -588,7 +588,7 @@ const bwg = [
             97,
             102
         ],
-        "phonic": "laohui",
+        "phonic": "lǎo huī",
         "type": "bwg",
         "name": "老灰",
         "hex": "#626166"
@@ -599,7 +599,7 @@ const bwg = [
             230,
             206
         ],
-        "phonic": "liroubai",
+        "phonic": "lì ròu bái",
         "type": "bwg",
         "name": "荔肉白",
         "hex": "#f2e6ce"
@@ -610,7 +610,7 @@ const bwg = [
             244,
             247
         ],
-        "phonic": "lianbanbai",
+        "phonic": "lián bàn bái",
         "type": "bwg",
         "name": "莲瓣白",
         "hex": "#eff4f7"
@@ -621,7 +621,7 @@ const bwg = [
             244,
             204
         ],
-        "phonic": "lianzibai",
+        "phonic": "lián zǐ bái",
         "type": "bwg",
         "name": "莲子白",
         "hex": "#fff4cc"
@@ -632,7 +632,7 @@ const bwg = [
             173,
             173
         ],
-        "phonic": "lusuihui",
+        "phonic": "lú suì huī",
         "type": "bwg",
         "name": "芦穗灰",
         "hex": "#bdadad"
@@ -643,7 +643,7 @@ const bwg = [
             137,
             143
         ],
-        "phonic": "luhui",
+        "phonic": "lú huī",
         "type": "bwg",
         "name": "芦灰",
         "hex": "#a2898f"
@@ -654,7 +654,7 @@ const bwg = [
             178,
             165
         ],
-        "phonic": "lvhui",
+        "phonic": "lǜ huī",
         "type": "bwg",
         "name": "绿灰",
         "hex": "#aab2a5"
@@ -665,7 +665,7 @@ const bwg = [
             204,
             201
         ],
-        "phonic": "manaohui",
+        "phonic": "mǎ nǎo huī",
         "type": "bwg",
         "name": "玛瑙灰",
         "hex": "#d0ccc9"
@@ -676,7 +676,7 @@ const bwg = [
             56,
             64
         ],
-        "phonic": "meiguihui",
+        "phonic": "méi guī huī",
         "type": "bwg",
         "name": "玫瑰灰",
         "hex": "#573840"
@@ -687,7 +687,7 @@ const bwg = [
             237,
             228
         ],
-        "phonic": "mibai",
+        "phonic": "mǐ bái",
         "type": "bwg",
         "name": "米白",
         "hex": "#f1ede4"
@@ -698,7 +698,7 @@ const bwg = [
             194,
             193
         ],
-        "phonic": "mihui",
+        "phonic": "mǐ huī",
         "type": "bwg",
         "name": "米灰",
         "hex": "#bec2c1"
@@ -709,7 +709,7 @@ const bwg = [
             102,
             108
         ],
-        "phonic": "mohui",
+        "phonic": "mò huī",
         "type": "bwg",
         "name": "墨灰",
         "hex": "#67666c"
@@ -720,7 +720,7 @@ const bwg = [
             152,
             142
         ],
-        "phonic": "minghui",
+        "phonic": "míng huī",
         "type": "bwg",
         "name": "明灰",
         "hex": "#8b988e"
@@ -731,7 +731,7 @@ const bwg = [
             138,
             138
         ],
-        "phonic": "muyunhui",
+        "phonic": "mù yún huī",
         "type": "bwg",
         "name": "暮云灰",
         "hex": "#9b8a8a"
@@ -742,7 +742,7 @@ const bwg = [
             120,
             122
         ],
-        "phonic": "nenhui",
+        "phonic": "nèn huī",
         "type": "bwg",
         "name": "嫩灰",
         "hex": "#6e787a"
@@ -753,7 +753,7 @@ const bwg = [
             155,
             160
         ],
-        "phonic": "niehui",
+        "phonic": "niè huī",
         "type": "bwg",
         "name": "镍灰",
         "hex": "#9c9ba0"
@@ -764,7 +764,7 @@ const bwg = [
             46,
             54
         ],
-        "phonic": "niujiaohui",
+        "phonic": "niú jiǎo huī",
         "type": "bwg",
         "name": "牛角灰",
         "hex": "#2e2e36"
@@ -775,7 +775,7 @@ const bwg = [
             137,
             121
         ],
-        "phonic": "ouhui",
+        "phonic": "ōu huī",
         "type": "bwg",
         "name": "鸥灰",
         "hex": "#9a8979"
@@ -786,7 +786,7 @@ const bwg = [
             192,
             202
         ],
-        "phonic": "qianzhanghui",
+        "phonic": "qiān zhāng huī",
         "type": "bwg",
         "name": "仟张灰",
         "hex": "#c0c0ca"
@@ -797,7 +797,7 @@ const bwg = [
             181,
             173
         ],
-        "phonic": "qianhui",
+        "phonic": "qiān huī",
         "type": "bwg",
         "name": "铅灰",
         "hex": "#bcb5ad"
@@ -808,7 +808,7 @@ const bwg = [
             212,
             204
         ],
-        "phonic": "qianhui",
+        "phonic": "qiǎn huī",
         "type": "bwg",
         "name": "浅灰",
         "hex": "#dbd4cc"
@@ -819,7 +819,7 @@ const bwg = [
             188,
             186
         ],
-        "phonic": "qianzonghui",
+        "phonic": "qiǎn zōng huī",
         "type": "bwg",
         "name": "浅棕灰",
         "hex": "#c4bcba"
@@ -830,7 +830,7 @@ const bwg = [
             228,
             226
         ],
-        "phonic": "qianshibai",
+        "phonic": "qiàn shí bái",
         "type": "bwg",
         "name": "芡实白",
         "hex": "#e4e4e2"
@@ -841,7 +841,7 @@ const bwg = [
             51,
             62
         ],
-        "phonic": "qinghui",
+        "phonic": "qīng huī",
         "type": "bwg",
         "name": "青灰",
         "hex": "#2b333e"
@@ -852,7 +852,7 @@ const bwg = [
             214,
             214
         ],
-        "phonic": "qionghui",
+        "phonic": "qióng huī",
         "type": "bwg",
         "name": "穹灰",
         "hex": "#c4d6d6"
@@ -863,7 +863,7 @@ const bwg = [
             166,
             182
         ],
-        "phonic": "quehui",
+        "phonic": "què huī",
         "type": "bwg",
         "name": "鹊灰",
         "hex": "#9aa6b6"
@@ -874,7 +874,7 @@ const bwg = [
             244,
             220
         ],
-        "phonic": "rubai",
+        "phonic": "rǔ bái",
         "type": "bwg",
         "name": "乳白",
         "hex": "#faf4dc"
@@ -885,7 +885,7 @@ const bwg = [
             52,
             60
         ],
-        "phonic": "shayuhui",
+        "phonic": "shā yú huī",
         "type": "bwg",
         "name": "沙鱼灰",
         "hex": "#35343c"
@@ -896,7 +896,7 @@ const bwg = [
             119,
             110
         ],
-        "phonic": "shenhui",
+        "phonic": "shēn huī",
         "type": "bwg",
         "name": "深灰",
         "hex": "#81776e"
@@ -907,7 +907,7 @@ const bwg = [
             93,
             101
         ],
-        "phonic": "shenluhui",
+        "phonic": "shēn lú huī",
         "type": "bwg",
         "name": "深芦灰",
         "hex": "#7b5d65"
@@ -918,7 +918,7 @@ const bwg = [
             73,
             66
         ],
-        "phonic": "shibanhui",
+        "phonic": "shí bǎn huī",
         "type": "bwg",
         "name": "石板灰",
         "hex": "#624942"
@@ -929,7 +929,7 @@ const bwg = [
             141,
             143
         ],
-        "phonic": "shubeihui",
+        "phonic": "shǔ bèi huī",
         "type": "bwg",
         "name": "鼠背灰",
         "hex": "#938d8f"
@@ -940,7 +940,7 @@ const bwg = [
             75,
             79
         ],
-        "phonic": "shumao",
+        "phonic": "shǔ máo",
         "type": "bwg",
         "name": "鼠毛",
         "hex": "#504b4f"
@@ -951,7 +951,7 @@ const bwg = [
             149,
             140
         ],
-        "phonic": "shuidiaohui",
+        "phonic": "shuǐ diāo huī",
         "type": "bwg",
         "name": "水貂灰",
         "hex": "#99958c"
@@ -962,7 +962,7 @@ const bwg = [
             174,
             179
         ],
-        "phonic": "shuihui",
+        "phonic": "shuǐ huī",
         "type": "bwg",
         "name": "水灰",
         "hex": "#a5aeb3"
@@ -973,7 +973,7 @@ const bwg = [
             47,
             53
         ],
-        "phonic": "shuiniuhui",
+        "phonic": "shuǐ niú huī",
         "type": "bwg",
         "name": "水牛灰",
         "hex": "#302f35"
@@ -984,7 +984,7 @@ const bwg = [
             64,
             51
         ],
-        "phonic": "songshuhui",
+        "phonic": "sōng shǔ huī",
         "type": "bwg",
         "name": "松鼠灰",
         "hex": "#504033"
@@ -995,7 +995,7 @@ const bwg = [
             135,
             135
         ],
-        "phonic": "songyanhui",
+        "phonic": "sōng yān huī",
         "type": "bwg",
         "name": "松烟灰",
         "hex": "#878787"
@@ -1006,7 +1006,7 @@ const bwg = [
             131,
             163
         ],
-        "phonic": "taohui",
+        "phonic": "táo huī",
         "type": "bwg",
         "name": "桃灰",
         "hex": "#a283a3"
@@ -1017,7 +1017,7 @@ const bwg = [
             138,
             129
         ],
-        "phonic": "tianshuhui",
+        "phonic": "tián shǔ huī",
         "type": "bwg",
         "name": "田鼠灰",
         "hex": "#948a81"
@@ -1028,7 +1028,7 @@ const bwg = [
             109,
             112
         ],
-        "phonic": "tiehui",
+        "phonic": "tiě huī",
         "type": "bwg",
         "name": "铁灰",
         "hex": "#696d70"
@@ -1039,7 +1039,7 @@ const bwg = [
             89,
             97
         ],
-        "phonic": "tiese",
+        "phonic": "tiě sè",
         "type": "bwg",
         "name": "铁色",
         "hex": "#5a5961"
@@ -1050,7 +1050,7 @@ const bwg = [
             72,
             76
         ],
-        "phonic": "waguanhui",
+        "phonic": "wǎ guàn huī",
         "type": "bwg",
         "name": "瓦罐灰",
         "hex": "#47484c"
@@ -1061,7 +1061,7 @@ const bwg = [
             126,
             119
         ],
-        "phonic": "wahui",
+        "phonic": "wǎ huī",
         "type": "bwg",
         "name": "瓦灰",
         "hex": "#877e77"
@@ -1072,7 +1072,7 @@ const bwg = [
             149,
             140
         ],
-        "phonic": "weihui",
+        "phonic": "wèi huī",
         "type": "bwg",
         "name": "猬灰",
         "hex": "#9e958c"
@@ -1083,7 +1083,7 @@ const bwg = [
             143,
             145
         ],
-        "phonic": "wuzeihui",
+        "phonic": "wū zéi huī",
         "type": "bwg",
         "name": "乌贼灰",
         "hex": "#8f8f91"
@@ -1094,7 +1094,7 @@ const bwg = [
             137,
             131
         ],
-        "phonic": "xijiaohui",
+        "phonic": "xī jiǎo huī",
         "type": "bwg",
         "name": "犀角灰",
         "hex": "#848983"
@@ -1105,7 +1105,7 @@ const bwg = [
             172,
             175
         ],
-        "phonic": "xiayunhui",
+        "phonic": "xià yún huī",
         "type": "bwg",
         "name": "夏云灰",
         "hex": "#9eacaf"
@@ -1116,7 +1116,7 @@ const bwg = [
             132,
             158
         ],
-        "phonic": "xiangsihui",
+        "phonic": "xiāng sī huī",
         "type": "bwg",
         "name": "相思灰",
         "hex": "#78849e"
@@ -1127,7 +1127,7 @@ const bwg = [
             140,
             128
         ],
-        "phonic": "xianghui",
+        "phonic": "xiàng huī",
         "type": "bwg",
         "name": "象灰",
         "hex": "#908c80"
@@ -1138,7 +1138,7 @@ const bwg = [
             238,
             218
         ],
-        "phonic": "xiangyabai",
+        "phonic": "xiàng yá bái",
         "type": "bwg",
         "name": "象牙白",
         "hex": "#efeeda"
@@ -1149,7 +1149,7 @@ const bwg = [
             196,
             183
         ],
-        "phonic": "xiaohui",
+        "phonic": "xiǎo huī",
         "type": "bwg",
         "name": "晓灰",
         "hex": "#d4c4b7"
@@ -1160,7 +1160,7 @@ const bwg = [
             94,
             70
         ],
-        "phonic": "xiekehui",
+        "phonic": "xiè ké huī",
         "type": "bwg",
         "name": "蟹壳灰",
         "hex": "#6a5e46"
@@ -1171,7 +1171,7 @@ const bwg = [
             188,
             190
         ],
-        "phonic": "xinghui",
+        "phonic": "xīng huī",
         "type": "bwg",
         "name": "星灰",
         "hex": "#b2bcbe"
@@ -1182,7 +1182,7 @@ const bwg = [
             53,
             59
         ],
-        "phonic": "xuanse",
+        "phonic": "xuán sè",
         "type": "bwg",
         "name": "玄色",
         "hex": "#36353b"
@@ -1193,7 +1193,7 @@ const bwg = [
             149,
             165
         ],
-        "phonic": "yanhui",
+        "phonic": "yàn huī",
         "type": "bwg",
         "name": "砚灰",
         "hex": "#8895a5"
@@ -1204,7 +1204,7 @@ const bwg = [
             118,
             109
         ],
-        "phonic": "yanhui",
+        "phonic": "yàn huī",
         "type": "bwg",
         "name": "雁灰",
         "hex": "#80766d"
@@ -1215,7 +1215,7 @@ const bwg = [
             81,
             61
         ],
-        "phonic": "yanyuhui",
+        "phonic": "yàn yǔ huī",
         "type": "bwg",
         "name": "燕羽灰",
         "hex": "#5c513d"
@@ -1226,7 +1226,7 @@ const bwg = [
             181,
             181
         ],
-        "phonic": "yangrong",
+        "phonic": "yáng róng",
         "type": "bwg",
         "name": "羊绒",
         "hex": "#b5b5b5"
@@ -1237,7 +1237,7 @@ const bwg = [
             240,
             236
         ],
-        "phonic": "yinbai",
+        "phonic": "yín bái",
         "type": "bwg",
         "name": "银白",
         "hex": "#f1f0ec"
@@ -1248,7 +1248,7 @@ const bwg = [
             254,
             249
         ],
-        "phonic": "xuebai",
+        "phonic": "xuě bái",
         "type": "bwg",
         "name": "雪白",
         "hex": "#fffef9"
@@ -1259,7 +1259,7 @@ const bwg = [
             172,
             167
         ],
-        "phonic": "yinhui",
+        "phonic": "yín huī",
         "type": "bwg",
         "name": "银灰",
         "hex": "#afaca7"
@@ -1270,7 +1270,7 @@ const bwg = [
             169,
             143
         ],
-        "phonic": "yinshuhui",
+        "phonic": "yín shǔ huī",
         "type": "bwg",
         "name": "银鼠灰",
         "hex": "#b5a98f"
@@ -1281,7 +1281,7 @@ const bwg = [
             209,
             214
         ],
-        "phonic": "yinyubai",
+        "phonic": "yín yú bái",
         "type": "bwg",
         "name": "银鱼白",
         "hex": "#cbd1d6"
@@ -1292,7 +1292,7 @@ const bwg = [
             73,
             84
         ],
-        "phonic": "yingbei",
+        "phonic": "yīng bèi",
         "type": "bwg",
         "name": "鹰背",
         "hex": "#4b4954"
@@ -1303,7 +1303,7 @@ const bwg = [
             244,
             237
         ],
-        "phonic": "yudubai",
+        "phonic": "yú dù bái",
         "type": "bwg",
         "name": "鱼肚白",
         "hex": "#f7f4ed"
@@ -1314,7 +1314,7 @@ const bwg = [
             97,
             110
         ],
-        "phonic": "yuweihui",
+        "phonic": "yú wěi huī",
         "type": "bwg",
         "name": "鱼尾灰",
         "hex": "#5f616e"
@@ -1325,7 +1325,7 @@ const bwg = [
             82,
             87
         ],
-        "phonic": "yuanqing",
+        "phonic": "yuán qīng",
         "type": "bwg",
         "name": "元青",
         "hex": "#515257"
@@ -1336,7 +1336,7 @@ const bwg = [
             174,
             143
         ],
-        "phonic": "yuehui",
+        "phonic": "yuè huī",
         "type": "bwg",
         "name": "月灰",
         "hex": "#b7ae8f"
@@ -1347,7 +1347,7 @@ const bwg = [
             189,
             195
         ],
-        "phonic": "yueyingbai",
+        "phonic": "yuè yǐng bái",
         "type": "bwg",
         "name": "月影白",
         "hex": "#c0bdc3"
@@ -1358,7 +1358,7 @@ const bwg = [
             227,
             231
         ],
-        "phonic": "yunfengbai",
+        "phonic": "yún fēng bái",
         "type": "bwg",
         "name": "云峰白",
         "hex": "#d8e3e7"
@@ -1369,7 +1369,7 @@ const bwg = [
             68,
             70
         ],
-        "phonic": "zaose",
+        "phonic": "zào sè",
         "type": "bwg",
         "name": "皂色",
         "hex": "#434446"
@@ -1380,7 +1380,7 @@ const bwg = [
             53,
             51
         ],
-        "phonic": "changshihui",
+        "phonic": "cháng shí huī",
         "type": "bwg",
         "name": "长石灰",
         "hex": "#363533"
@@ -1391,7 +1391,7 @@ const bwg = [
             224,
             215
         ],
-        "phonic": "zhenzhuhui",
+        "phonic": "zhēn zhū huī",
         "type": "bwg",
         "name": "珍珠灰",
         "hex": "#e4e0d7"
@@ -1402,7 +1402,7 @@ const bwg = [
             69,
             78
         ],
-        "phonic": "zhenzhumo",
+        "phonic": "zhēn zhū mò",
         "type": "bwg",
         "name": "真朱墨",
         "hex": "#48454e"
@@ -1413,7 +1413,7 @@ const bwg = [
             132,
             148
         ],
-        "phonic": "zhenghui",
+        "phonic": "zhèng huī",
         "type": "bwg",
         "name": "正灰",
         "hex": "#7e8494"
@@ -1424,7 +1424,7 @@ const bwg = [
             136,
             140
         ],
-        "phonic": "zhijinhui",
+        "phonic": "zhī jǐn huī",
         "type": "bwg",
         "name": "织锦灰",
         "hex": "#75888c"
@@ -1435,7 +1435,7 @@ const bwg = [
             181,
             173
         ],
-        "phonic": "zhonghui",
+        "phonic": "zhōng huī",
         "type": "bwg",
         "name": "中灰",
         "hex": "#bcb5ad"
@@ -1446,7 +1446,7 @@ const bwg = [
             151,
             150
         ],
-        "phonic": "zonghui",
+        "phonic": "zōng huī",
         "type": "bwg",
         "name": "棕灰",
         "hex": "#a19796"
@@ -1457,7 +1457,7 @@ const bwg = [
             180,
             179
         ],
-        "phonic": "zhongruhui",
+        "phonic": "zhōng rǔ huī",
         "type": "bwg",
         "name": "钟乳灰",
         "hex": "#b2b4b3"
@@ -1468,7 +1468,7 @@ const bwg = [
             45,
             46
         ],
-        "phonic": "zhumo",
+        "phonic": "zhū mò",
         "type": "bwg",
         "name": "朱墨",
         "hex": "#312d2e"
@@ -1479,7 +1479,7 @@ const bwg = [
             206,
             196
         ],
-        "phonic": "zhumuhui",
+        "phonic": "zhū mǔ huī",
         "type": "bwg",
         "name": "珠母灰",
         "hex": "#dfcec4"
@@ -1490,7 +1490,7 @@ const bwg = [
             159,
             147
         ],
-        "phonic": "zhuwanghui",
+        "phonic": "zhū wǎng huī",
         "type": "bwg",
         "name": "蛛网灰",
         "hex": "#b79f93"
@@ -1501,7 +1501,7 @@ const bwg = [
             43,
             55
         ],
-        "phonic": "zise",
+        "phonic": "zī sè",
         "type": "bwg",
         "name": "缁色",
         "hex": "#272b37"
@@ -1512,7 +1512,7 @@ const bwg = [
             63,
             81
         ],
-        "phonic": "zihui",
+        "phonic": "zǐ huī",
         "type": "bwg",
         "name": "紫灰",
         "hex": "#5e3f51"
