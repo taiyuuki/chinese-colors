@@ -6,7 +6,7 @@ import { hexs } from './resolve'
 
 export function createDecorator(ctx: ExtensionContext) {
     let config = workspace.getConfiguration()
-    const hexReg = /#[0-9a-fA-F]{6,8}/g
+    const hexReg = /#[\dA-Fa-f]{6,8}/g
     const rgbReg = /rgba?\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,?(\s*[\d.]*\s*)?\)/g
     const colorDecorations: DecorationOptions[] = []
     const colorDecorationType = window.createTextEditorDecorationType({

@@ -1,0 +1,49 @@
+/* app global css */
+:root {
+    --text-color: #fff;
+    --bg-color: #f40002;
+    --track-color: rgba(255, 255, 255, 0.26);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-color);
+    transition: background-color 1.5s, color 1.5s;
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.text-track {
+    color: var(--track-color);
+}
+
+.bubble-message {
+    position: absolute;
+    z-index: 1000;
+    color: var(--text-color);
+    font-size: 12px;
+    white-space: nowrap;
+    animation: bubble-ani 1s;
+    user-select: none;
+}
+
+@keyframes bubble-ani {
+    0% {
+        opacity: 0;
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+}

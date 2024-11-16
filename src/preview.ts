@@ -25,7 +25,7 @@ function createColorPreview(context: ExtensionContext) {
             '国色',
             {
                 preserveFocus: true,
-                viewColumn: 1,
+                viewColumn: 2,
             },
             {
                 enableScripts: true,

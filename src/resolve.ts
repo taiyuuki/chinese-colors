@@ -37,7 +37,8 @@ function resolveColors(colors: Color[]) {
                 insertText: isRgb ? rgb : hex,
             })
         })
-    } catch (e) {
+    }
+    catch (e) {
         channel.appendLine(String(e))
     }
 }

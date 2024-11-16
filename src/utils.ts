@@ -12,7 +12,8 @@ export function throttle<T extends(...arg: unknown[])=> unknown>(
             lastTime = now
 
             return func()
-        } else {
+        }
+        else {
             timer = setTimeout(func, timeFrame)
         }
     } as T

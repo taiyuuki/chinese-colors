@@ -6,6 +6,4 @@ declare interface Color {
     type: string
 }
 
-declare interface Hexs {
-    [key: string]: string
-}
+declare interface Hexs { [key: string]: string }

@@ -42,7 +42,7 @@ function jsonToTs(json: { name: string, hex: string }[], type: keyof typeof COLO
         color.phonic = pinyin(color.name)
     })
 
-    fs.writeFileSync(`./res/webview/${type}.js`, `const ${type} = ${JSON.stringify(colors, null, 4)}`)
+    fs.writeFileSync(`./www/src/colors/${type}.ts`, `export const ${type} = ${JSON.stringify(colors, null, 4)}`)
 }
 
 jsonToTs(blue, 'blue')
