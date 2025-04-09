@@ -8,10 +8,26 @@ import ColorCell from './ColorCell.vue'
 const { dark, setColor } = useDisplayColor()
 const scrollArea = ref() as Ref<InstanceType<typeof QScrollArea>>
 
-function selectSeries(type: keyof typeof colorMap) {
-    if (type === currentType.value) return
-    setColorSeries(type)
-    scrollArea.value?.setScrollPosition('vertical', 0)
+function selectSeries(e: MouseEvent) {
+    const target = e.target as HTMLElement
+    const btn = target.closest('[data-id]')
+    if (btn) {
+        const type = btn.getAttribute('data-id') as keyof typeof colorMap
+        setColorSeries(type)
+    }
+    
+}
+
+function handleSelectCell(e: MouseEvent) {
+    const target = e.target as HTMLElement
+    const cell = target.closest('[data-cell]')
+    if (cell) {
+        const name = cell.getAttribute('data-cell') as string
+        const color = colorSeries.find(c => c.name === name)
+        if (color) {
+            setColor(color)
+        }
+    }
 }
 </script>
 
@@ -22,7 +38,10 @@ function selectSeries(type: keyof typeof colorMap) {
     :dark="dark"
   >
     <teleport to="body">
-      <div class="color-series q-gutter-xs">
+      <div
+        class="color-series q-gutter-xs"
+        @click="selectSeries"
+      >
         <q-btn
           v-for="(item, key) in colorMap"
           :key="key"
@@ -30,16 +49,19 @@ function selectSeries(type: keyof typeof colorMap) {
           :label="item.label"
           :color="currentType === key ? item.color : 'white'"
           :text-color="currentType === key ? 'white' : item.color"
-          @click="selectSeries(key)"
+          :data-id="key"
         />
       </div>
     </teleport>
-    <div class="color-sheet">
+    <div
+      class="color-sheet"
+      @click="handleSelectCell"
+    >
       <ColorCell
         v-for="cell in colorSeries"
         :key="cell.name"
         :color="cell"
-        @click="setColor(cell)"
+        :data-cell="cell.name"
       />
     </div>
   </q-scroll-area>
