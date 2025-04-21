@@ -3,7 +3,7 @@
   "displayName": "Chinese Colors",
   "description": "颜色代码提示——中国传统色",
   "publisher": "taiyuuki",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "type": "module",
   "icon": "res/icon.png",
   "license": "SEE LICENSE IN LICENSE.md",
@@ -56,7 +56,7 @@
     "commands": [
       {
         "command": "chineseColors.preview",
-        "title": "Show Chinese Colors(打开中国色预览)",
+        "title": "Show Chinese Colors(打开中国色彩色卡)",
         "icon": "$(chinese-colors)"
       }
     ],

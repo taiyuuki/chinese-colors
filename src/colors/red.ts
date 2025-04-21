@@ -78,14 +78,14 @@ export const red = [
     },
     {
         rgb: [
-            238,
-            63,
-            78,
+            233,
+            60,
+            75,
         ],
         phonic: 'chahuahong',
         type: 'red',
         name: '茶花红',
-        hex: '#ee3f4e',
+        hex: '#e93c4b',
     },
     {
         rgb: [
@@ -144,6 +144,28 @@ export const red = [
     },
     {
         rgb: [
+            197,
+            113,
+            139,
+        ],
+        phonic: 'cujiangcaohong',
+        type: 'red',
+        name: '酢酱草红',
+        hex: '#c5718b',
+    },
+    {
+        rgb: [
+            217,
+            2,
+            35,
+        ],
+        phonic: 'dahong',
+        type: 'red',
+        name: '大红',
+        hex: '#d90223',
+    },
+    {
+        rgb: [
             222,
             85,
             75,
@@ -152,17 +174,6 @@ export const red = [
         type: 'red',
         name: '玳瑁红',
         hex: '#de554b',
-    },
-    {
-        rgb: [
-            236,
-            4,
-            52,
-        ],
-        phonic: 'dahong',
-        type: 'red',
-        name: '大红',
-        hex: '#ec0434',
     },
     {
         rgb: [
@@ -221,14 +232,25 @@ export const red = [
     },
     {
         rgb: [
-            246,
-            168,
-            168,
+            167,
+            65,
+            17,
+        ],
+        phonic: 'fanhong',
+        type: 'red',
+        name: '矾红',
+        hex: '#a74111',
+    },
+    {
+        rgb: [
+            217,
+            177,
+            178,
         ],
         phonic: 'fenhong',
         type: 'red',
         name: '粉红',
-        hex: '#f6a8a8',
+        hex: '#d9b1b2',
     },
     {
         rgb: [
@@ -243,36 +265,36 @@ export const red = [
     },
     {
         rgb: [
-            252,
-            21,
-            27,
+            232,
+            66,
+            55,
         ],
         phonic: 'fengyehong',
         type: 'red',
         name: '枫叶红',
-        hex: '#fc151b',
+        hex: '#e84237',
     },
     {
         rgb: [
             229,
-            144,
-            167,
+            178,
+            211,
         ],
         phonic: 'fengxianhuahong',
         type: 'red',
         name: '凤仙花红',
-        hex: '#e590a7',
+        hex: '#e5b2d3',
     },
     {
         rgb: [
             223,
-            177,
+            179,
             206,
         ],
         phonic: 'furonghong',
         type: 'red',
         name: '芙蓉红',
-        hex: '#dfb1ce',
+        hex: '#dfb3ce',
     },
     {
         rgb: [
@@ -287,14 +309,14 @@ export const red = [
     },
     {
         rgb: [
-            119,
-            38,
-            70,
+            164,
+            87,
+            121,
         ],
         phonic: 'ganhong',
         type: 'red',
         name: '绀红',
-        hex: '#772646',
+        hex: '#a45779',
     },
     {
         rgb: [
@@ -306,6 +328,17 @@ export const red = [
         type: 'red',
         name: '高梁红',
         hex: '#c02c38',
+    },
+    {
+        rgb: [
+            157,
+            41,
+            50,
+        ],
+        phonic: 'gaolianghong',
+        type: 'red',
+        name: '高粱红',
+        hex: '#9d2932',
     },
     {
         rgb: [
@@ -353,14 +386,14 @@ export const red = [
     },
     {
         rgb: [
-            255,
-            81,
-            114,
+            242,
+            85,
+            115,
         ],
         phonic: 'haitanghong',
         type: 'red',
         name: '海棠红',
-        hex: '#ff5172',
+        hex: '#f25573',
     },
     {
         rgb: [
@@ -386,14 +419,14 @@ export const red = [
     },
     {
         rgb: [
-            207,
-            18,
-            36,
+            218,
+            29,
+            59,
         ],
         phonic: 'hedinghong',
         type: 'red',
         name: '鹤顶红',
-        hex: '#cf1224',
+        hex: '#da1d3b',
     },
     {
         rgb: [
@@ -430,25 +463,47 @@ export const red = [
     },
     {
         rgb: [
-            236,
-            157,
-            178,
+            206,
+            24,
+            62,
+        ],
+        phonic: 'jixueshihong',
+        type: 'red',
+        name: '鸡血石红',
+        hex: '#ce183e',
+    },
+    {
+        rgb: [
+            120,
+            30,
+            32,
+        ],
+        phonic: 'jihong',
+        type: 'red',
+        name: '霁红',
+        hex: '#781e20',
+    },
+    {
+        rgb: [
+            226,
+            141,
+            158,
         ],
         phonic: 'jiangdouhong',
         type: 'red',
         name: '豇豆红',
-        hex: '#ec9db2',
+        hex: '#e28d9e',
     },
     {
         rgb: [
-            94,
+            142,
+            20,
             3,
-            18,
         ],
         phonic: 'jianghong',
         type: 'red',
         name: '绛红',
-        hex: '#5e0312',
+        hex: '#8e1403',
     },
     {
         rgb: [
@@ -482,182 +537,6 @@ export const red = [
         type: 'red',
         name: '锦葵红',
         hex: '#c03554',
-    },
-    {
-        rgb: [
-            206,
-            24,
-            62,
-        ],
-        phonic: 'jixueshihong',
-        type: 'red',
-        name: '鸡血石红',
-        hex: '#ce183e',
-    },
-    {
-        rgb: [
-            255,
-            102,
-            104,
-        ],
-        phonic: 'shanhong',
-        type: 'red',
-        name: '闪红',
-        hex: '#ff6668',
-    },
-    {
-        rgb: [
-            235,
-            143,
-            180,
-        ],
-        phonic: 'shaohong',
-        type: 'red',
-        name: '韶红',
-        hex: '#eb8fb4',
-    },
-    {
-        rgb: [
-            218,
-            154,
-            155,
-        ],
-        phonic: 'shehong',
-        type: 'red',
-        name: '舌红',
-        hex: '#da9a9b',
-    },
-    {
-        rgb: [
-            240,
-            201,
-            206,
-        ],
-        phonic: 'shiruihong',
-        type: 'red',
-        name: '石蕊红',
-        hex: '#f0c9ce',
-    },
-    {
-        rgb: [
-            254,
-            172,
-            220,
-        ],
-        phonic: 'shimeizhuanghong',
-        type: 'red',
-        name: '试梅妆',
-        hex: '#feacdc',
-    },
-    {
-        rgb: [
-            255,
-            74,
-            17,
-        ],
-        phonic: 'shihong',
-        type: 'red',
-        name: '柿红',
-        hex: '#ff4a11',
-    },
-    {
-        rgb: [
-            169,
-            26,
-            46,
-        ],
-        phonic: 'shuhong',
-        type: 'red',
-        name: '曙红',
-        hex: '#a91a2e',
-    },
-    {
-        rgb: [
-            203,
-            40,
-            71,
-        ],
-        phonic: 'shuanghong',
-        type: 'red',
-        name: '双红',
-        hex: '#cb2847',
-    },
-    {
-        rgb: [
-            255,
-            135,
-            199,
-        ],
-        phonic: 'shuihong',
-        type: 'red',
-        name: '水红',
-        hex: '#ff87c7',
-    },
-    {
-        rgb: [
-            207,
-            93,
-            126,
-        ],
-        phonic: 'taohong',
-        type: 'red',
-        name: '桃红',
-        hex: '#cf5d7e',
-    },
-    {
-        rgb: [
-            238,
-            88,
-            149,
-        ],
-        phonic: 'tihong',
-        type: 'red',
-        name: '啼红',
-        hex: '#ee5895',
-    },
-    {
-        rgb: [
-            192,
-            43,
-            83,
-        ],
-        phonic: 'tiancaihong',
-        type: 'red',
-        name: '甜菜红',
-        hex: '#c02b53',
-    },
-    {
-        rgb: [
-            175,
-            36,
-            3,
-        ],
-        phonic: 'tieshuihong',
-        type: 'red',
-        name: '铁水红',
-        hex: '#af2403',
-    },
-    {
-        rgb: [
-            141,
-            33,
-            30,
-        ],
-        phonic: 'tinghong',
-        type: 'red',
-        name: '鞓红',
-        hex: '#8d211e',
-    },
-    {
-        rgb: [
-            247,
-            222,
-            244,
-        ],
-        phonic: 'tuihong',
-        type: 'red',
-        name: '退红',
-        hex: '#f7def4',
     },
     {
         rgb: [
@@ -804,14 +683,14 @@ export const red = [
     },
     {
         rgb: [
-            166,
-            84,
-            90,
+            175,
+            95,
+            101,
         ],
         phonic: 'manjianghong',
         type: 'red',
         name: '满江红',
-        hex: '#a6545a',
+        hex: '#af5f65',
     },
     {
         rgb: [
@@ -826,14 +705,14 @@ export const red = [
     },
     {
         rgb: [
-            212,
-            97,
-            140,
+            210,
+            52,
+            126,
         ],
         phonic: 'meiguihong',
         type: 'red',
         name: '玫瑰红',
-        hex: '#d4618c',
+        hex: '#d2347e',
     },
     {
         rgb: [
@@ -845,6 +724,17 @@ export const red = [
         type: 'red',
         name: '莓酱红',
         hex: '#c45a66',
+    },
+    {
+        rgb: [
+            167,
+            65,
+            93,
+        ],
+        phonic: 'meihong',
+        type: 'red',
+        name: '梅红',
+        hex: '#a7415d',
     },
     {
         rgb: [
@@ -870,14 +760,14 @@ export const red = [
     },
     {
         rgb: [
-            179,
-            113,
-            99,
+            195,
+            129,
+            115,
         ],
         phonic: 'muhong',
         type: 'red',
         name: '木红',
-        hex: '#b37163',
+        hex: '#c38173',
     },
     {
         rgb: [
@@ -903,14 +793,25 @@ export const red = [
     },
     {
         rgb: [
-            121,
-            6,
-            9,
+            215,
+            145,
+            159,
+        ],
+        phonic: 'qianmeihong',
+        type: 'red',
+        name: '浅梅红',
+        hex: '#d7919f',
+    },
+    {
+        rgb: [
+            149,
+            26,
+            30,
         ],
         phonic: 'qiansehong',
         type: 'red',
         name: '茜色',
-        hex: '#790609',
+        hex: '#951a1e',
     },
     {
         rgb: [
@@ -991,6 +892,204 @@ export const red = [
     },
     {
         rgb: [
+            255,
+            102,
+            104,
+        ],
+        phonic: 'shanhong',
+        type: 'red',
+        name: '闪红',
+        hex: '#ff6668',
+    },
+    {
+        rgb: [
+            235,
+            143,
+            180,
+        ],
+        phonic: 'shaohong',
+        type: 'red',
+        name: '韶红',
+        hex: '#eb8fb4',
+    },
+    {
+        rgb: [
+            218,
+            154,
+            155,
+        ],
+        phonic: 'shehong',
+        type: 'red',
+        name: '舌红',
+        hex: '#da9a9b',
+    },
+    {
+        rgb: [
+            167,
+            65,
+            93,
+        ],
+        phonic: 'shenmeihong',
+        type: 'red',
+        name: '深梅红',
+        hex: '#a7415d',
+    },
+    {
+        rgb: [
+            199,
+            70,
+            109,
+        ],
+        phonic: 'shiyangjinhong',
+        type: 'red',
+        name: '十样锦',
+        hex: '#c7466d',
+    },
+    {
+        rgb: [
+            223,
+            27,
+            27,
+        ],
+        phonic: 'shiliuhong',
+        type: 'red',
+        name: '石榴红',
+        hex: '#df1b1b',
+    },
+    {
+        rgb: [
+            240,
+            201,
+            206,
+        ],
+        phonic: 'shiruihong',
+        type: 'red',
+        name: '石蕊红',
+        hex: '#f0c9ce',
+    },
+    {
+        rgb: [
+            254,
+            172,
+            220,
+        ],
+        phonic: 'shimeizhuanghong',
+        type: 'red',
+        name: '试梅妆',
+        hex: '#feacdc',
+    },
+    {
+        rgb: [
+            230,
+            83,
+            33,
+        ],
+        phonic: 'shihong',
+        type: 'red',
+        name: '柿红',
+        hex: '#e65321',
+    },
+    {
+        rgb: [
+            88,
+            27,
+            22,
+        ],
+        phonic: 'shuhong',
+        type: 'red',
+        name: '曙红',
+        hex: '#581b16',
+    },
+    {
+        rgb: [
+            203,
+            40,
+            71,
+        ],
+        phonic: 'shuanghong',
+        type: 'red',
+        name: '双红',
+        hex: '#cb2847',
+    },
+    {
+        rgb: [
+            253,
+            155,
+            196,
+        ],
+        phonic: 'shuihong',
+        type: 'red',
+        name: '水红',
+        hex: '#fd9bc4',
+    },
+    {
+        rgb: [
+            207,
+            93,
+            126,
+        ],
+        phonic: 'taohong',
+        type: 'red',
+        name: '桃红',
+        hex: '#cf5d7e',
+    },
+    {
+        rgb: [
+            238,
+            88,
+            149,
+        ],
+        phonic: 'tihong',
+        type: 'red',
+        name: '啼红',
+        hex: '#ee5895',
+    },
+    {
+        rgb: [
+            192,
+            43,
+            83,
+        ],
+        phonic: 'tiancaihong',
+        type: 'red',
+        name: '甜菜红',
+        hex: '#c02b53',
+    },
+    {
+        rgb: [
+            175,
+            36,
+            3,
+        ],
+        phonic: 'tieshuihong',
+        type: 'red',
+        name: '铁水红',
+        hex: '#af2403',
+    },
+    {
+        rgb: [
+            141,
+            33,
+            30,
+        ],
+        phonic: 'tinghong',
+        type: 'red',
+        name: '鞓红',
+        hex: '#8d211e',
+    },
+    {
+        rgb: [
+            247,
+            192,
+            194,
+        ],
+        phonic: 'tuihong',
+        type: 'red',
+        name: '退红',
+        hex: '#f7c0c2',
+    },
+    {
+        rgb: [
             219,
             154,
             158,
@@ -1002,14 +1101,14 @@ export const red = [
     },
     {
         rgb: [
-            112,
-            35,
-            43,
+            103,
+            52,
+            59,
         ],
         phonic: 'wuhong',
         type: 'red',
         name: '乌红',
-        hex: '#70232b',
+        hex: '#67343b',
     },
     {
         rgb: [
@@ -1057,6 +1156,17 @@ export const red = [
     },
     {
         rgb: [
+            213,
+            151,
+            146,
+        ],
+        phonic: 'xiaohong',
+        type: 'red',
+        name: '小红',
+        hex: '#d59792',
+    },
+    {
+        rgb: [
             210,
             71,
             48,
@@ -1068,25 +1178,25 @@ export const red = [
     },
     {
         rgb: [
-            195,
-            54,
-            44,
+            118,
+            38,
+            39,
         ],
         phonic: 'xinghong',
         type: 'red',
         name: '猩红',
-        hex: '#c3362c',
+        hex: '#762627',
     },
     {
         rgb: [
-            252,
-            189,
-            148,
+            244,
+            141,
+            100,
         ],
         phonic: 'xingzihong',
         type: 'red',
         name: '杏子红',
-        hex: '#fcbd94',
+        hex: '#f48d64',
     },
     {
         rgb: [
@@ -1123,17 +1233,6 @@ export const red = [
     },
     {
         rgb: [
-            227,
-            135,
-            156,
-        ],
-        phonic: 'yanzhihong',
-        type: 'red',
-        name: '胭脂',
-        hex: '#e3879c',
-    },
-    {
-        rgb: [
             137,
             78,
             84,
@@ -1145,14 +1244,25 @@ export const red = [
     },
     {
         rgb: [
-            222,
-            62,
-            170,
+            241,
+            118,
+            146,
+        ],
+        phonic: 'yanzhihong',
+        type: 'red',
+        name: '胭脂',
+        hex: '#f17692',
+    },
+    {
+        rgb: [
+            220,
+            139,
+            208,
         ],
         phonic: 'yanhong',
         type: 'red',
         name: '嫣红',
-        hex: '#de3eaa',
+        hex: '#dc8bd0',
     },
     {
         rgb: [
@@ -1211,25 +1321,25 @@ export const red = [
     },
     {
         rgb: [
-            218,
-            114,
-            151,
+            216,
+            141,
+            156,
         ],
         phonic: 'yinhong',
         type: 'red',
         name: '银红',
-        hex: '#da7297',
+        hex: '#d88d9c',
     },
     {
         rgb: [
-            209,
-            41,
-            32,
+            245,
+            62,
+            5,
         ],
         phonic: 'yinzhuhong',
         type: 'red',
         name: '银朱',
-        hex: '#d12920',
+        hex: '#f53e05',
     },
     {
         rgb: [
@@ -1257,12 +1367,12 @@ export const red = [
         rgb: [
             196,
             20,
-            31,
+            30,
         ],
         phonic: 'yingtaohong',
         type: 'red',
         name: '樱桃红',
-        hex: '#c4141f',
+        hex: '#c4141e',
     },
     {
         rgb: [
@@ -1343,14 +1453,14 @@ export const red = [
     },
     {
         rgb: [
-            124,
+            101,
+            30,
             24,
-            36,
         ],
         phonic: 'zaohong',
         type: 'red',
         name: '枣红',
-        hex: '#7c1824',
+        hex: '#651e18',
     },
     {
         rgb: [
@@ -1376,25 +1486,25 @@ export const red = [
     },
     {
         rgb: [
-            229,
-            83,
-            207,
+            213,
+            86,
+            192,
         ],
         phonic: 'zhizhuhong',
         type: 'red',
         name: '踯躅红',
-        hex: '#e553cf',
+        hex: '#d556c0',
     },
     {
         rgb: [
-            247,
-            22,
-            2,
+            233,
+            61,
+            21,
         ],
         phonic: 'zhuhong',
         type: 'red',
         name: '朱红',
-        hex: '#f71602',
+        hex: '#e93d15',
     },
     {
         rgb: [
@@ -1464,46 +1574,13 @@ export const red = [
     },
     {
         rgb: [
-            197,
             113,
-            139,
-        ],
-        phonic: 'cujiangcaohong',
-        type: 'red',
-        name: '酢酱草红',
-        hex: '#c5718b',
-    },
-    {
-        rgb: [
-            61,
-            5,
-            4,
+            64,
+            54,
         ],
         phonic: 'zonghong',
         type: 'red',
         name: '棕红',
-        hex: '#3d0504',
-    },
-    {
-        rgb: [
-            215,
-            145,
-            159,
-        ],
-        phonic: 'qianmeihong',
-        type: 'red',
-        name: '浅梅红',
-        hex: '#d7919f',
-    },
-    {
-        rgb: [
-            167,
-            65,
-            93,
-        ],
-        phonic: 'shenmeihong',
-        type: 'red',
-        name: '深梅红',
-        hex: '#a7415d',
+        hex: '#714036',
     },
 ]

@@ -1,83 +1,87 @@
 <script setup lang="ts">
 import { Color } from 'src/colors/type'
 import { useDisplayColor } from 'src/composables/display-color'
-import { QKnob, QLinearProgress } from 'quasar'
 import { computed } from 'vue'
 import { vScrollview } from 'src/directives/v-scrollview'
+import CircularProgress from './CircularProgress.vue'
+import LinearProgress from './LinearProgress.vue'
 
 const props = defineProps<{ color: Color }>()
-const { dark, contrastColor, color: currentColor } = useDisplayColor()
+const { contrastColor, color: currentColor, trackColor } = useDisplayColor()
 
 const selected = computed(() => props.color.name === currentColor.name)
-
-const r_n = computed(() => props.color.rgb[0])
-const g_n = computed(() => props.color.rgb[1])
-const b_n = computed(() => props.color.rgb[2])
-
-const r_l = computed(() => props.color.rgb[0] / 255)
-const g_l = computed(() => props.color.rgb[1] / 255)
-const b_l = computed(() => props.color.rgb[2] / 255)
 </script>
 
 <template>
   <div
     v-scrollview="selected"
     :class="{ 'color-cell': true, 'color-cell-selected': selected }"
-    :style="{ borderTopColor: props.color.hex, color: contrastColor }"
   >
     <div class="color-name">
       {{ props.color.name }}
     </div>
     <div class="color-rgb-knob">
-      <q-knob
-        v-model="r_n"
-        show-value
-        :min="0"
+      <CircularProgress
+        color="#f44336"
+        :value="color.rgb[0]"
         :max="255"
-        size="40px"
-        readonly
-        color="red"
-        track-color="track"
+        :size="40"
+        :stroke-width="5"
+        :text-color="contrastColor"
+        :track-color="trackColor"
       />
-      <q-knob
-        v-model="g_n"
-        show-value
-        :min="0"
+      <CircularProgress
+        color="#4caf50"
+        :value="color.rgb[1]"
         :max="255"
-        size="40px"
-        readonly
-        color="green"
-        track-color="track"
+        :size="40"
+        :stroke-width="5"
+        :text-color="contrastColor"
+        :track-color="trackColor"
       />
-      <q-knob
-        v-model="b_n"
-        show-value
-        :min="0"
+      <CircularProgress
+        color="#2196f3"
+        :value="color.rgb[2]"
         :max="255"
-        size="40px"
-        readonly
-        color="blue"
-        track-color="track"
+        :size="40"
+        :stroke-width="5"
+        :text-color="contrastColor"
+        :track-color="trackColor"
       />
     </div>
     <div class="color-rgb-linear">
       <div class="color-rgb-linear-phonic">
         {{ props.color.phonic }}
       </div>
-      <q-linear-progress
-        :value="r_l"
-        size="sm"
-        :dark="dark"
+      <LinearProgress 
+        :color="contrastColor"
+        :track-color="trackColor"
+        :value="color.rgb[0]"
+        :max="255"
+        :width="160"
+        :height="3"
+        :bar-height="3"
+        :show-text="false"
       />
-      <q-linear-progress
-        :value="g_l"
-        size="sm"
-        :dark="dark"
+      <LinearProgress 
+        :color="contrastColor"
+        :track-color="trackColor"
+        :value="color.rgb[1]"
+        :max="255"
+        :width="160"
+        :height="3"
+        :bar-height="3"
+        :show-text="false"
       />
-      <q-linear-progress
-        :value="b_l"
-        size="sm"
-        :dark="dark"
+      <LinearProgress 
+        :color="contrastColor"
+        :track-color="trackColor"
+        :value="color.rgb[2]"
+        :max="255"
+        :width="160"
+        :height="3"
+        :bar-height="3"
+        :show-text="false"
       />
       <div>{{ props.color.hex }}</div>
     </div>
@@ -89,6 +93,8 @@ const b_l = computed(() => props.color.rgb[2] / 255)
   width: 80px;
   height: 350px;
   border-top: 15px solid;
+  color: var(--text-color);
+  border-top-color: v-bind('color.hex');
   background-color: rgba(0, 0, 0, 0.2);
   user-select: none;
   position: relative;

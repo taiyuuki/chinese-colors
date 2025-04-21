@@ -12,25 +12,25 @@ export const bwg = [
     },
     {
         rgb: [
-            86,
-            86,
-            86,
+            57,
+            59,
+            67,
         ],
         phonic: 'bǎi cǎo shuāng',
         type: 'bwg',
         name: '百草霜',
-        hex: '#565656',
+        hex: '#393b43',
     },
     {
         rgb: [
-            168,
-            167,
-            162,
+            134,
+            135,
+            155,
         ],
         phonic: 'bān jiū huī',
         type: 'bwg',
         name: '斑鸠灰',
-        hex: '#a8a7a2',
+        hex: '#86879b',
     },
     {
         rgb: [
@@ -67,14 +67,25 @@ export const bwg = [
     },
     {
         rgb: [
-            220,
-            220,
-            210,
+            64,
+            74,
+            86,
+        ],
+        phonic: 'cāng qīng',
+        type: 'bwg',
+        name: '苍青',
+        hex: '#404a56',
+    },
+    {
+        rgb: [
+            213,
+            223,
+            250,
         ],
         phonic: 'cǎo bái',
         type: 'bwg',
         name: '草白',
-        hex: '#dcdcd2',
+        hex: '#d5dffa',
     },
     {
         rgb: [
@@ -100,6 +111,17 @@ export const bwg = [
     },
     {
         rgb: [
+            238,
+            246,
+            248,
+        ],
+        phonic: 'cōng bái',
+        type: 'bwg',
+        name: '葱白',
+        hex: '#eef6f8',
+    },
+    {
+        rgb: [
             195,
             203,
             206,
@@ -108,6 +130,17 @@ export const bwg = [
         type: 'bwg',
         name: '大理石',
         hex: '#c3cbce',
+    },
+    {
+        rgb: [
+            157,
+            157,
+            157,
+        ],
+        phonic: 'dà lǐ shí huī',
+        type: 'bwg',
+        name: '大理石灰',
+        hex: '#9d9d9d',
     },
     {
         rgb: [
@@ -221,14 +254,14 @@ export const bwg = [
     },
     {
         rgb: [
-            80,
-            62,
-            42,
+            148,
+            147,
+            150,
         ],
         phonic: 'gǎn lǎn huī',
         type: 'bwg',
         name: '橄榄灰',
-        hex: '#503e2a',
+        hex: '#949396',
     },
     {
         rgb: [
@@ -244,35 +277,35 @@ export const bwg = [
     {
         rgb: [
             249,
-            249,
+            246,
             241,
         ],
         phonic: 'gǎo sù',
         type: 'bwg',
         name: '缟素',
-        hex: '#f9f9f1',
+        hex: '#f9f6f1',
     },
     {
         rgb: [
-            170,
-            170,
-            170,
+            157,
+            164,
+            163,
         ],
         phonic: 'gē zi huī',
         type: 'bwg',
         name: '鸽子灰',
-        hex: '#aaaaaa',
+        hex: '#9da4a3',
     },
     {
         rgb: [
-            146,
-            155,
-            162,
+            114,
+            114,
+            114,
         ],
         phonic: 'gǔ dǐng huī',
         type: 'bwg',
         name: '古鼎灰',
-        hex: '#929ba2',
+        hex: '#727272',
     },
     {
         rgb: [
@@ -309,14 +342,14 @@ export const bwg = [
     },
     {
         rgb: [
-            248,
-            243,
-            237,
+            246,
+            245,
+            242,
         ],
         phonic: 'hàn bái yù',
         type: 'bwg',
         name: '汉白玉',
-        hex: '#f8f3ed',
+        hex: '#f6f5f2',
     },
     {
         rgb: [
@@ -331,14 +364,14 @@ export const bwg = [
     },
     {
         rgb: [
-            252,
-            236,
-            223,
+            226,
+            235,
+            217,
         ],
         phonic: 'hé huā bái',
         type: 'bwg',
         name: '荷花白',
-        hex: '#fcecdf',
+        hex: '#e2ebd9',
     },
     {
         rgb: [
@@ -375,14 +408,14 @@ export const bwg = [
     },
     {
         rgb: [
-            31,
-            7,
-            23,
+            34,
+            25,
+            28,
         ],
         phonic: 'hóng qīng',
         type: 'bwg',
         name: '红青',
-        hex: '#1f0717',
+        hex: '#22191c',
     },
     {
         rgb: [
@@ -474,14 +507,14 @@ export const bwg = [
     },
     {
         rgb: [
-            230,
-            237,
-            243,
+            251,
+            252,
+            254,
         ],
         phonic: 'jiǎn bái',
         type: 'bwg',
         name: '茧白',
-        hex: '#e6edf3',
+        hex: '#fbfcfe',
     },
     {
         rgb: [
@@ -551,14 +584,14 @@ export const bwg = [
     },
     {
         rgb: [
-            222,
-            227,
-            230,
+            248,
+            245,
+            238,
         ],
         phonic: 'là bái',
         type: 'bwg',
         name: '蜡白',
-        hex: '#dee3e6',
+        hex: '#f8f5ee',
     },
     {
         rgb: [
@@ -573,14 +606,14 @@ export const bwg = [
     },
     {
         rgb: [
-            130,
-            134,
-            135,
+            67,
+            79,
+            90,
         ],
         phonic: 'láng yān huī',
         type: 'bwg',
         name: '狼烟灰',
-        hex: '#828687',
+        hex: '#434f5a',
     },
     {
         rgb: [
@@ -595,14 +628,14 @@ export const bwg = [
     },
     {
         rgb: [
-            242,
-            230,
-            206,
+            239,
+            233,
+            213,
         ],
         phonic: 'lì ròu bái',
         type: 'bwg',
         name: '荔肉白',
-        hex: '#f2e6ce',
+        hex: '#efe9d5',
     },
     {
         rgb: [
@@ -617,25 +650,14 @@ export const bwg = [
     },
     {
         rgb: [
-            255,
-            244,
-            204,
+            252,
+            251,
+            250,
         ],
         phonic: 'lián zǐ bái',
         type: 'bwg',
         name: '莲子白',
-        hex: '#fff4cc',
-    },
-    {
-        rgb: [
-            189,
-            173,
-            173,
-        ],
-        phonic: 'lú suì huī',
-        type: 'bwg',
-        name: '芦穗灰',
-        hex: '#bdadad',
+        hex: '#fcfbfa',
     },
     {
         rgb: [
@@ -650,6 +672,17 @@ export const bwg = [
     },
     {
         rgb: [
+            185,
+            171,
+            170,
+        ],
+        phonic: 'lú suì huī',
+        type: 'bwg',
+        name: '芦穗灰',
+        hex: '#b9abaa',
+    },
+    {
+        rgb: [
             170,
             178,
             165,
@@ -658,6 +691,17 @@ export const bwg = [
         type: 'bwg',
         name: '绿灰',
         hex: '#aab2a5',
+    },
+    {
+        rgb: [
+            41,
+            42,
+            47,
+        ],
+        phonic: 'luó qīng',
+        type: 'bwg',
+        name: '螺青',
+        hex: '#292a2f',
     },
     {
         rgb: [
@@ -672,47 +716,36 @@ export const bwg = [
     },
     {
         rgb: [
-            87,
-            56,
-            64,
+            155,
+            129,
+            130,
         ],
         phonic: 'méi guī huī',
         type: 'bwg',
         name: '玫瑰灰',
-        hex: '#573840',
+        hex: '#9b8182',
     },
     {
         rgb: [
-            241,
-            237,
-            228,
+            235,
+            235,
+            235,
         ],
         phonic: 'mǐ bái',
         type: 'bwg',
         name: '米白',
-        hex: '#f1ede4',
+        hex: '#ebebeb',
     },
     {
         rgb: [
-            190,
-            194,
-            193,
+            163,
+            156,
+            157,
         ],
         phonic: 'mǐ huī',
         type: 'bwg',
         name: '米灰',
-        hex: '#bec2c1',
-    },
-    {
-        rgb: [
-            103,
-            102,
-            108,
-        ],
-        phonic: 'mò huī',
-        type: 'bwg',
-        name: '墨灰',
-        hex: '#67666c',
+        hex: '#a39c9d',
     },
     {
         rgb: [
@@ -724,6 +757,17 @@ export const bwg = [
         type: 'bwg',
         name: '明灰',
         hex: '#8b988e',
+    },
+    {
+        rgb: [
+            76,
+            80,
+            89,
+        ],
+        phonic: 'mò huī',
+        type: 'bwg',
+        name: '墨灰',
+        hex: '#4c5059',
     },
     {
         rgb: [
@@ -793,14 +837,14 @@ export const bwg = [
     },
     {
         rgb: [
-            188,
-            181,
-            173,
+            116,
+            116,
+            125,
         ],
         phonic: 'qiān huī',
         type: 'bwg',
         name: '铅灰',
-        hex: '#bcb5ad',
+        hex: '#74747d',
     },
     {
         rgb: [
@@ -848,6 +892,17 @@ export const bwg = [
     },
     {
         rgb: [
+            122,
+            128,
+            128,
+        ],
+        phonic: 'qīng zhuān huī',
+        type: 'bwg',
+        name: '青砖灰',
+        hex: '#7a8080',
+    },
+    {
+        rgb: [
             196,
             214,
             214,
@@ -859,25 +914,25 @@ export const bwg = [
     },
     {
         rgb: [
-            154,
-            166,
-            182,
+            99,
+            108,
+            134,
         ],
         phonic: 'què huī',
         type: 'bwg',
         name: '鹊灰',
-        hex: '#9aa6b6',
+        hex: '#636c86',
     },
     {
         rgb: [
-            250,
-            244,
-            220,
+            246,
+            243,
+            225,
         ],
         phonic: 'rǔ bái',
         type: 'bwg',
         name: '乳白',
-        hex: '#faf4dc',
+        hex: '#f6f3e1',
     },
     {
         rgb: [
@@ -911,6 +966,17 @@ export const bwg = [
         type: 'bwg',
         name: '深芦灰',
         hex: '#7b5d65',
+    },
+    {
+        rgb: [
+            173,
+            178,
+            175,
+        ],
+        phonic: 'shèn huī',
+        type: 'bwg',
+        name: '蜃灰',
+        hex: '#adb2af',
     },
     {
         rgb: [
@@ -969,36 +1035,36 @@ export const bwg = [
     },
     {
         rgb: [
-            48,
-            47,
-            53,
+            81,
+            89,
+            81,
         ],
         phonic: 'shuǐ niú huī',
         type: 'bwg',
         name: '水牛灰',
-        hex: '#302f35',
+        hex: '#515951',
     },
     {
         rgb: [
-            80,
-            64,
-            51,
+            116,
+            124,
+            123,
         ],
         phonic: 'sōng shǔ huī',
         type: 'bwg',
         name: '松鼠灰',
-        hex: '#504033',
+        hex: '#747c7b',
     },
     {
         rgb: [
-            135,
-            135,
-            135,
+            100,
+            117,
+            129,
         ],
         phonic: 'sōng yān huī',
         type: 'bwg',
         name: '松烟灰',
-        hex: '#878787',
+        hex: '#647581',
     },
     {
         rgb: [
@@ -1024,14 +1090,14 @@ export const bwg = [
     },
     {
         rgb: [
-            105,
-            109,
-            112,
+            83,
+            83,
+            83,
         ],
         phonic: 'tiě huī',
         type: 'bwg',
         name: '铁灰',
-        hex: '#696d70',
+        hex: '#535353',
     },
     {
         rgb: [
@@ -1046,25 +1112,25 @@ export const bwg = [
     },
     {
         rgb: [
-            71,
-            72,
-            76,
+            106,
+            105,
+            109,
         ],
         phonic: 'wǎ guàn huī',
         type: 'bwg',
         name: '瓦罐灰',
-        hex: '#47484c',
+        hex: '#6a696d',
     },
     {
         rgb: [
-            135,
-            126,
-            119,
+            92,
+            96,
+            99,
         ],
         phonic: 'wǎ huī',
         type: 'bwg',
         name: '瓦灰',
-        hex: '#877e77',
+        hex: '#5c6063',
     },
     {
         rgb: [
@@ -1079,14 +1145,14 @@ export const bwg = [
     },
     {
         rgb: [
-            143,
-            143,
-            145,
+            59,
+            62,
+            77,
         ],
         phonic: 'wū zéi huī',
         type: 'bwg',
         name: '乌贼灰',
-        hex: '#8f8f91',
+        hex: '#3b3e4d',
     },
     {
         rgb: [
@@ -1112,14 +1178,14 @@ export const bwg = [
     },
     {
         rgb: [
-            120,
-            132,
-            158,
+            186,
+            187,
+            191,
         ],
         phonic: 'xiāng sī huī',
         type: 'bwg',
         name: '相思灰',
-        hex: '#78849e',
+        hex: '#babbbf',
     },
     {
         rgb: [
@@ -1134,14 +1200,14 @@ export const bwg = [
     },
     {
         rgb: [
-            239,
-            238,
-            218,
+            245,
+            240,
+            210,
         ],
         phonic: 'xiàng yá bái',
         type: 'bwg',
         name: '象牙白',
-        hex: '#efeeda',
+        hex: '#f5f0d2',
     },
     {
         rgb: [
@@ -1178,47 +1244,69 @@ export const bwg = [
     },
     {
         rgb: [
-            54,
-            53,
-            59,
+            18,
+            9,
+            14,
         ],
         phonic: 'xuán sè',
         type: 'bwg',
         name: '玄色',
-        hex: '#36353b',
+        hex: '#12090e',
     },
     {
         rgb: [
-            136,
-            149,
-            165,
+            251,
+            249,
+            245,
+        ],
+        phonic: 'xuě bái',
+        type: 'bwg',
+        name: '雪白',
+        hex: '#fbf9f5',
+    },
+    {
+        rgb: [
+            30,
+            40,
+            48,
+        ],
+        phonic: 'yā qīng',
+        type: 'bwg',
+        name: '鸦青',
+        hex: '#1e2830',
+    },
+    {
+        rgb: [
+            68,
+            81,
+            88,
         ],
         phonic: 'yàn huī',
         type: 'bwg',
         name: '砚灰',
-        hex: '#8895a5',
+        hex: '#445158',
     },
     {
         rgb: [
-            128,
-            118,
-            109,
+            106,
+            108,
+            125,
         ],
         phonic: 'yàn huī',
         type: 'bwg',
         name: '雁灰',
-        hex: '#80766d',
+        hex: '#6a6c7d',
     },
     {
         rgb: [
-            92,
-            81,
-            61,
+            104,
+            103,
+            94,
         ],
         phonic: 'yàn yǔ huī',
         type: 'bwg',
         name: '燕羽灰',
-        hex: '#5c513d',
+        hex: '#68675e',
     },
     {
         rgb: [
@@ -1234,35 +1322,24 @@ export const bwg = [
     {
         rgb: [
             241,
-            240,
-            236,
+            242,
+            242,
         ],
         phonic: 'yín bái',
         type: 'bwg',
         name: '银白',
-        hex: '#f1f0ec',
+        hex: '#f1f2f2',
     },
     {
         rgb: [
-            255,
-            254,
-            249,
-        ],
-        phonic: 'xuě bái',
-        type: 'bwg',
-        name: '雪白',
-        hex: '#fffef9',
-    },
-    {
-        rgb: [
-            175,
-            172,
-            167,
+            200,
+            202,
+            201,
         ],
         phonic: 'yín huī',
         type: 'bwg',
         name: '银灰',
-        hex: '#afaca7',
+        hex: '#c8cac9',
     },
     {
         rgb: [
@@ -1365,14 +1442,14 @@ export const bwg = [
     },
     {
         rgb: [
-            67,
-            68,
-            70,
+            47,
+            45,
+            48,
         ],
         phonic: 'zào sè',
         type: 'bwg',
         name: '皂色',
-        hex: '#434446',
+        hex: '#2f2d30',
     },
     {
         rgb: [
@@ -1442,17 +1519,6 @@ export const bwg = [
     },
     {
         rgb: [
-            161,
-            151,
-            150,
-        ],
-        phonic: 'zōng huī',
-        type: 'bwg',
-        name: '棕灰',
-        hex: '#a19796',
-    },
-    {
-        rgb: [
             178,
             180,
             179,
@@ -1497,14 +1563,14 @@ export const bwg = [
     },
     {
         rgb: [
-            39,
-            43,
-            55,
+            24,
+            21,
+            21,
         ],
         phonic: 'zī sè',
         type: 'bwg',
         name: '缁色',
-        hex: '#272b37',
+        hex: '#181515',
     },
     {
         rgb: [
@@ -1516,5 +1582,16 @@ export const bwg = [
         type: 'bwg',
         name: '紫灰',
         hex: '#5e3f51',
+    },
+    {
+        rgb: [
+            161,
+            151,
+            150,
+        ],
+        phonic: 'zōng huī',
+        type: 'bwg',
+        name: '棕灰',
+        hex: '#a19796',
     },
 ]

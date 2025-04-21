@@ -34,14 +34,25 @@ export const brown = [
     },
     {
         rgb: [
-            93,
-            61,
-            33,
+            47,
+            30,
+            20,
         ],
         phonic: 'chá hè',
         type: 'brown',
         name: '茶褐',
-        hex: '#5d3d21',
+        hex: '#2f1e14',
+    },
+    {
+        rgb: [
+            97,
+            74,
+            30,
+        ],
+        phonic: 'chá lǜ hè',
+        type: 'brown',
+        name: '茶绿褐',
+        hex: '#614a1e',
     },
     {
         rgb: [
@@ -56,14 +67,14 @@ export const brown = [
     },
     {
         rgb: [
-            103,
-            83,
-            80,
+            87,
+            65,
+            61,
         ],
         phonic: 'chén xiāng hè',
         type: 'brown',
         name: '沉香褐',
-        hex: '#675350',
+        hex: '#57413d',
     },
     {
         rgb: [
@@ -122,14 +133,14 @@ export const brown = [
     },
     {
         rgb: [
-            143,
-            109,
-            100,
+            113,
+            55,
+            31,
         ],
         phonic: 'dīng xiāng hè',
         type: 'brown',
         name: '丁香褐',
-        hex: '#8f6d64',
+        hex: '#71371f',
     },
     {
         rgb: [
@@ -155,14 +166,14 @@ export const brown = [
     },
     {
         rgb: [
-            135,
-            61,
+            72,
+            45,
             36,
         ],
         phonic: 'dòu shā',
         type: 'brown',
         name: '豆沙',
-        hex: '#873d24',
+        hex: '#482d24',
     },
     {
         rgb: [
@@ -177,14 +188,14 @@ export const brown = [
     },
     {
         rgb: [
-            87,
-            72,
-            69,
+            80,
+            48,
+            31,
         ],
         phonic: 'gǔ tóng',
         type: 'brown',
         name: '古铜',
-        hex: '#574845',
+        hex: '#50301f',
     },
     {
         rgb: [
@@ -207,6 +218,17 @@ export const brown = [
         type: 'brown',
         name: '桂皮淡棕',
         hex: '#a76d45',
+    },
+    {
+        rgb: [
+            169,
+            105,
+            77,
+        ],
+        phonic: 'guì pí zōng',
+        type: 'brown',
+        name: '桂皮棕',
+        hex: '#a9694d',
     },
     {
         rgb: [
@@ -287,25 +309,47 @@ export const brown = [
     },
     {
         rgb: [
-            36,
-            0,
-            0,
+            76,
+            55,
+            47,
         ],
         phonic: 'jiàng chá hè',
         type: 'brown',
         name: '酱茶褐',
-        hex: '#240000',
+        hex: '#4c372f',
     },
     {
         rgb: [
-            111,
-            80,
-            95,
+            73,
+            51,
+            53,
+        ],
+        phonic: 'jiàng sè',
+        type: 'brown',
+        name: '酱色',
+        hex: '#493335',
+    },
+    {
+        rgb: [
+            90,
+            31,
+            27,
+        ],
+        phonic: 'jiàng zōng',
+        type: 'brown',
+        name: '酱棕',
+        hex: '#5a1f1b',
+    },
+    {
+        rgb: [
+            70,
+            44,
+            43,
         ],
         phonic: 'jiāo hè',
         type: 'brown',
         name: '椒褐',
-        hex: '#6f505f',
+        hex: '#462c2b',
     },
     {
         rgb: [
@@ -375,14 +419,14 @@ export const brown = [
     },
     {
         rgb: [
-            103,
-            83,
-            82,
+            168,
+            149,
+            121,
         ],
         phonic: 'kū zhú hè',
         type: 'brown',
         name: '枯竹褐',
-        hex: '#675352',
+        hex: '#a89579',
     },
     {
         rgb: [
@@ -408,17 +452,6 @@ export const brown = [
     },
     {
         rgb: [
-            82,
-            57,
-            49,
-        ],
-        phonic: 'sǔn pí zōng',
-        type: 'brown',
-        name: '笋皮棕',
-        hex: '#523931',
-    },
-    {
-        rgb: [
             148,
             88,
             51,
@@ -430,25 +463,36 @@ export const brown = [
     },
     {
         rgb: [
-            103,
-            52,
-            35,
+            207,
+            142,
+            93,
         ],
         phonic: 'lù pí hè',
         type: 'brown',
         name: '鹿皮褐',
-        hex: '#673423',
+        hex: '#cf8e5d',
     },
     {
         rgb: [
-            189,
-            126,
-            73,
+            214,
+            186,
+            164,
+        ],
+        phonic: 'lù hè',
+        type: 'brown',
+        name: '露褐',
+        hex: '#d6baa4',
+    },
+    {
+        rgb: [
+            116,
+            91,
+            71,
         ],
         phonic: 'luó hàn guǒ',
         type: 'brown',
         name: '罗汉果',
-        hex: '#bd7e49',
+        hex: '#745b47',
     },
     {
         rgb: [
@@ -474,25 +518,25 @@ export const brown = [
     },
     {
         rgb: [
-            114,
-            54,
-            30,
+            242,
+            240,
+            212,
         ],
         phonic: 'mǐ sè',
         type: 'brown',
         name: '米色',
-        hex: '#72361e',
+        hex: '#f2f0d4',
     },
     {
         rgb: [
-            102,
-            84,
-            62,
+            38,
+            25,
+            25,
         ],
         phonic: 'mò xiāng',
         type: 'brown',
         name: '墨缃',
-        hex: '#66543e',
+        hex: '#261919',
     },
     {
         rgb: [
@@ -526,6 +570,17 @@ export const brown = [
         type: 'brown',
         name: '牛绒',
         hex: '#574845',
+    },
+    {
+        rgb: [
+            90,
+            66,
+            49,
+        ],
+        phonic: 'ǒu hè',
+        type: 'brown',
+        name: '藕褐',
+        hex: '#5a4231',
     },
     {
         rgb: [
@@ -628,14 +683,25 @@ export const brown = [
     },
     {
         rgb: [
+            207,
+            160,
+            122,
+        ],
+        phonic: 'shān gǔ hè',
+        type: 'brown',
+        name: '山谷褐',
+        hex: '#cfa07a',
+    },
+    {
+        rgb: [
             152,
-            101,
-            36,
+            106,
+            76,
         ],
         phonic: 'shān jī hè',
         type: 'brown',
         name: '山鸡褐',
-        hex: '#986524',
+        hex: '#986a4c',
     },
     {
         rgb: [
@@ -647,6 +713,17 @@ export const brown = [
         type: 'brown',
         name: '深褐',
         hex: '#4c2c1f',
+    },
+    {
+        rgb: [
+            87,
+            60,
+            55,
+        ],
+        phonic: 'shí hè',
+        type: 'brown',
+        name: '石褐',
+        hex: '#573c37',
     },
     {
         rgb: [
@@ -662,35 +739,46 @@ export const brown = [
     {
         rgb: [
             82,
-            68,
-            65,
+            57,
+            49,
+        ],
+        phonic: 'sǔn pí zōng',
+        type: 'brown',
+        name: '笋皮棕',
+        hex: '#523931',
+    },
+    {
+        rgb: [
+            86,
+            48,
+            45,
         ],
         phonic: 'tán hè',
         type: 'brown',
         name: '檀褐',
-        hex: '#524441',
+        hex: '#56302d',
     },
     {
         rgb: [
-            175,
-            127,
-            107,
+            155,
+            102,
+            81,
         ],
         phonic: 'táng lí hè',
         type: 'brown',
         name: '棠梨褐',
-        hex: '#af7f6b',
+        hex: '#9b6651',
     },
     {
         rgb: [
             57,
-            35,
+            34,
             34,
         ],
         phonic: 'tiě zōng',
         type: 'brown',
         name: '铁棕',
-        hex: '#392322',
+        hex: '#392222',
     },
     {
         rgb: [
@@ -716,14 +804,14 @@ export const brown = [
     },
     {
         rgb: [
-            111,
-            80,
-            52,
+            125,
+            93,
+            70,
         ],
         phonic: 'tuó sè',
         type: 'brown',
         name: '驼色',
-        hex: '#6f5034',
+        hex: '#7d5d46',
     },
     {
         rgb: [
@@ -738,14 +826,14 @@ export const brown = [
     },
     {
         rgb: [
-            124,
+            142,
             71,
             59,
         ],
         phonic: 'xiàng zǐ zōng',
         type: 'brown',
         name: '橡子棕',
-        hex: '#7c473b',
+        hex: '#8e473b',
     },
     {
         rgb: [
@@ -768,17 +856,6 @@ export const brown = [
         type: 'brown',
         name: '椰壳棕',
         hex: '#803919',
-    },
-    {
-        rgb: [
-            169,
-            105,
-            77,
-        ],
-        phonic: 'guì pí zōng',
-        type: 'brown',
-        name: '桂皮棕',
-        hex: '#a9694d',
     },
     {
         rgb: [
@@ -837,25 +914,36 @@ export const brown = [
     },
     {
         rgb: [
-            89,
-            73,
-            76,
+            102,
+            56,
+            57,
         ],
         phonic: 'zǎo hè',
         type: 'brown',
         name: '枣褐',
-        hex: '#59494c',
+        hex: '#663839',
     },
     {
         rgb: [
-            143,
-            64,
-            21,
+            105,
+            42,
+            27,
+        ],
+        phonic: 'zhà yè zōng',
+        type: 'brown',
+        name: '柞叶棕',
+        hex: '#692a1b',
+    },
+    {
+        rgb: [
+            195,
+            96,
+            66,
         ],
         phonic: 'zhě shí',
         type: 'brown',
         name: '赭石',
-        hex: '#8f4015',
+        hex: '#c36042',
     },
     {
         rgb: [
@@ -892,25 +980,25 @@ export const brown = [
     },
     {
         rgb: [
-            123,
-            86,
-            67,
+            116,
+            69,
+            59,
         ],
         phonic: 'zhuān hè',
         type: 'brown',
         name: '砖褐',
-        hex: '#7b5643',
+        hex: '#74453b',
     },
     {
         rgb: [
-            83,
-            24,
+            79,
             26,
+            34,
         ],
         phonic: 'zǐ tán',
         type: 'brown',
         name: '紫檀',
-        hex: '#53181a',
+        hex: '#4f1a22',
     },
     {
         rgb: [
@@ -955,49 +1043,5 @@ export const brown = [
         type: 'brown',
         name: '棕色',
         hex: '#61402f',
-    },
-    {
-        rgb: [
-            105,
-            42,
-            27,
-        ],
-        phonic: 'zhà yè zōng',
-        type: 'brown',
-        name: '柞叶棕',
-        hex: '#692a1b',
-    },
-    {
-        rgb: [
-            97,
-            74,
-            30,
-        ],
-        phonic: 'chá lǜ hè',
-        type: 'brown',
-        name: '茶绿褐',
-        hex: '#614a1e',
-    },
-    {
-        rgb: [
-            73,
-            51,
-            53,
-        ],
-        phonic: 'jiàng sè',
-        type: 'brown',
-        name: '酱色',
-        hex: '#493335',
-    },
-    {
-        rgb: [
-            90,
-            31,
-            27,
-        ],
-        phonic: 'jiàng zōng',
-        type: 'brown',
-        name: '酱棕',
-        hex: '#5a1f1b',
     },
 ]

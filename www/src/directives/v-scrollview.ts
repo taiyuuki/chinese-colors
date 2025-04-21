@@ -2,7 +2,7 @@ import type { Directive } from 'vue'
 
 function isInViewPort(el: HTMLElement) {
     let parent = el.parentElement
-    while (parent && !parent.classList.contains('scroll')) {
+    while (parent && !parent.classList.contains('scroll-area')) {
         parent = parent.parentElement
     }
 

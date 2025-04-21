@@ -1,4 +1,4 @@
-import { computed, reactive } from 'vue'
+import { computed, reactive, watch } from 'vue'
 import { getContrastColor } from 'src/utils'
 import type { Color } from 'src/colors/type'
 
@@ -8,18 +8,24 @@ const color = reactive<Color>({
     phonic: 'zhōng guó sè',
     name: '中国色',
     type: 'red',
+    contrastColors: [],
+    similarColors: [],
 })
 const contrastColor = computed(() => getContrastColor(color.hex))
 const dark = computed(() => contrastColor.value === 'white')
+const trackColor = computed(() => dark.value ? 'rgba(255, 255, 255, 0.26)' : 'rgba(0, 0, 0, 0.26)')
 
 function setColor(newColor: Color) {
     Object.assign(color, newColor)
-    document.body.style.setProperty('--bg-color', newColor.hex)
-    document.body.style.setProperty('--text-color', contrastColor.value)
-    document.body.style.setProperty('--track-color', dark.value ? 'rgba(255, 255, 255, 0.26' : 'rgba(0, 0, 0, 0.26')
 }
+
+watch(color, () => {
+    document.body.style.setProperty('--bg-color', color.hex)
+    document.body.style.setProperty('--text-color', contrastColor.value)
+    document.body.style.setProperty('--track-color', trackColor.value)
+})
 
 export function useDisplayColor() {
 
-    return { color, dark, contrastColor, setColor }
+    return { color, dark, contrastColor, setColor, trackColor }
 }

@@ -34,14 +34,14 @@ export const blue = [
     },
     {
         rgb: [
-            93,
-            179,
-            204,
+            147,
+            183,
+            177,
         ],
         phonic: 'biqinglan',
         type: 'blue',
         name: '碧青',
-        hex: '#5db3cc',
+        hex: '#93b7b1',
     },
     {
         rgb: [
@@ -68,13 +68,13 @@ export const blue = [
     {
         rgb: [
             19,
-            72,
-            88,
+            71,
+            93,
         ],
         phonic: 'canglan',
         type: 'blue',
         name: '苍蓝',
-        hex: '#134858',
+        hex: '#13475d',
     },
     {
         rgb: [
@@ -100,14 +100,36 @@ export const blue = [
     },
     {
         rgb: [
-            6,
-            10,
-            37,
+            45,
+            49,
+            61,
         ],
         phonic: 'zangqinglan',
         type: 'blue',
         name: '藏青',
-        hex: '#060a25',
+        hex: '#2d313d',
+    },
+    {
+        rgb: [
+            5,
+            80,
+            231,
+        ],
+        phonic: 'caohualan',
+        type: 'blue',
+        name: '草花蓝',
+        hex: '#0550e7',
+    },
+    {
+        rgb: [
+            16,
+            28,
+            52,
+        ],
+        phonic: 'cengqinglan',
+        type: 'blue',
+        name: '曾青',
+        hex: '#101c34',
     },
     {
         rgb: [
@@ -122,14 +144,14 @@ export const blue = [
     },
     {
         rgb: [
-            39,
-            218,
-            248,
+            61,
+            206,
+            253,
         ],
         phonic: 'cuilan',
         type: 'blue',
         name: '翠蓝',
-        hex: '#27daf8',
+        hex: '#3dcefd',
     },
     {
         rgb: [
@@ -155,6 +177,28 @@ export const blue = [
     },
     {
         rgb: [
+            41,
+            125,
+            212,
+        ],
+        phonic: 'danfanlan',
+        type: 'blue',
+        name: '胆矾蓝',
+        hex: '#297dd4',
+    },
+    {
+        rgb: [
+            195,
+            214,
+            212,
+        ],
+        phonic: 'danqinglan',
+        type: 'blue',
+        name: '蛋青',
+        hex: '#c3d6d4',
+    },
+    {
+        rgb: [
             15,
             174,
             195,
@@ -166,25 +210,14 @@ export const blue = [
     },
     {
         rgb: [
-            122,
-            171,
-            239,
-        ],
-        phonic: 'pinyuelan',
-        type: 'blue',
-        name: '品月',
-        hex: '#7aabef',
-    },
-    {
-        rgb: [
-            32,
-            61,
-            95,
+            19,
+            23,
+            34,
         ],
         phonic: 'dianqinglan',
         type: 'blue',
         name: '靛青',
-        hex: '#203d5f',
+        hex: '#131722',
     },
     {
         rgb: [
@@ -199,14 +232,14 @@ export const blue = [
     },
     {
         rgb: [
-            15,
-            89,
-            164,
+            17,
+            94,
+            172,
         ],
         phonic: 'feiyancaolan',
         type: 'blue',
         name: '飞燕草蓝',
-        hex: '#0f59a4',
+        hex: '#115eac',
     },
     {
         rgb: [
@@ -221,14 +254,14 @@ export const blue = [
     },
     {
         rgb: [
-            10,
-            30,
-            81,
+            16,
+            22,
+            54,
         ],
         phonic: 'foqinglan',
         type: 'blue',
         name: '佛青',
-        hex: '#0a1e51',
+        hex: '#101636',
     },
     {
         rgb: [
@@ -287,14 +320,14 @@ export const blue = [
     },
     {
         rgb: [
-            34,
-            163,
-            195,
+            4,
+            57,
+            72,
         ],
         phonic: 'haiqinglan',
         type: 'blue',
         name: '海青',
-        hex: '#22a3c3',
+        hex: '#043948',
     },
     {
         rgb: [
@@ -353,28 +386,6 @@ export const blue = [
     },
     {
         rgb: [
-            16,
-            28,
-            52,
-        ],
-        phonic: 'cengqinglan',
-        type: 'blue',
-        name: '曾青',
-        hex: '#101c34',
-    },
-    {
-        rgb: [
-            103,
-            119,
-            132,
-        ],
-        phonic: 'xiaqinglan',
-        type: 'blue',
-        name: '虾青',
-        hex: '#677784',
-    },
-    {
-        rgb: [
             62,
             94,
             134,
@@ -386,58 +397,14 @@ export const blue = [
     },
     {
         rgb: [
-            41,
-            125,
-            212,
-        ],
-        phonic: 'danfanlan',
-        type: 'blue',
-        name: '胆矾蓝',
-        hex: '#297dd4',
-    },
-    {
-        rgb: [
-            70,
-            103,
-            231,
-        ],
-        phonic: 'yazhicaolan',
-        type: 'blue',
-        name: '鸭跖草蓝',
-        hex: '#4667e7',
-    },
-    {
-        rgb: [
-            42,
-            104,
-            188,
-        ],
-        phonic: 'weilan',
-        type: 'blue',
-        name: '蔚蓝',
-        hex: '#2a68bc',
-    },
-    {
-        rgb: [
-            43,
-            113,
-            173,
-        ],
-        phonic: 'pinlan',
-        type: 'blue',
-        name: '品蓝',
-        hex: '#2b71ad',
-    },
-    {
-        rgb: [
-            44,
-            48,
-            73,
+            26,
+            35,
+            74,
         ],
         phonic: 'jiqinglan',
         type: 'blue',
         name: '霁青',
-        hex: '#2c3049',
+        hex: '#1a234a',
     },
     {
         rgb: [
@@ -551,17 +518,6 @@ export const blue = [
     },
     {
         rgb: [
-            64,
-            78,
-            143,
-        ],
-        phonic: 'quelan',
-        type: 'blue',
-        name: '鹊蓝',
-        hex: '#404e8f',
-    },
-    {
-        rgb: [
             19,
             59,
             94,
@@ -570,6 +526,17 @@ export const blue = [
         type: 'blue',
         name: '毛蓝',
         hex: '#133b5e',
+    },
+    {
+        rgb: [
+            5,
+            21,
+            53,
+        ],
+        phonic: 'maoqinglan',
+        type: 'blue',
+        name: '毛青',
+        hex: '#051535',
     },
     {
         rgb: [
@@ -603,6 +570,28 @@ export const blue = [
         type: 'blue',
         name: '墨青',
         hex: '#2f4047',
+    },
+    {
+        rgb: [
+            43,
+            113,
+            173,
+        ],
+        phonic: 'pinlan',
+        type: 'blue',
+        name: '品蓝',
+        hex: '#2b71ad',
+    },
+    {
+        rgb: [
+            122,
+            171,
+            229,
+        ],
+        phonic: 'pinyuelan',
+        type: 'blue',
+        name: '品月',
+        hex: '#7aabe5',
     },
     {
         rgb: [
@@ -650,14 +639,25 @@ export const blue = [
     },
     {
         rgb: [
-            40,
-            49,
-            126,
+            146,
+            174,
+            214,
+        ],
+        phonic: 'qielan',
+        type: 'blue',
+        name: '窃蓝',
+        hex: '#92aed6',
+    },
+    {
+        rgb: [
+            31,
+            39,
+            124,
         ],
         phonic: 'qingjinlan',
         type: 'blue',
         name: '青金',
-        hex: '#28317e',
+        hex: '#1f277c',
     },
     {
         rgb: [
@@ -716,17 +716,6 @@ export const blue = [
     },
     {
         rgb: [
-            146,
-            174,
-            214,
-        ],
-        phonic: 'qielan',
-        type: 'blue',
-        name: '窃蓝',
-        hex: '#92aed6',
-    },
-    {
-        rgb: [
             4,
             35,
             53,
@@ -735,6 +724,28 @@ export const blue = [
         type: 'blue',
         name: '雀头蓝',
         hex: '#042335',
+    },
+    {
+        rgb: [
+            41,
+            76,
+            231,
+        ],
+        phonic: 'quetouqinglan',
+        type: 'blue',
+        name: '雀头青',
+        hex: '#294ce7',
+    },
+    {
+        rgb: [
+            64,
+            78,
+            143,
+        ],
+        phonic: 'quelan',
+        type: 'blue',
+        name: '鹊蓝',
+        hex: '#404e8f',
     },
     {
         rgb: [
@@ -804,14 +815,14 @@ export const blue = [
     },
     {
         rgb: [
-            102,
-            203,
-            255,
+            23,
+            184,
+            253,
         ],
         phonic: 'tianlan',
         type: 'blue',
         name: '天蓝',
-        hex: '#66cbff',
+        hex: '#17b8fd',
     },
     {
         rgb: [
@@ -845,6 +856,28 @@ export const blue = [
         type: 'blue',
         name: '晚波蓝',
         hex: '#658e94',
+    },
+    {
+        rgb: [
+            42,
+            104,
+            188,
+        ],
+        phonic: 'weilan',
+        type: 'blue',
+        name: '蔚蓝',
+        hex: '#2a68bc',
+    },
+    {
+        rgb: [
+            124,
+            144,
+            159,
+        ],
+        phonic: 'xiaqinglan',
+        type: 'blue',
+        name: '虾青',
+        hex: '#7c909f',
     },
     {
         rgb: [
@@ -892,6 +925,17 @@ export const blue = [
     },
     {
         rgb: [
+            70,
+            103,
+            231,
+        ],
+        phonic: 'yazhicaolan',
+        type: 'blue',
+        name: '鸭跖草蓝',
+        hex: '#4667e7',
+    },
+    {
+        rgb: [
             4,
             85,
             203,
@@ -914,14 +958,14 @@ export const blue = [
     },
     {
         rgb: [
-            56,
-            62,
-            88,
+            30,
+            34,
+            51,
         ],
         phonic: 'yanweiqinglan',
         type: 'blue',
         name: '燕尾青',
-        hex: '#383e58',
+        hex: '#1e2233',
     },
     {
         rgb: [
@@ -936,17 +980,6 @@ export const blue = [
     },
     {
         rgb: [
-            41,
-            76,
-            118,
-        ],
-        phonic: 'quetouqinglan',
-        type: 'blue',
-        name: '雀头青',
-        hex: '#294c76',
-    },
-    {
-        rgb: [
             3,
             165,
             248,
@@ -955,6 +988,17 @@ export const blue = [
         type: 'blue',
         name: '荧光蓝',
         hex: '#03a5f8',
+    },
+    {
+        rgb: [
+            161,
+            183,
+            194,
+        ],
+        phonic: 'yingqinglan',
+        type: 'blue',
+        name: '影青',
+        hex: '#a1b7c2',
     },
     {
         rgb: [
@@ -980,14 +1024,14 @@ export const blue = [
     },
     {
         rgb: [
-            127,
-            176,
-            183,
+            145,
+            198,
+            202,
         ],
         phonic: 'yuguotianqinglan',
         type: 'blue',
         name: '雨过天青',
-        hex: '#7fb0b7',
+        hex: '#91c6ca',
     },
     {
         rgb: [
@@ -1013,17 +1057,6 @@ export const blue = [
     },
     {
         rgb: [
-            5,
-            80,
-            231,
-        ],
-        phonic: 'caohualan',
-        type: 'blue',
-        name: '草花蓝',
-        hex: '#0550e7',
-    },
-    {
-        rgb: [
             156,
             183,
             252,
@@ -1046,14 +1079,14 @@ export const blue = [
     },
     {
         rgb: [
-            243,
-            242,
-            248,
+            201,
+            215,
+            227,
         ],
         phonic: 'yuebailan',
         type: 'blue',
         name: '月白',
-        hex: '#f3f2f8',
+        hex: '#c9d7e3',
     },
     {
         rgb: [
@@ -1090,17 +1123,6 @@ export const blue = [
     },
     {
         rgb: [
-            89,
-            173,
-            206,
-        ],
-        phonic: 'zhuyuelan',
-        type: 'blue',
-        name: '竹月',
-        hex: '#59adce',
-    },
-    {
-        rgb: [
             41,
             59,
             81,
@@ -1109,5 +1131,16 @@ export const blue = [
         type: 'blue',
         name: '真青',
         hex: '#293b51',
+    },
+    {
+        rgb: [
+            89,
+            172,
+            207,
+        ],
+        phonic: 'zhuyuelan',
+        type: 'blue',
+        name: '竹月',
+        hex: '#59accf',
     },
 ]

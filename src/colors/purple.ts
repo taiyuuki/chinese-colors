@@ -1,25 +1,36 @@
 export const purple = [
     {
         rgb: [
-            189,
-            178,
-            195,
+            36,
+            32,
+            67,
         ],
-        phonic: 'canzi',
+        phonic: 'anlanzi',
         type: 'purple',
-        name: '黪紫',
-        hex: '#bdb2c3',
+        name: '暗蓝紫',
+        hex: '#242043',
     },
     {
         rgb: [
-            208,
-            194,
-            211,
+            53,
+            49,
+            72,
         ],
-        phonic: 'danqianniuzi',
+        phonic: 'anlongdanzi',
         type: 'purple',
-        name: '淡牵牛紫',
-        hex: '#d0c2d3',
+        name: '暗龙胆紫',
+        hex: '#353148',
+    },
+    {
+        rgb: [
+            93,
+            34,
+            36,
+        ],
+        phonic: 'anyuzi',
+        type: 'purple',
+        name: '暗玉紫',
+        hex: '#5d2224',
     },
     {
         rgb: [
@@ -34,14 +45,14 @@ export const purple = [
     },
     {
         rgb: [
-            126,
-            84,
-            120,
+            66,
+            28,
+            53,
         ],
-        phonic: 'bingzi',
+        phonic: 'biqizi',
         type: 'purple',
-        name: '并紫',
-        hex: '#7e5478',
+        name: '荸荠紫',
+        hex: '#421c35',
     },
     {
         rgb: [
@@ -53,6 +64,61 @@ export const purple = [
         type: 'purple',
         name: '扁豆紫',
         hex: '#985c8f',
+    },
+    {
+        rgb: [
+            126,
+            84,
+            120,
+        ],
+        phonic: 'bingzi',
+        type: 'purple',
+        name: '并紫',
+        hex: '#7e5478',
+    },
+    {
+        rgb: [
+            142,
+            57,
+            114,
+        ],
+        phonic: 'caitouzi',
+        type: 'purple',
+        name: '菜头紫',
+        hex: '#8e3972',
+    },
+    {
+        rgb: [
+            189,
+            178,
+            195,
+        ],
+        phonic: 'canzi',
+        type: 'purple',
+        name: '黪紫',
+        hex: '#bdb2c3',
+    },
+    {
+        rgb: [
+            73,
+            62,
+            84,
+        ],
+        phonic: 'daizi',
+        type: 'purple',
+        name: '黛紫',
+        hex: '#493e54',
+    },
+    {
+        rgb: [
+            208,
+            194,
+            211,
+        ],
+        phonic: 'danqianniuzi',
+        type: 'purple',
+        name: '淡牵牛紫',
+        hex: '#d0c2d3',
     },
     {
         rgb: [
@@ -89,6 +155,17 @@ export const purple = [
     },
     {
         rgb: [
+            70,
+            68,
+            79,
+        ],
+        phonic: 'diaozi',
+        type: 'purple',
+        name: '貂紫',
+        hex: '#46444f',
+    },
+    {
+        rgb: [
             232,
             215,
             223,
@@ -111,6 +188,17 @@ export const purple = [
     },
     {
         rgb: [
+            223,
+            162,
+            203,
+        ],
+        phonic: 'doukouzi',
+        type: 'purple',
+        name: '豆蔻紫',
+        hex: '#dfa2cb',
+    },
+    {
+        rgb: [
             187,
             117,
             167,
@@ -122,14 +210,14 @@ export const purple = [
     },
     {
         rgb: [
-            223,
-            162,
-            203,
+            163,
+            133,
+            186,
         ],
-        phonic: 'doukouzi',
+        phonic: 'fenzi',
         type: 'purple',
-        name: '豆蔻紫',
-        hex: '#dfa2cb',
+        name: '粉紫',
+        hex: '#a385ba',
     },
     {
         rgb: [
@@ -146,45 +234,12 @@ export const purple = [
         rgb: [
             73,
             39,
-            59,
+            53,
         ],
         phonic: 'ganzhezi',
         type: 'purple',
         name: '甘蔗紫',
-        hex: '#49273b',
-    },
-    {
-        rgb: [
-            209,
-            127,
-            209,
-        ],
-        phonic: 'gejinzi',
-        type: 'purple',
-        name: '葛巾紫',
-        hex: '#d17fd1',
-    },
-    {
-        rgb: [
-            68,
-            14,
-            37,
-        ],
-        phonic: 'gutongzi',
-        type: 'purple',
-        name: '古铜紫',
-        hex: '#440e25',
-    },
-    {
-        rgb: [
-            49,
-            16,
-            27,
-        ],
-        phonic: 'heizi',
-        type: 'purple',
-        name: '黑紫',
-        hex: '#31101b',
+        hex: '#492735',
     },
     {
         rgb: [
@@ -199,69 +254,47 @@ export const purple = [
     },
     {
         rgb: [
-            70,
-            68,
-            79,
+            209,
+            127,
+            209,
         ],
-        phonic: 'diaozi',
+        phonic: 'gejinzi',
         type: 'purple',
-        name: '貂紫',
-        hex: '#46444f',
+        name: '葛巾紫',
+        hex: '#d17fd1',
     },
     {
         rgb: [
-            142,
-            57,
-            114,
-        ],
-        phonic: 'caitouzi',
-        type: 'purple',
-        name: '菜头紫',
-        hex: '#8e3972',
-    },
-    {
-        rgb: [
+            116,
             93,
-            34,
-            36,
+            103,
         ],
-        phonic: 'anyuzi',
+        phonic: 'gutongzi',
         type: 'purple',
-        name: '暗玉紫',
-        hex: '#5d2224',
+        name: '古铜紫',
+        hex: '#745d67',
     },
     {
         rgb: [
-            66,
-            28,
-            53,
-        ],
-        phonic: 'biqizi',
-        type: 'purple',
-        name: '荸荠紫',
-        hex: '#421c35',
-    },
-    {
-        rgb: [
-            53,
             49,
-            72,
+            16,
+            27,
         ],
-        phonic: 'anlongdanzi',
+        phonic: 'heizi',
         type: 'purple',
-        name: '暗龙胆紫',
-        hex: '#353148',
+        name: '黑紫',
+        hex: '#31101b',
     },
     {
         rgb: [
-            36,
-            32,
-            67,
+            115,
+            107,
+            146,
         ],
-        phonic: 'anlanzi',
+        phonic: 'huizi',
         type: 'purple',
-        name: '暗蓝紫',
-        hex: '#242043',
+        name: '灰紫',
+        hex: '#736b92',
     },
     {
         rgb: [
@@ -276,6 +309,72 @@ export const purple = [
     },
     {
         rgb: [
+            89,
+            19,
+            55,
+        ],
+        phonic: 'jizi',
+        type: 'purple',
+        name: '缉紫',
+        hex: '#591337',
+    },
+    {
+        rgb: [
+            164,
+            88,
+            210,
+        ],
+        phonic: 'qiehuazi',
+        type: 'purple',
+        name: '茄花',
+        hex: '#a458d2',
+    },
+    {
+        rgb: [
+            47,
+            12,
+            44,
+        ],
+        phonic: 'qiepizi',
+        type: 'purple',
+        name: '茄皮紫',
+        hex: '#2f0c2c',
+    },
+    {
+        rgb: [
+            105,
+            48,
+            119,
+        ],
+        phonic: 'qiesezi',
+        type: 'purple',
+        name: '茄色',
+        hex: '#693077',
+    },
+    {
+        rgb: [
+            87,
+            79,
+            90,
+        ],
+        phonic: 'jianfengzi',
+        type: 'purple',
+        name: '剑锋紫',
+        hex: '#574f5a',
+    },
+    {
+        rgb: [
+            99,
+            35,
+            62,
+        ],
+        phonic: 'jiangzi',
+        type: 'purple',
+        name: '绛紫',
+        hex: '#63233e',
+    },
+    {
+        rgb: [
             150,
             127,
             244,
@@ -284,6 +383,28 @@ export const purple = [
         type: 'purple',
         name: '芥花紫',
         hex: '#967ff4',
+    },
+    {
+        rgb: [
+            80,
+            10,
+            21,
+        ],
+        phonic: 'jinyuzi',
+        type: 'purple',
+        name: '金鱼紫',
+        hex: '#500a15',
+    },
+    {
+        rgb: [
+            128,
+            109,
+            155,
+        ],
+        phonic: 'jinzi',
+        type: 'purple',
+        name: '槿紫',
+        hex: '#806d9b',
     },
     {
         rgb: [
@@ -298,36 +419,47 @@ export const purple = [
     },
     {
         rgb: [
-            128,
-            108,
-            157,
+            40,
+            41,
+            85,
         ],
-        phonic: 'jinzi',
+        phonic: 'jingshizi',
         type: 'purple',
-        name: '槿紫',
-        hex: '#806c9d',
+        name: '晶石紫',
+        hex: '#282955',
     },
     {
         rgb: [
             135,
             116,
-            244,
+            245,
         ],
         phonic: 'jiegengzi',
         type: 'purple',
         name: '桔梗紫',
-        hex: '#8774f4',
+        hex: '#8774f5',
     },
     {
         rgb: [
-            212,
-            163,
-            195,
+            69,
+            46,
+            88,
         ],
-        phonic: 'luolanzi',
+        phonic: 'lizi',
         type: 'purple',
-        name: '罗兰紫',
-        hex: '#d4a3c3',
+        name: '李紫',
+        hex: '#452e58',
+    },
+    {
+        rgb: [
+            90,
+            26,
+            27,
+        ],
+        phonic: 'lizi',
+        type: 'purple',
+        name: '栗紫',
+        hex: '#5a1a1b',
     },
     {
         rgb: [
@@ -342,25 +474,36 @@ export const purple = [
     },
     {
         rgb: [
-            206,
-            134,
-            227,
+            49,
+            47,
+            50,
         ],
-        phonic: 'mabiancaozi',
+        phonic: 'longkuizi',
         type: 'purple',
-        name: '马鞭草紫',
-        hex: '#ce86e3',
+        name: '龙葵紫',
+        hex: '#312f32',
     },
     {
         rgb: [
-            154,
-            128,
-            189,
+            49,
+            22,
+            29,
         ],
-        phonic: 'meiguizi',
+        phonic: 'luanshizi',
         type: 'purple',
-        name: '玫瑰紫',
-        hex: '#9a80bd',
+        name: '卵石紫',
+        hex: '#31161d',
+    },
+    {
+        rgb: [
+            200,
+            138,
+            224,
+        ],
+        phonic: 'luolanzi',
+        type: 'purple',
+        name: '罗兰紫',
+        hex: '#c88ae0',
     },
     {
         rgb: [
@@ -375,47 +518,36 @@ export const purple = [
     },
     {
         rgb: [
-            170,
-            140,
-            138,
+            206,
+            134,
+            227,
         ],
-        phonic: 'ouhezi',
+        phonic: 'mabiancaozi',
         type: 'purple',
-        name: '藕合',
-        hex: '#aa8c8a',
+        name: '马鞭草紫',
+        hex: '#ce86e3',
     },
     {
         rgb: [
-            163,
-            133,
-            186,
-        ],
-        phonic: 'fenzi',
-        type: 'purple',
-        name: '粉紫',
-        hex: '#a385ba',
-    },
-    {
-        rgb: [
-            73,
-            62,
-            84,
-        ],
-        phonic: 'daizi',
-        type: 'purple',
-        name: '黛紫',
-        hex: '#493e54',
-    },
-    {
-        rgb: [
-            142,
+            46,
+            50,
             124,
-            214,
         ],
-        phonic: 'mushanzi',
+        phonic: 'mantianxingzi',
         type: 'purple',
-        name: '暮山紫',
-        hex: '#8e7cd6',
+        name: '满天星紫',
+        hex: '#2e327c',
+    },
+    {
+        rgb: [
+            148,
+            115,
+            176,
+        ],
+        phonic: 'meiguizi',
+        type: 'purple',
+        name: '玫瑰紫',
+        hex: '#9473b0',
     },
     {
         rgb: [
@@ -441,113 +573,69 @@ export const purple = [
     },
     {
         rgb: [
-            46,
-            50,
-            124,
+            142,
+            149,
+            214,
         ],
-        phonic: 'mantianxingzi',
+        phonic: 'mushanzi',
         type: 'purple',
-        name: '满天星紫',
-        hex: '#2e327c',
+        name: '暮山紫',
+        hex: '#8e95d6',
     },
     {
         rgb: [
-            85,
-            81,
-            98,
+            170,
+            140,
+            138,
         ],
-        phonic: 'longkuizi',
+        phonic: 'ouhezi',
         type: 'purple',
-        name: '龙葵紫',
-        hex: '#555162',
+        name: '藕合',
+        hex: '#aa8c8a',
     },
     {
         rgb: [
-            49,
-            22,
-            29,
-        ],
-        phonic: 'luanshizi',
-        type: 'purple',
-        name: '卵石紫',
-        hex: '#31161d',
-    },
-    {
-        rgb: [
-            90,
-            26,
+            64,
             27,
+            61,
         ],
-        phonic: 'lizi',
+        phonic: 'putaojiangzi',
         type: 'purple',
-        name: '栗紫',
-        hex: '#5a1a1b',
+        name: '葡萄酱紫',
+        hex: '#401b3d',
     },
     {
         rgb: [
-            40,
-            41,
-            85,
+            102,
+            75,
+            93,
         ],
-        phonic: 'jingshizi',
+        phonic: 'putaoqingzi',
         type: 'purple',
-        name: '晶石紫',
-        hex: '#282955',
+        name: '葡萄青',
+        hex: '#664b5d',
     },
     {
         rgb: [
-            69,
-            46,
             88,
+            29,
+            73,
         ],
-        phonic: 'lizi',
+        phonic: 'putaozi',
         type: 'purple',
-        name: '李紫',
-        hex: '#452e58',
+        name: '葡萄紫',
+        hex: '#581d49',
     },
     {
         rgb: [
-            80,
-            10,
-            21,
+            127,
+            4,
+            128,
         ],
-        phonic: 'jinyuzi',
+        phonic: 'qianniuzi',
         type: 'purple',
-        name: '金鱼紫',
-        hex: '#500a15',
-    },
-    {
-        rgb: [
-            115,
-            107,
-            146,
-        ],
-        phonic: 'huizi',
-        type: 'purple',
-        name: '灰紫',
-        hex: '#736b92',
-    },
-    {
-        rgb: [
-            72,
-            22,
-            60,
-        ],
-        phonic: 'jiangzi',
-        type: 'purple',
-        name: '绛紫',
-        hex: '#48163c',
-    },
-    {
-        rgb: [
-            87,
-            79,
-            90,
-        ],
-        phonic: 'jianfengzi',
-        type: 'purple',
-        name: '剑锋紫',
-        hex: '#574f5a',
+        name: '牵牛紫',
+        hex: '#7f0480',
     },
     {
         rgb: [
@@ -559,28 +647,6 @@ export const purple = [
         type: 'purple',
         name: '浅藤紫',
         hex: '#dcc8fd',
-    },
-    {
-        rgb: [
-            219,
-            119,
-            231,
-        ],
-        phonic: 'qiehuazi',
-        type: 'purple',
-        name: '茄花',
-        hex: '#db77e7',
-    },
-    {
-        rgb: [
-            105,
-            48,
-            119,
-        ],
-        phonic: 'qiesezi',
-        type: 'purple',
-        name: '茄色',
-        hex: '#693077',
     },
     {
         rgb: [
@@ -606,6 +672,17 @@ export const purple = [
     },
     {
         rgb: [
+            149,
+            131,
+            205,
+        ],
+        phonic: 'qingliansezi',
+        type: 'purple',
+        name: '青莲色',
+        hex: '#9583cd',
+    },
+    {
+        rgb: [
             147,
             46,
             122,
@@ -617,14 +694,14 @@ export const purple = [
     },
     {
         rgb: [
-            98,
-            100,
-            159,
+            96,
+            81,
+            192,
         ],
         phonic: 'shangengzi',
         type: 'purple',
         name: '山梗紫',
-        hex: '#62649f',
+        hex: '#6051c0',
     },
     {
         rgb: [
@@ -639,14 +716,25 @@ export const purple = [
     },
     {
         rgb: [
-            104,
-            83,
-            114,
+            47,
+            22,
+            44,
         ],
-        phonic: 'sumuzi',
+        phonic: 'shenqianniuzi',
         type: 'purple',
-        name: '苏木紫',
-        hex: '#685372',
+        name: '深牵牛紫',
+        hex: '#2f162c',
+    },
+    {
+        rgb: [
+            66,
+            16,
+            41,
+        ],
+        phonic: 'shenzhizi',
+        type: 'purple',
+        name: '椹汁紫',
+        hex: '#421029',
     },
     {
         rgb: [
@@ -661,14 +749,25 @@ export const purple = [
     },
     {
         rgb: [
-            75,
-            58,
-            100,
+            104,
+            83,
+            114,
         ],
-        phonic: 'shenzhizi',
+        phonic: 'sumuzi',
         type: 'purple',
-        name: '椹汁紫',
-        hex: '#4b3a64',
+        name: '苏木紫',
+        hex: '#685372',
+    },
+    {
+        rgb: [
+            92,
+            72,
+            81,
+        ],
+        phonic: 'tanzi',
+        type: 'purple',
+        name: '檀紫',
+        hex: '#5c4851',
     },
     {
         rgb: [
@@ -679,51 +778,18 @@ export const purple = [
         phonic: 'tengluozi',
         type: 'purple',
         name: '藤萝紫',
-        hex: '#7E7ABC',
+        hex: '#7e7abc',
     },
     {
         rgb: [
-            126,
-            12,
-            113,
+            125,
+            22,
+            111,
         ],
         phonic: 'weizi',
         type: 'purple',
         name: '魏紫',
-        hex: '#7e0c71',
-    },
-    {
-        rgb: [
-            162,
-            38,
-            108,
-        ],
-        phonic: 'xiancaizi',
-        type: 'purple',
-        name: '苋菜紫',
-        hex: '#a2266c',
-    },
-    {
-        rgb: [
-            132,
-            99,
-            130,
-        ],
-        phonic: 'xuezi',
-        type: 'purple',
-        name: '雪紫',
-        hex: '#846382',
-    },
-    {
-        rgb: [
-            134,
-            96,
-            155,
-        ],
-        phonic: 'xunzi',
-        type: 'purple',
-        name: '蕈紫',
-        hex: '#86609b',
+        hex: '#7d166f',
     },
     {
         rgb: [
@@ -738,72 +804,6 @@ export const purple = [
     },
     {
         rgb: [
-            77,
-            45,
-            56,
-        ],
-        phonic: 'tanzi',
-        type: 'purple',
-        name: '檀紫',
-        hex: '#4d2d38',
-    },
-    {
-        rgb: [
-            47,
-            22,
-            44,
-        ],
-        phonic: 'shenqianniuzi',
-        type: 'purple',
-        name: '深牵牛紫',
-        hex: '#2f162c',
-    },
-    {
-        rgb: [
-            47,
-            12,
-            44,
-        ],
-        phonic: 'qiepizi',
-        type: 'purple',
-        name: '茄皮紫',
-        hex: '#2f0c2c',
-    },
-    {
-        rgb: [
-            127,
-            4,
-            128,
-        ],
-        phonic: 'qianniuzi',
-        type: 'purple',
-        name: '牵牛紫',
-        hex: '#7f0480',
-    },
-    {
-        rgb: [
-            88,
-            29,
-            73,
-        ],
-        phonic: 'putaozi',
-        type: 'purple',
-        name: '葡萄紫',
-        hex: '#581d49',
-    },
-    {
-        rgb: [
-            64,
-            27,
-            61,
-        ],
-        phonic: 'putaojiangzi',
-        type: 'purple',
-        name: '葡萄酱紫',
-        hex: '#401b3d',
-    },
-    {
-        rgb: [
             214,
             193,
             198,
@@ -815,14 +815,58 @@ export const purple = [
     },
     {
         rgb: [
-            205,
-            177,
-            192,
+            214,
+            193,
+            198,
         ],
-        phonic: 'yehuazi',
+        phonic: 'xiayuzi',
         type: 'purple',
-        name: '野花',
-        hex: '#cdb1c0',
+        name: '虾鱼',
+        hex: '#d6c1c6',
+    },
+    {
+        rgb: [
+            150,
+            38,
+            110,
+        ],
+        phonic: 'xiancaizi',
+        type: 'purple',
+        name: '苋菜紫',
+        hex: '#96266e',
+    },
+    {
+        rgb: [
+            134,
+            101,
+            132,
+        ],
+        phonic: 'xuezi',
+        type: 'purple',
+        name: '雪紫',
+        hex: '#866584',
+    },
+    {
+        rgb: [
+            134,
+            96,
+            155,
+        ],
+        phonic: 'xunzi',
+        type: 'purple',
+        name: '蕈紫',
+        hex: '#86609b',
+    },
+    {
+        rgb: [
+            135,
+            13,
+            95,
+        ],
+        phonic: 'yanlongzi',
+        type: 'purple',
+        name: '烟笼紫',
+        hex: '#870d5f',
     },
     {
         rgb: [
@@ -837,6 +881,17 @@ export const purple = [
     },
     {
         rgb: [
+            205,
+            177,
+            192,
+        ],
+        phonic: 'yehuazi',
+        type: 'purple',
+        name: '野花',
+        hex: '#cdb1c0',
+    },
+    {
+        rgb: [
             127,
             104,
             195,
@@ -848,14 +903,36 @@ export const purple = [
     },
     {
         rgb: [
-            181,
-            87,
-            159,
+            58,
+            58,
+            86,
+        ],
+        phonic: 'yeputaozi',
+        type: 'purple',
+        name: '野葡萄紫',
+        hex: '#3a3a56',
+    },
+    {
+        rgb: [
+            164,
+            103,
+            196,
         ],
         phonic: 'yingcaozi',
         type: 'purple',
         name: '樱草紫',
-        hex: '#b5579f',
+        hex: '#a467c4',
+    },
+    {
+        rgb: [
+            120,
+            95,
+            116,
+        ],
+        phonic: 'youzi',
+        type: 'purple',
+        name: '油紫',
+        hex: '#785f74',
     },
     {
         rgb: [
@@ -903,6 +980,17 @@ export const purple = [
     },
     {
         rgb: [
+            84,
+            41,
+            48,
+        ],
+        phonic: 'zhuganzi',
+        type: 'purple',
+        name: '猪肝紫',
+        hex: '#542930',
+    },
+    {
+        rgb: [
             207,
             172,
             194,
@@ -925,14 +1013,25 @@ export const purple = [
     },
     {
         rgb: [
-            181,
-            134,
-            206,
+            72,
+            50,
+            58,
         ],
-        phonic: 'ziweihua',
+        phonic: 'zijiang',
         type: 'purple',
-        name: '紫薇花',
-        hex: '#b586ce',
+        name: '紫绛',
+        hex: '#48323a',
+    },
+    {
+        rgb: [
+            32,
+            10,
+            46,
+        ],
+        phonic: 'zimo',
+        type: 'purple',
+        name: '紫墨',
+        hex: '#200a2e',
     },
     {
         rgb: [
@@ -969,57 +1068,13 @@ export const purple = [
     },
     {
         rgb: [
-            135,
-            13,
-            95,
+            181,
+            143,
+            218,
         ],
-        phonic: 'yanlongzi',
+        phonic: 'ziweihua',
         type: 'purple',
-        name: '烟笼紫',
-        hex: '#870d5f',
-    },
-    {
-        rgb: [
-            77,
-            40,
-            83,
-        ],
-        phonic: 'zijiang',
-        type: 'purple',
-        name: '紫绛',
-        hex: '#4d2853',
-    },
-    {
-        rgb: [
-            32,
-            10,
-            46,
-        ],
-        phonic: 'zimo',
-        type: 'purple',
-        name: '紫墨',
-        hex: '#200a2e',
-    },
-    {
-        rgb: [
-            85,
-            30,
-            36,
-        ],
-        phonic: 'zhuganzi',
-        type: 'purple',
-        name: '猪肝紫',
-        hex: '#551e24',
-    },
-    {
-        rgb: [
-            58,
-            58,
-            86,
-        ],
-        phonic: 'yeputaozi',
-        type: 'purple',
-        name: '野葡萄紫',
-        hex: '#3a3a56',
+        name: '紫薇花',
+        hex: '#b58fda',
     },
 ]
