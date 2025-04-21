@@ -15,8 +15,12 @@
 <p align="center">
 VS Code扩展，以代码提示的方式列出颜色代码——中国传统色。
 </p>
+
+代码提示：
 <p align="center">
 <img src="https://s2.loli.net/2024/04/09/LXDO7t5RWIzuF2c.gif" style="width:100%;" /></p>
+
+色卡展示：
 
 <p align="center">
 <img src="https://s2.loli.net/2025/04/21/NeKhZFltCEYDaqs.png" style="width:100%;" /></p>
