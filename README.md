@@ -13,13 +13,21 @@
 </p>
 
 <p align="center">
-VS Code扩展，以代码提示的方式列出颜色代码——中国传统色。
+这是一个VS Code插件，提供对颜色代码的自动提示和补全，以及色卡展示。
 </p>
+
+<h2 align="center">代码提示和补全</h2>
 <p align="center">
 <img src="https://s2.loli.net/2024/04/09/LXDO7t5RWIzuF2c.gif" style="width:100%;" /></p>
 
+<h2 align="center">色卡展示</h2>
+
 <p align="center">
-<img src="https://s2.loli.net/2024/11/16/BgWS1v5peJPE43Q.gif" style="width:100%;" /></p>
+<img src="https://s2.loli.net/2025/04/21/NeKhZFltCEYDaqs.png" style="width:100%;" /></p>
+
+网页版的色卡： [https://taiyuuki.github.io/chinese-colors](https://taiyuuki.github.io/chinese-colors)
+
+VS Code内置的色卡：在 **命令面板** 中执行“Chinese Color Palette(打开中国色彩色卡)”，或者点击VS Code编辑界面标签栏右上角的小图标，即可查看所有颜色的色卡。
 
 ## 1. 使用
 
@@ -63,6 +71,3 @@ VS Code扩展，以代码提示的方式列出颜色代码——中国传统色�
 
 2.0.0更换了颜色来源，采用植物染色专家黄荣华整理的中国传统色，共700多种颜色，详情可以参考[黄荣华的博客](https://blog.sina.com.cn/s/articlelist_1250104222_8_1.html)。
 
-<h2 align="center"> 所有颜色展示 </h2>
-
-在VS Code命令面板执行“Show Chinese Colors(打开中国色预览)”，或者点击VS Code编辑界面标签栏右上角的图标，即可查看所有颜色。
