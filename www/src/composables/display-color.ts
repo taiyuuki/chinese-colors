@@ -14,6 +14,7 @@ const color = reactive<Color>({
 const contrastColor = computed(() => getContrastColor(color.hex))
 const dark = computed(() => contrastColor.value === 'white')
 const trackColor = computed(() => dark.value ? 'rgba(255, 255, 255, 0.26)' : 'rgba(0, 0, 0, 0.26)')
+const unselectedColor = computed(() => dark.value ? 'rgba(255, 255, 255, 0.6)' : 'rgba(0, 0, 0, 0.6)')
 
 function setColor(newColor: Color) {
     Object.assign(color, newColor)
@@ -23,6 +24,7 @@ watch(color, () => {
     document.body.style.setProperty('--bg-color', color.hex)
     document.body.style.setProperty('--text-color', contrastColor.value)
     document.body.style.setProperty('--track-color', trackColor.value)
+    document.body.style.setProperty('--unselected-color', unselectedColor.value)
 })
 
 export function useDisplayColor() {

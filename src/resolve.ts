@@ -2,7 +2,7 @@ import type { CompletionItem } from 'vscode'
 import { CompletionItemKind, workspace } from 'vscode'
 import { channel } from './channel'
 import { blue, brown, bwg, green, purple, red, yellow } from './webcolors'
-import { arrayToRgbStr, rgbToHex } from './utils'
+import { arrayToRgbStr, rgbToHEX } from './utils'
 
 function isMissing(prop: string, obj: Color) {
     if (!(prop in obj)) {
@@ -55,7 +55,7 @@ function getCustomColors() {
                 customColors.push({
                     name: item.name,
                     phonic: item.phonic,
-                    hex: rgbToHex(item.rgb),
+                    hex: rgbToHEX(item.rgb),
                     rgb: item.rgb,
                     type: 'custom',
                 })

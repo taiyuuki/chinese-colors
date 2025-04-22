@@ -58,7 +58,7 @@ const selected = computed(() => props.color.name === currentColor.name)
         :track-color="trackColor"
         :value="color.rgb[0]"
         :max="255"
-        :width="160"
+        :width="150"
         :height="3"
         :bar-height="3"
         :show-text="false"
@@ -68,7 +68,7 @@ const selected = computed(() => props.color.name === currentColor.name)
         :track-color="trackColor"
         :value="color.rgb[1]"
         :max="255"
-        :width="160"
+        :width="150"
         :height="3"
         :bar-height="3"
         :show-text="false"
@@ -78,7 +78,7 @@ const selected = computed(() => props.color.name === currentColor.name)
         :track-color="trackColor"
         :value="color.rgb[2]"
         :max="255"
-        :width="160"
+        :width="150"
         :height="3"
         :bar-height="3"
         :show-text="false"
@@ -99,6 +99,7 @@ const selected = computed(() => props.color.name === currentColor.name)
   user-select: none;
   position: relative;
   box-shadow: 0 0 4px var(--text-color);
+  padding: 10px;
 }
 
 .color-cell-selected {
@@ -134,9 +135,9 @@ const selected = computed(() => props.color.name === currentColor.name)
 
 .color-rgb-linear {
   position: absolute;
-  width: 160px;
+  width: 150px;
   top: 105px;
-  left: 10px;
+  left: 8px;
   transform: rotate3d(0, 0, 1, 90deg);
   transform-origin: 0% 100%;
 }

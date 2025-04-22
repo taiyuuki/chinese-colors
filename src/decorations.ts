@@ -1,7 +1,7 @@
 import { Range, window, workspace } from 'vscode'
 import type { DecorationOptions, ExtensionContext } from 'vscode'
 
-import { getContrastColor, rgbToHex, throttle } from './utils'
+import { getContrastColor, rgbToHEX, throttle } from './utils'
 import { hexs } from './resolve'
 
 export function createDecorator(ctx: ExtensionContext) {
@@ -79,7 +79,7 @@ export function createDecorator(ctx: ExtensionContext) {
             if (alpha) {
                 rgbArr.push(Number(alpha))
             }
-            const hex = rgbToHex(rgbArr)
+            const hex = rgbToHEX(rgbArr)
             if (hex in hexs) {
                 const start = editor.document.positionAt(match.index)
                 const end = editor.document.positionAt(match.index + match[0].length)

@@ -16,7 +16,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0;
     margin: 0;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 .text-track {

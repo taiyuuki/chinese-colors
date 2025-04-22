@@ -99,7 +99,7 @@ watchEffect(() => {
 <style scoped>
 .linear-progress {
     display: block;
-    margin: 2px;
+    margin: 3px;
 }
 
 .track {

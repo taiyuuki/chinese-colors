@@ -21,7 +21,7 @@ export function throttle<T extends(...arg: unknown[])=> unknown>(
 
 const toHex = (n: number) => `${n > 15 ? '' : 0}${n.toString(16)}`
 
-export function rgbToHex(rgb: number[]) {
+export function rgbToHEX(rgb: number[]) {
     const r = toHex(rgb[0])
     const g = toHex(rgb[1])
     const b = toHex(rgb[2])

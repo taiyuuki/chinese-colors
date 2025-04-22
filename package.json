@@ -3,7 +3,7 @@
   "displayName": "Chinese Colors",
   "description": "中国传统色彩色卡，并提供颜色代码提示和补全。",
   "publisher": "taiyuuki",
-  "version": "2.2.2",
+  "version": "2.3.0",
   "type": "module",
   "icon": "res/icon.png",
   "license": "SEE LICENSE IN LICENSE.md",
