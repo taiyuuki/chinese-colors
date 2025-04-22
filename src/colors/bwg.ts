@@ -859,17 +859,6 @@ export const bwg = [
     },
     {
         rgb: [
-            196,
-            188,
-            186,
-        ],
-        phonic: 'qianzonghui',
-        type: 'bwg',
-        name: '浅棕灰',
-        hex: '#c4bcba',
-    },
-    {
-        rgb: [
             228,
             228,
             226,

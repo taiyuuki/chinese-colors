@@ -82,9 +82,9 @@ export const green = [
             187,
             122,
         ],
-        phonic: 'baizhilvlv',
+        phonic: 'baizhilv',
         type: 'green',
-        name: '柏枝緑',
+        name: '柏枝绿',
         hex: '#a2bb7a',
     },
     {
@@ -474,17 +474,6 @@ export const green = [
     },
     {
         rgb: [
-            21,
-            31,
-            4,
-        ],
-        phonic: 'heilvlv',
-        type: 'green',
-        name: '黒緑',
-        hex: '#151f04',
-    },
-    {
-        rgb: [
             31,
             68,
             0,
@@ -870,17 +859,6 @@ export const green = [
     },
     {
         rgb: [
-            24,
-            27,
-            16,
-        ],
-        phonic: 'qilvlv',
-        type: 'green',
-        name: '漆緑',
-        hex: '#181b10',
-    },
-    {
-        rgb: [
             63,
             102,
             71,
@@ -977,17 +955,6 @@ export const green = [
         type: 'green',
         name: '沙绿',
         hex: '#c7eecf',
-    },
-    {
-        rgb: [
-            51,
-            49,
-            24,
-        ],
-        phonic: 'shedanlv',
-        type: 'green',
-        name: '蛇胆',
-        hex: '#333118',
     },
     {
         rgb: [
@@ -1391,9 +1358,9 @@ export const green = [
             159,
             1,
         ],
-        phonic: 'zhitiaolvlv',
+        phonic: 'zhitiaolv',
         type: 'green',
-        name: '枝条緑',
+        name: '枝条绿',
         hex: '#719f01',
     },
     {

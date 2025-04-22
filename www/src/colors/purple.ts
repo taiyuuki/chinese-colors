@@ -45,17 +45,6 @@ export const purple = [
     },
     {
         rgb: [
-            66,
-            28,
-            53,
-        ],
-        phonic: 'bí qí zǐ',
-        type: 'purple',
-        name: '荸荠紫',
-        hex: '#421c35',
-    },
-    {
-        rgb: [
             152,
             92,
             143,
@@ -815,17 +804,6 @@ export const purple = [
     },
     {
         rgb: [
-            214,
-            193,
-            198,
-        ],
-        phonic: 'xiā yú',
-        type: 'purple',
-        name: '虾鱼',
-        hex: '#d6c1c6',
-    },
-    {
-        rgb: [
             150,
             38,
             110,
@@ -999,17 +977,6 @@ export const purple = [
         type: 'purple',
         name: '紫粉',
         hex: '#cfacc2',
-    },
-    {
-        rgb: [
-            214,
-            193,
-            198,
-        ],
-        phonic: 'zǐ huā',
-        type: 'purple',
-        name: '紫花',
-        hex: '#d6c1c6',
     },
     {
         rgb: [

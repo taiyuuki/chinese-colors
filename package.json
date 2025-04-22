@@ -1,9 +1,9 @@
 {
   "name": "chinese-color",
   "displayName": "Chinese Colors",
-  "description": "颜色代码提示——中国传统色",
+  "description": "中国传统色彩色卡，并提供颜色代码提示和补全。",
   "publisher": "taiyuuki",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "type": "module",
   "icon": "res/icon.png",
   "license": "SEE LICENSE IN LICENSE.md",
@@ -26,7 +26,8 @@
     "中国色",
     "中国传统色",
     "颜色代码",
-    "国色"
+    "国色",
+    "色卡"
   ],
   "activationEvents": [
     "workspaceContains:**/package.json",
