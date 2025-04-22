@@ -13,5 +13,6 @@ import ColorDetail from 'src/components/ColorDetail.vue'
 <style lang="scss">
 .page {
     margin: 0 auto; 
+    transition: initial;
 }
 </style>

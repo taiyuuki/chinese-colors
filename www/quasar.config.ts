@@ -5,6 +5,8 @@
 
 import { configure } from 'quasar/wrappers'
 
+const isGithub = !!process.env.BUILD_MODE
+
 export default configure((/* ctx */) => {
     return {
 
@@ -58,9 +60,13 @@ export default configure((/* ctx */) => {
             // ignorePublicFolder: true,
             // minify: false,
             // polyfillModulePreload: true,
-            distDir: '../res/webview',
+            distDir: isGithub ? 'dist' : '../res/webview',
 
-            // extendViteConf (viteConf) {},
+            extendViteConf(viteConf) {
+                if (isGithub) {
+                    viteConf.base = '/chinese-colors/'
+                }
+            },
             viteVuePluginOptions: { template: { compilerOptions: { isCustomElement: tag => tag === 'rb' } } },
       
             // vitePlugins: [

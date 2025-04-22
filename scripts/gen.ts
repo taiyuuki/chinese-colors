@@ -8,7 +8,10 @@ import green from '../json/green.json'
 import bwg from '../json/bwg.json'
 import purple from '../json/purple.json'
 
-customPinyin({ 藏: 'zàng' })
+customPinyin({ 
+    藏: 'zàng',
+    曾青: 'zēng qīng',
+})
 
 const COLOR_NAME = {
     blue: ['蓝', 'lan'],

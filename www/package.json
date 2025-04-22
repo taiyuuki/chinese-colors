@@ -9,19 +9,20 @@
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
-    "build": "quasar build"
+    "build": "quasar build",
+    "build:github": "set BUILD_MODE=github && quasar build"
   },
   "dependencies": {
-    "@quasar/extras": "^1.16.4",
-    "quasar": "^2.16.0",
-    "vue": "^3.4.18",
-    "vue-router": "^4.0.12"
+    "@quasar/extras": "^1.16.17",
+    "quasar": "^2.18.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "@types/node": "^20.5.9",
-    "@quasar/app-vite": "^2.0.0-beta.12",
-    "autoprefixer": "^10.4.2",
-    "typescript": "~5.5.3"
+    "@quasar/app-vite": "^2.2.0",
+    "@types/node": "^22.14.1",
+    "autoprefixer": "^10.4.21",
+    "typescript": "~5.8.3"
   },
   "engines": {
     "node": "^24 || ^22 || ^20 || ^18",

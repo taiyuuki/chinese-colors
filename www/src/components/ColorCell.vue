@@ -135,8 +135,8 @@ const selected = computed(() => props.color.name === currentColor.name)
 .color-rgb-linear {
   position: absolute;
   width: 160px;
-  top: 100px;
-  left: 5px;
+  top: 105px;
+  left: 10px;
   transform: rotate3d(0, 0, 1, 90deg);
   transform-origin: 0% 100%;
 }

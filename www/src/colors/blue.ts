@@ -126,7 +126,7 @@ export const blue = [
             28,
             52,
         ],
-        phonic: 'céng qīng',
+        phonic: 'zēng qīng',
         type: 'blue',
         name: '曾青',
         hex: '#101c34',
