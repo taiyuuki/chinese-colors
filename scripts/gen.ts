@@ -1,5 +1,5 @@
 import fs from 'node:fs'
-import { pinyin } from 'pinyin-pro'
+import { customPinyin, pinyin } from 'pinyin-pro'
 import blue from '../json/blue.json'
 import brown from '../json/brown.json'
 import red from '../json/red.json'
@@ -7,6 +7,8 @@ import yellow from '../json/yellow.json'
 import green from '../json/green.json'
 import bwg from '../json/bwg.json'
 import purple from '../json/purple.json'
+
+customPinyin({ 藏: 'zàng' })
 
 const COLOR_NAME = {
     blue: ['蓝', 'lan'],

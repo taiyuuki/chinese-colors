@@ -60,7 +60,7 @@ export const red = [
             45,
             122,
         ],
-        phonic: 'canghuahong',
+        phonic: 'zanghuahong',
         type: 'red',
         name: '藏花红',
         hex: '#ec2d7a',
