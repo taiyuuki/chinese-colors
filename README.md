@@ -69,5 +69,5 @@ VS Code内置的色卡：在 **命令面板** 中执行“Chinese Color Palette(
 
 ## 3 更新 v2.0.0
 
-2.0.0更换了颜色来源，采用植物染色专家黄荣华整理的中国传统色，共700多种颜色，详情可以参考[黄荣华的博客](https://blog.sina.com.cn/s/articlelist_1250104222_8_1.html)。
+2.0.0更换了颜色来源，采用植物染色专家黄荣华整理的中国传统色，一共收录超过800个颜色，详情可以参考[黄荣华的博客](https://blog.sina.com.cn/s/articlelist_1250104222_8_1.html)。
 

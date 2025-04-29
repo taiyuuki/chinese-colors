@@ -7,13 +7,14 @@ import CircularProgress from './CircularProgress.vue'
 import LinearProgress from './LinearProgress.vue'
 
 const props = defineProps<{ color: Color }>()
-const { contrastColor, color: currentColor, trackColor } = useDisplayColor()
+const { color: currentColor } = useDisplayColor()
 
 const selected = computed(() => props.color.name === currentColor.name)
 </script>
 
 <template>
   <div
+    v-memo="[props.color.name, selected]"
     v-scrollview="selected"
     :class="{ 'color-cell': true, 'color-cell-selected': selected }"
   >
@@ -27,8 +28,6 @@ const selected = computed(() => props.color.name === currentColor.name)
         :max="255"
         :size="40"
         :stroke-width="5"
-        :text-color="contrastColor"
-        :track-color="trackColor"
       />
       <CircularProgress
         color="#4caf50"
@@ -36,8 +35,6 @@ const selected = computed(() => props.color.name === currentColor.name)
         :max="255"
         :size="40"
         :stroke-width="5"
-        :text-color="contrastColor"
-        :track-color="trackColor"
       />
       <CircularProgress
         color="#2196f3"
@@ -45,43 +42,32 @@ const selected = computed(() => props.color.name === currentColor.name)
         :max="255"
         :size="40"
         :stroke-width="5"
-        :text-color="contrastColor"
-        :track-color="trackColor"
       />
     </div>
     <div class="color-rgb-linear">
       <div class="color-rgb-linear-phonic">
         {{ props.color.phonic }}
       </div>
-      <LinearProgress 
-        :color="contrastColor"
-        :track-color="trackColor"
+      <LinearProgress
         :value="color.rgb[0]"
         :max="255"
         :width="150"
         :height="3"
         :bar-height="3"
-        :show-text="false"
       />
-      <LinearProgress 
-        :color="contrastColor"
-        :track-color="trackColor"
+      <LinearProgress
         :value="color.rgb[1]"
         :max="255"
         :width="150"
         :height="3"
         :bar-height="3"
-        :show-text="false"
       />
-      <LinearProgress 
-        :color="contrastColor"
-        :track-color="trackColor"
+      <LinearProgress
         :value="color.rgb[2]"
         :max="255"
         :width="150"
         :height="3"
         :bar-height="3"
-        :show-text="false"
       />
       <div>{{ props.color.hex }}</div>
     </div>

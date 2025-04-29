@@ -55,17 +55,20 @@ function handleSelectCell(e: MouseEvent) {
         />
       </div>
     </teleport>
-    <div
+
+    <q-virtual-scroll
+      v-slot="{ item }"
       class="color-sheet"
+      :items="colorSeries"
+      separator
       @click="handleSelectCell"
     >
       <ColorCell
-        v-for="cell in colorSeries"
-        :key="cell.name"
-        :color="cell"
-        :data-cell="cell.name"
+        :key="item.name"
+        :color="item"
+        :data-cell="item.name"
       />
-    </div>
+    </q-virtual-scroll>
   </div>
 </template>
 
@@ -78,7 +81,7 @@ function handleSelectCell(e: MouseEvent) {
 .scroll {
     scroll-behavior: smooth;
 }
-.color-sheet {
+.color-sheet .q-virtual-scroll__content {
     display: flex;
     justify-content: end;
     flex-wrap: wrap;

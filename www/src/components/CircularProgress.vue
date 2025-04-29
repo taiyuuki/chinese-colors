@@ -12,7 +12,6 @@ const props = defineProps({
     innerRadius: { type: Number, default: null }, // 内半径控制
     textSizeFactor: { type: Number, default: 0.3 }, // 文字大小系数
     minFontSize: { type: Number, default: 0 }, // 最小字体大小
-    textColor: { type: String, default: '#333' }, // 文字颜色
 })
 
 const progress = computed(() => props.value / props.max)
@@ -45,8 +44,6 @@ const computedStrokeWidth = computed(() => {
 const circumference = computed(() => 2 * Math.PI * radius.value)
 const dashArray = computed(() => circumference.value)
 const dashOffset = computed(() => circumference.value * (1 - progress.value))
-
-// const progressText = computed(() => `${Math.round(props.progress * 100)}%`)
 
 const fontSize = computed(() => {
     const baseSize = props.size * props.textSizeFactor
@@ -115,7 +112,6 @@ const fontSize = computed(() => {
     fill: none;
     stroke: v-bind('color');
     stroke-linecap: round;
-    transition: stroke-dashoffset 0.5s ease;
   }
   
   .progress-text {
