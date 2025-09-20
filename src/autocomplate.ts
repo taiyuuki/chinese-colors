@@ -9,6 +9,7 @@ const languageList: string[] = [
     'hbs',
     'html',
     'css',
+    'postcss',
     'javascript',
     'javascriptreact',
     'markdown',
@@ -27,7 +28,7 @@ const languageList: string[] = [
 
 // 忽略
 function findPound(text: string, position: number): boolean {
-    let count = 7
+    let count = 16
     while (count >= 0 && position >= 0) {
         if (text[position] === '#') {
             return true
