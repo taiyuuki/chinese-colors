@@ -24,6 +24,18 @@ const languageList: string[] = [
     'scss',
     'less',
     'stylus',
+    'python',
+    'lua',
+    'dart',
+    'kotlin',
+    'csharp',
+    'java',
+    'swift',
+    'ruby',
+    'r',
+    'yaml',
+    'xml',
+    'shellscript',
 ]
 
 // 忽略
